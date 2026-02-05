@@ -1,0 +1,313 @@
+/* ===== СБРОС СТИЛЕЙ ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fffaf7;
+}
+
+/* ===== ШАПКА ===== */
+.main-header {
+    background: linear-gradient(135deg, #a05252 0%, #8b4513 100%);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.header-subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+    font-style: italic;
+}
+
+/* ===== ВКЛАДКИ ===== */
+.categories {
+    background: white;
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.tabs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tabs-container::-webkit-scrollbar {
+    height: 4px;
+}
+
+.tabs-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.tabs-container::-webkit-scrollbar-thumb {
+    background: #d4a574;
+    border-radius: 2px;
+}
+
+.tabs {
+    display: flex;
+    gap: 5px;
+    min-width: 1000px;
+}
+
+.tab-btn {
+    flex: 1;
+    background: #f9f3ec;
+    border: none;
+    padding: 15px 5px;
+    cursor: pointer;
+    color: #8b4513;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    min-width: 120px;
+    border: 2px solid transparent;
+}
+
+.tab-btn:hover {
+    background: #f0e6d6;
+    transform: translateY(-2px);
+}
+
+.tab-btn.active {
+    background: #8b4513;
+    color: white;
+    border-color: #a05252;
+    box-shadow: 0 4px 8px rgba(139, 69, 19, 0.2);
+}
+
+.tab-btn i {
+    font-size: 1.2rem;
+}
+
+/* ===== КОНТЕНТ РЕЦЕПТОВ ===== */
+.recipes-content {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.category-title {
+    color: #8b4513;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0e6d6;
+    font-weight: 400;
+}
+
+/* ===== СЕТКА РЕЦЕПТОВ ===== */
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.recipe-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(139, 69, 19, 0.15);
+}
+
+.recipe-card:hover .recipe-overlay {
+    opacity: 1;
+}
+
+.recipe-image {
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+
+.recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.recipe-card:hover .recipe-image img {
+    transform: scale(1.05);
+}
+
+.recipe-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(139, 69, 19, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.recipe-overlay i {
+    color: white;
+    font-size: 2rem;
+}
+
+.recipe-info {
+    padding: 20px;
+}
+
+.recipe-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #8b4513;
+    font-weight: 500;
+}
+
+.recipe-time {
+    color: #888;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ===== ПЛЕЙСХОЛДЕРЫ ===== */
+.placeholder-img {
+    background: #f9f3ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d4a574;
+}
+
+.placeholder-img i {
+    font-size: 2.5rem;
+}
+
+.recipe-card.placeholder {
+    border: 2px dashed #d4a574;
+    background: #fefcf9;
+}
+
+.recipe-card.placeholder:hover {
+    background: #f9f3ec;
+    transform: none;
+}
+
+/* ===== ПОДВАЛ ===== */
+.main-footer {
+    background: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 50px;
+}
+
+.main-footer p {
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.footer-note {
+    font-style: italic;
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+@media (max-width: 1024px) {
+    .tabs {
+        min-width: 900px;
+    }
+    
+    .tab-btn {
+        min-width: 110px;
+        font-size: 0.8rem;
+        padding: 12px 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2rem;
+    }
+    
+    .recipes-grid {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        gap: 20px;
+    }
+    
+    .tab-btn i {
+        font-size: 1rem;
+    }
+    
+    .tab-btn span {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .recipes-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .categories {
+        padding: 10px 15px;
+    }
+    
+    .tab-btn {
+        min-width: 100px;
+        padding: 10px 5px;
+    }
+}

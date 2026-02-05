@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кулинарные заметки</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Кулинарные заметки</h1>
+            <!-- <p class="header-subtitle">Ваша личная книга рецептов</p> -->
+        </div>
+    </header>
+
+    <!-- Основной контент -->
+    <main>
+        <!-- Вкладки с категориями -->
+        <section class="categories">
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="breakfast">
+                        <i class="fas fa-sun"></i>
+                        <span>Завтраки</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="snacks">
+                        <i class="fas fa-seedling"></i>
+                        <span>Закуски</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="soups">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <span>Супы</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="main-dishes">
+                        <i class="fas fa-drumstick-bite"></i>
+                        <span>Основные блюда</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="side-dishes">
+                        <i class="fa-solid fa-bowl-food"></i>
+                        <span>Гарниры</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="desserts">
+                        <i class="fas fa-ice-cream"></i>
+                        <span>Десерты</span>
+                    </button>
+                    
+                    <button class="tab-btn" data-tab="sauces">
+                        <i class="fas fa-mortar-pestle"></i>
+                        <span>Кремы/Соусы</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Контент вкладок -->
+        <section class="recipes-content">
+            <!-- Завтраки -->
+            <div class="tab-content active" id="breakfast">
+                <h2 class="category-title">Завтраки</h2>
+                <div class="recipes-grid">
+                    <!-- Рецепт 1 -->
+                    <a href="recipe-eggs_sausage_tomato.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="photos/eggs_sausage_tomato.png" alt="Яйца с сосикой и томатами">
+                            <div class="recipe-overlay">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                        <div class="recipe-info">
+                            <h3>Яйца с сосикой и томатами</h3>
+                            <p class="recipe-time"><i class="far fa-clock"></i> 10 мин</p>
+                        </div>
+                    </a>
+                    <!-- Рецепт 1 конец -->
+
+                    <!-- Рецепт 2 -->
+                    <a href="recipe-pancakes.html" class="recipe-card">
+                        <div class="recipe-image">
+                            <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Панкейки">
+                            <div class="recipe-overlay">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                        <div class="recipe-info">
+                            <h3>Панкейки с ягодами</h3>
+                            <p class="recipe-time"><i class="far fa-clock"></i> 25 мин</p>
+                        </div>
+                    </a>
+                    <!-- Рецепт 2 конец -->
+                    
+                </div>
+            </div>
+            
+            <!-- Закуски (остальные вкладки по аналогии) -->
+            <div class="tab-content" id="snacks">
+                <h2 class="category-title">Закуски</h2>
+                <div class="recipes-grid">
+                    <div class="recipe-card placeholder">
+                        <div class="recipe-image placeholder-img">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                        <div class="recipe-info">
+                            <h3>Добавить рецепт закуски</h3>
+                            <p>Пока нет рецептов в этой категории</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Остальные вкладки (супы, основные блюда и т.д.) -->
+            <!-- Добавьте их по аналогии с завтраками -->
+            
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="main-footer">
+        <p> 2025 Кулинарные заметки.</p>
+        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
