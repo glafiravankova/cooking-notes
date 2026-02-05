@@ -4,7 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.cooking-icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
 body {
     font-family: 'Georgia', serif;
     line-height: 1.6;

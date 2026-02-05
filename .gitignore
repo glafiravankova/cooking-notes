@@ -8,3 +8,4 @@ __pycache__/
 node_modules/
 npm-debug.log*
 # НЕ добавляем site-photos/ здесь!
+*.zip
