@@ -26,7 +26,25 @@ body {
     text-align: center;
     box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
 }
+/* Шапка */
+.main-header {
+    padding: 1.5rem 1rem;
+}
 
+@media (max-width: 768px) {
+    .main-header {
+        padding: 1rem;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .main-header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .header-subtitle {
+        font-size: 0.9rem;
+    }
+}
 .header-content h1 {
     font-size: 2.5rem;
     font-weight: 400;
@@ -148,7 +166,14 @@ body {
     gap: 25px;
     margin-bottom: 40px;
 }
-
+/* Для мобильных */
+@media (max-width: 768px) {
+    .recipe-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px;
+    }
+}
 .recipe-card {
     background: white;
     border-radius: 12px;
@@ -316,4 +341,147 @@ body {
         min-width: 100px;
         padding: 10px 5px;
     }
+}
+/* Адаптивные изображения */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Для фотографий рецептов */
+.recipe-image {
+    width: 100%;
+    max-width: 600px; /* Максимальный размер на десктопе */
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.recipe-card button,
+.back-button,
+.action-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    width: auto;
+    min-width: 140px;
+}
+
+@media (max-width: 768px) {
+    .recipe-card button,
+    .back-button,
+    .action-button {
+        width: 100%;
+        padding: 14px;
+        font-size: 16px;
+    }
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.2rem; }
+    
+    .recipe-description {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+}
+.ingredients-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+}
+
+.ingredients-table table {
+    min-width: 300px;
+}
+
+@media (max-width: 480px) {
+    .ingredients-table table {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    
+    .recipe-card {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+    
+    /* Убираем лишние отступы */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Делаем формы удобными для touch */
+    input, textarea, button, select {
+        font-size: 16px; /* Предотвращает zoom в iOS */
+        min-height: 44px; /* Минимальный размер для касания */
+    }
+}
+
+/* Планшеты (769px - 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .container {
+        max-width: 95%;
+    }
+}
+
+/* Большие мобильные (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Очень маленькие экраны (до 480px) */
+@media (max-width: 480px) {
+    .recipe-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .main-header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .recipe-card h3 {
+        font-size: 1.1rem;
+    }
+}
+
+button, 
+a {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+/* Увеличиваем область клика для мобильных */
+.mobile-tap-area {
+    padding: 12px;
+    margin: -12px;
 }
