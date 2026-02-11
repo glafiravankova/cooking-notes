@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маринованные грибы - Кулинарные заметки</title> <!-- ОТРЕДАКТИРОВАТЬ НАЗВАНИЕ -->
+    <link rel="icon" href="../assets/icons/icons8-girl-64.png" type="image/png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .recipe-page {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #8b4513;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .recipe-header h1 {
+            color: #8b4513;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        
+        .recipe-image-main {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .recipe-content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+        
+        .ingredients, .instructions {
+            margin-bottom: 40px;
+        }
+        
+        .ingredients h2, .instructions h2 {
+            color: #8b4513;
+            border-bottom: 2px solid #f0e6d6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .ingredients ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .ingredients li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+            border-bottom: 1px solid #f0e6d6;
+        }
+        
+        .ingredients li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+        
+        .instructions ol {
+            padding-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .note {
+            background: #f9f3ec;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #d4a574;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Кулинарные заметки</h1>
+        </div>
+    </header>
+
+    <main class="recipe-page">
+        <a href="../index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i>
+            Вернуться к рецептам
+        </a>
+        
+        <div class="recipe-header">
+            <h1>Маринованные грибы</h1> <!-- ОТРЕДАКТИРОВАТЬ НАЗВАНИЕ -->
+            <div class="recipe-meta">
+                <span><i class="far fa-clock"></i> 60 минут (25 минут активных) </span> <!-- ОТРЕДАКТИРОВАТЬ ВРЕМЯ -->
+                <span><i class="fas fa-user-friends"></i> 4-6 проций</span> <!-- ОТРЕДАКТИРОВАТЬ ПОРЦИИ -->
+                
+            </div>
+        </div>
+        
+        <img src="../site-photos/snacks_marinated_mashrooms.jpg" 
+             alt="Маринованные грибы" class="recipe-image-main"> <!-- ДОБАВИТЬ ФОТО -->
+        
+        <div class="recipe-content">
+            <div class="ingredients">
+                <h2><i class="fas fa-shopping-basket"></i> Ингредиенты</h2> <!-- ОТРЕДАКТИРОВАТЬ ИНГРЕДИЕНТЫ -->
+                <ul>
+                    <li>500 г шампиньонов</li>
+                    <li>1 болгарский перец</li>
+                    <li>1 небольшой красный лук</li>
+                    <li>3 зубчика чеснока</li>
+                    <li>1 пучок петрушки</li>
+                    <li>50 г соевого соуса</li>
+                    <li>1/2 ст.л. сахара</li>
+                    <li>1 ст.л. зернистой горчицы</li>
+                    <li>1 ст.л. растительного масла</li>
+                    <li>1 ч.л. лимонного сока</li>
+                    <li>1/2 ч.л. соли</li>
+                </ul>
+            </div>
+            
+            <div class="instructions"> <!-- ОТРЕДАКТИРОВАТЬ РЕЦЕПТ -->
+                <h2><i class="fas fa-list-ol"></i> Способ приготовления</h2>
+                <ol> 
+                    <li>Вымойте шампиньоны. Если грибы крупные, разрежьте их на четвертинки.</li>
+                    <li>Поместите шампиньоны в кастрюлю, залейте водой, доведите до кипения и варите 10 минут.</li>
+                    <li>Тем временем мелко нарежьте чеснок, лук и болгарский перец полосками.</li>
+                    <li>Разложите шампиньоны на ровной поверхности, чтобы они быстро остыли.</li>
+                    <li>После остывания (примерно 10-15 минут) добавьте нарезанные овощи, масло, зернистую горчицу, лимонный сок, соевый соус, соль и сахар.</li>
+                    <li>Переложите всё в банку и оставьте мариноваться.</li>    
+                </ol>
+            </div>
+            
+            <div class="note"> <!-- ОТРЕДАКТИРОВАТЬ СОВЕТ -->
+                <p><strong>Совет:</strong> Грибы можно есть через час, но через 12-24 часа они становятся их вкус становится более нежным.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>2026 Кулинарные заметки</p>
+        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
