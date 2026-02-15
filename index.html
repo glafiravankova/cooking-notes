@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +12,8 @@
 <body>
     <!-- Шапка сайта -->
     <header class="main-header">
-        <div class="header-content">
+        <div class="header-top">  <!-- ВАЖНО: именно header-top, а не header-content -->
             <h1>Кулинарные заметки</h1>
-            <!-- <p class="header-subtitle">Ваша личная книга рецептов</p> -->
         </div>
     </header>
 
@@ -199,7 +197,7 @@
                     <!-- Рецепт 6 -->
                     <a href="recipes/snacks_green_salad_with_balsamic.html" class="recipe-card"> <!-- ДОБАВИТЬ ССЫЛКУ НА СТРАНИЦУ -->
                         <div class="recipe-image">
-                            <img src="site-photos/snacks_green_salad_with_balsamic.png" alt="Салатные листья с бальзамиком"> <!-- ДОБАВИТЬ ФОТОГРАФИЮ И НАЗВАНИЕ -->
+                            <img src="site-photos/snacks_green_salad_with_balsamic.jpg" alt="Салатные листья с бальзамиком"> <!-- ДОБАВИТЬ ФОТОГРАФИЮ И НАЗВАНИЕ -->
                             <div class="recipe-overlay">
                                 <i class="fas fa-external-link-alt"></i>
                             </div>
@@ -220,11 +218,19 @@
     </main>
 
     <!-- Подвал -->
+    <!-- Подвал -->
     <footer class="main-footer">
-        <p>2026 Кулинарные заметки</p>
-        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        <div class="footer-content">
+            <div class="footer-lang-switcher">
+                <button class="footer-lang-btn active" data-lang="ru">RU</button>
+                <button class="footer-lang-btn" data-lang="en">EN</button>
+            </div>
+            <p>2026 Кулинарные заметки</p>
+            <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="translations.js" defer></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

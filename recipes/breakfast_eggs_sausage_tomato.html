@@ -114,7 +114,7 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="header-content">
+        <div class="header-top">  <!-- Было header-content, стало header-top -->
             <h1>Кулинарные заметки</h1>
         </div>
     </header>
@@ -134,7 +134,7 @@
             </div>
         </div>
         
-        <img src="../site-photos/eggs_sausage_tomato.png" 
+        <img src="../site-photos/breakfast_eggs_sausage_tomato.jpg" 
              alt="Яйца с сосикой и томатами" class="recipe-image-main">
         
         <div class="recipe-content">
@@ -167,10 +167,17 @@
     </main>
 
     <footer class="main-footer">
-        <p>© 2023 Кулинарные заметки. Все права защищены.</p>
-        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        <div class="footer-content">
+            <div class="footer-lang-switcher">
+                <button class="footer-lang-btn active" data-lang="ru">RU</button>
+                <button class="footer-lang-btn" data-lang="en">EN</button>
+            </div>
+            <p>2026 Кулинарные заметки</p>
+            <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../translations.js" defer></script>
+    <script src="../script.js" defer></script>
 </body>
 </html>

@@ -112,8 +112,9 @@
     </style>
 </head>
 <body>
+    <!-- Шапка сайта -->
     <header class="main-header">
-        <div class="header-content">
+        <div class="header-top">  <!-- ВАЖНО: именно header-top, а не header-content -->
             <h1>Кулинарные заметки</h1>
         </div>
     </header>
@@ -173,8 +174,14 @@
     </main>
 
     <footer class="main-footer">
-        <p>2026 Кулинарные заметки</p>
-        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        <div class="footer-content">
+            <div class="footer-lang-switcher">
+                <button class="footer-lang-btn active" data-lang="ru">RU</button>
+                <button class="footer-lang-btn" data-lang="en">EN</button>
+            </div>
+            <p>2026 Кулинарные заметки</p>
+            <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>

@@ -47,12 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 this.style.transform = '';
             }, 150);
-            
-            console.log(`Переключились на категорию: ${this.querySelector('span').textContent}`);
         });
     });
     
-    // Восстановить последнюю активную вкладку или установить первую
+    // Восстановить последнюю активную вкладку
     const lastActiveTab = localStorage.getItem('lastActiveTab');
     if (lastActiveTab && document.getElementById(lastActiveTab)) {
         switchTab(lastActiveTab);
@@ -61,43 +59,225 @@ document.addEventListener('DOMContentLoaded', function() {
         switchTab(firstTabId);
     }
     
-    // ========== ФИКСИРОВАННЫЕ ВКЛАДКИ ПРИ ПРОКРУТКЕ ==========
+    // ========== ПЕРЕКЛЮЧЕНИЕ ЯЗЫКА ==========
     
+    // Функция обновления всех текстов
+    function updateTexts(lang) {
+        // Проверяем, загружен ли translations
+        if (typeof translations === 'undefined') {
+            console.error('Ошибка: translations.js не загружен!');
+            return;
+        }
+        
+        console.log('Обновляем тексты на языке:', lang);
+        
+        // 1. Заголовок сайта в шапке
+        const headerTitle = document.querySelector('.main-header h1');
+        if (headerTitle) {
+            headerTitle.textContent = translations.common[lang].siteTitle;
+        }
+        
+        // 2. Текст в подвале (год + название)
+        const footerTexts = document.querySelectorAll('.main-footer p');
+        if (footerTexts.length >= 1) {
+            footerTexts[0].textContent = `2026 ${translations.common[lang].footer}`;
+        }
+        
+        // 3. Заметка в подвале
+        const footerNote = document.querySelector('.footer-note');
+        if (footerNote) {
+            footerNote.textContent = translations.common[lang].footerNote;
+        }
+        
+        // 4. Категории (кнопки вкладок)
+        const categorySpans = document.querySelectorAll('.tab-btn span');
+        categorySpans.forEach((span, index) => {
+            if (index < translations.categories[lang].length) {
+                span.textContent = translations.categories[lang][index];
+            }
+        });
+        
+        // 5. Заголовки категорий (h2)
+        const categoryTitles = document.querySelectorAll('.category-title');
+        categoryTitles.forEach((title, index) => {
+            if (index < translations.categories[lang].length) {
+                title.textContent = translations.categories[lang][index];
+            }
+        });
+        
+        // 6. Названия рецептов на главной
+        const recipeTitles = document.querySelectorAll('.recipe-info h3');
+        recipeTitles.forEach(title => {
+            const originalText = title.textContent.trim();
+            
+            if (translations.recipes && translations.recipes[originalText]) {
+                title.textContent = translations.recipes[originalText][lang];
+            }
+        });
+        
+        // 7. ВРЕМЯ ПРИГОТОВЛЕНИЯ на главной
+        const recipeTimes = document.querySelectorAll('.recipe-time');
+        recipeTimes.forEach(timeElement => {
+            let timeText = timeElement.textContent;
+            
+            if (lang === 'en') {
+                timeText = timeText.replace(/мин/g, translations.recipeMeta[lang].time);
+                if (timeText.includes('активных')) {
+                    timeText = timeText.replace('активных', translations.recipeMeta[lang].active);
+                }
+            } else {
+                timeText = timeText.replace(/minutes/g, translations.recipeMeta[lang].time);
+                if (timeText.includes('active')) {
+                    timeText = timeText.replace('active', translations.recipeMeta[lang].active);
+                }
+            }
+            
+            timeElement.textContent = timeText;
+        });
+        
+        // 8. Кнопка "Вернуться к рецептам"
+        const backLink = document.querySelector('.back-link');
+        if (backLink) {
+            const icon = backLink.querySelector('i');
+            if (icon) {
+                backLink.innerHTML = `${icon.outerHTML} ${translations.common[lang].backToRecipes}`;
+            }
+        }
+        
+        // 9. ПЕРЕВОД СТРАНИЦЫ РЕЦЕПТА
+        translateRecipePage(lang);
+    }
+    
+    // Функция перевода страницы рецепта
+    function translateRecipePage(lang) {
+        // Определяем, на какой странице мы находимся
+        const path = window.location.pathname;
+        let recipeKey = null;
+        
+        if (path.includes('breakfast_american_style_pancakes')) {
+            recipeKey = 'breakfast_american_style_pancakes';
+        } else if (path.includes('breakfast_oat_porridge')) {
+            recipeKey = 'breakfast_oat_porridge';
+        } else if (path.includes('breakfast_eggs_sausage_tomato')) {
+            recipeKey = 'breakfast_eggs_sausage_tomato';
+        } else if (path.includes('snacks_marinated_mashrooms')) {
+            recipeKey = 'snacks_marinated_mashrooms';
+        }
+        
+        if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
+            const recipe = translations.recipeDetails[recipeKey][lang];
+            
+            // Заголовок рецепта
+            const recipeTitle = document.querySelector('.recipe-header h1');
+            if (recipeTitle) recipeTitle.textContent = recipe.title;
+            
+            // Мета-информация (время и порции)
+            const metaSpans = document.querySelectorAll('.recipe-meta span');
+            if (metaSpans.length >= 2) {
+                metaSpans[0].innerHTML = `<i class="far fa-clock"></i> ${recipe.meta.time}`;
+                metaSpans[1].innerHTML = `<i class="fas fa-user-friends"></i> ${recipe.meta.servings}`;
+            }
+
+            // Заголовок "Ингредиенты"
+            const ingredientsTitle = document.querySelector('.ingredients h2');
+            if (ingredientsTitle) {
+                ingredientsTitle.innerHTML = `<i class="fas fa-shopping-basket"></i> ${translations.sections[lang].ingredients}`;
+            }
+            
+            // Заголовок "Способ приготовления"
+            const instructionsTitle = document.querySelector('.instructions h2');
+            if (instructionsTitle) {
+                instructionsTitle.innerHTML = `<i class="fas fa-list-ol"></i> ${translations.sections[lang].instructions}`;
+            }
+            // Ингредиенты
+            const ingredientsList = document.querySelector('.ingredients ul');
+            if (ingredientsList) {
+                ingredientsList.innerHTML = '';
+                recipe.ingredients.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item;
+                    ingredientsList.appendChild(li);
+                });
+            }
+            
+            // Инструкции
+            const instructionsList = document.querySelector('.instructions ol');
+            if (instructionsList) {
+                instructionsList.innerHTML = '';
+                recipe.instructions.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = item;
+                    instructionsList.appendChild(li);
+                });
+            }
+            
+            // Заметка/совет
+            const note = document.querySelector('.note p');
+            if (note) {
+                const strong = note.querySelector('strong');
+                if (strong) {
+                    strong.textContent = translations.sections[lang].tip + ':';
+                    // Сохраняем остальной текст
+                    const noteText = recipe.note;
+                    note.innerHTML = `${strong.outerHTML} ${noteText}`;
+                } else {
+                    note.innerHTML = `<strong>${translations.sections[lang].tip}:</strong> ${recipe.note}`;
+                }
+            }
+        }
+    }
+    
+    // Функция переключения языка
+    function switchLanguage(lang) {
+        // Обновить активную кнопку в подвале
+        document.querySelectorAll('.footer-lang-btn').forEach(btn => {
+            if (btn.dataset.lang === lang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        });
+        
+        // Обновить все тексты
+        updateTexts(lang);
+        
+        // Сохранить выбор
+        localStorage.setItem('preferredLang', lang);
+        console.log('Язык переключен на:', lang);
+    }
+    
+    // Добавить обработчики на кнопки в подвале
+    document.querySelectorAll('.footer-lang-btn').forEach(btn => {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const lang = this.dataset.lang;
+            switchLanguage(lang);
+        });
+    });
+    
+    // Загрузить сохраненный язык
+    const savedLang = localStorage.getItem('preferredLang') || 'ru';
+    switchLanguage(savedLang);
+    
+    // ========== ОСТАЛЬНЫЕ ФУНКЦИИ ==========
+    
+    // Фиксированные вкладки при прокрутке
     window.addEventListener('scroll', function() {
         const tabsContainer = document.querySelector('.categories');
         const header = document.querySelector('.main-header');
         
-        if (window.scrollY > header.offsetHeight) {
-            tabsContainer.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.1)';
-            tabsContainer.style.background = 'rgba(255, 255, 255, 0.95)';
-        } else {
-            tabsContainer.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
-            tabsContainer.style.background = 'white';
+        if (tabsContainer && header) {
+            if (window.scrollY > header.offsetHeight) {
+                tabsContainer.style.boxShadow = '0 4px 15px rgba(0, 0, 0, 0.1)';
+                tabsContainer.style.background = 'rgba(255, 255, 255, 0.95)';
+            } else {
+                tabsContainer.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.05)';
+                tabsContainer.style.background = 'white';
+            }
         }
     });
     
-    // ========== ПЛАВНАЯ ПРОКРУТКА ==========
-    
-    // Для всех ссылок, которые начинаются с #
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            if (targetId === '#') return;
-            
-            const targetElement = document.querySelector(targetId);
-            if (targetElement) {
-                window.scrollTo({
-                    top: targetElement.offsetTop - 100,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
-    
-    // ========== АНИМАЦИЯ КАРТОЧЕК РЕЦЕПТОВ ==========
-    
+    // Анимация карточек рецептов
     const recipeCards = document.querySelectorAll('.recipe-card:not(.placeholder)');
     
     recipeCards.forEach(card => {
@@ -116,75 +296,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // ========== ЗАГРУЗКА ИЗОБРАЖЕНИЙ С АНИМАЦИЕЙ ==========
-    
+    // Загрузка изображений
     const recipeImages = document.querySelectorAll('.recipe-image img');
     
     recipeImages.forEach(img => {
-        // Добавляем класс загрузки
         img.style.opacity = '0';
+        img.style.transition = 'opacity 0.5s ease';
         
-        // Когда изображение загрузится
         img.addEventListener('load', function() {
             this.style.opacity = '1';
-            this.style.transition = 'opacity 0.5s ease';
         });
         
-        // Если изображение уже загружено (из кэша)
         if (img.complete) {
             img.style.opacity = '1';
         }
     });
     
-    // ========== КНОПКА ДОБАВЛЕНИЯ РЕЦЕПТА ==========
-    
-    const placeholderCards = document.querySelectorAll('.recipe-card.placeholder');
-    
-    placeholderCards.forEach(card => {
-        card.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            const currentTab = document.querySelector('.tab-content.active');
-            const categoryTitle = currentTab.querySelector('.category-title').textContent;
-            
-            alert(`Вы хотите добавить новый рецепт в категорию "${categoryTitle}"\n\nЭта функция будет реализована в ближайшем обновлении!`);
-            
-            // Анимация клика
-            this.style.transform = 'scale(0.95)';
-            setTimeout(() => {
-                this.style.transform = '';
-            }, 200);
-        });
-    });
-    
-    // ========== КЛАВИАТУРНЫЕ СОЧЕТАНИЯ ==========
-    
-    document.addEventListener('keydown', function(e) {
-        // Ctrl + цифра от 1 до 7 для переключения вкладок
-        if (e.ctrlKey && e.key >= '1' && e.key <= '7') {
-            e.preventDefault();
-            const index = parseInt(e.key) - 1;
-            if (tabButtons[index]) {
-                const tabId = tabButtons[index].getAttribute('data-tab');
-                switchTab(tabId);
-                
-                // Подсветка выбранной вкладки
-                tabButtons[index].style.backgroundColor = '#f0e6d6';
-                setTimeout(() => {
-                    tabButtons[index].style.backgroundColor = '';
-                }, 300);
-            }
-        }
-        
-        // Esc для сброса фильтров (можно добавить позже)
-        if (e.key === 'Escape') {
-            console.log('Сброс фильтров (функция в разработке)');
-        }
-    });
-    
-    // ========== ИНИЦИАЛИЗАЦИЯ ==========
-    
     console.log('✅ Все функции инициализированы');
-    console.log('Доступные категории:', Array.from(tabButtons).map(btn => btn.querySelector('span').textContent));
-    
 });
