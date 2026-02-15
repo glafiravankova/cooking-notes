@@ -19,14 +19,12 @@ const translations = {
     // Категории
     categories: {
         ru: [
-            "Завтраки", "Салаты", "Супы", 
-            "Основные блюда", "Выпечка", "Закуски",
-            "Напитки", "Десерты", "Соусы", "Заготовки"
+            "Завтраки", "Закуски", "Супы", 
+            "Основные блюда", "Гарнины", "Десерты", "Кремы/Соусы"
         ],
         en: [
-            "Breakfast", "Salads", "Soups",
-            "Main Courses", "Baking", "Snacks",
-            "Drinks", "Desserts", "Sauces", "Preserves"
+            "Breakfast", "Snacks", "Soups",
+            "Main Courses", "Side Dishes", "Desserts", "Creams/Sauces", 
         ]
     },
     
@@ -67,10 +65,35 @@ const translations = {
             ru: "Маринованные огурцы",
             en: "Quick Pickled Cucumbers"
         },
-        "Салатные листья с бальзамиком": {
+        "Салатные листья с бальзамиком": {  
             ru: "Салатные листья с бальзамиком",
             en: "Salad Leaves with Balsamic Dressing"
-        }
+            },
+        // Супы
+        "Название супа": {
+            ru: "Название супа",
+            en: "Soup name"
+        },
+        // Основные блюда
+        "Название основного блюда": {
+            ru: "Название основного блюда",
+            en: "Main dish name"
+        },
+        // Гарниры
+        "Название гарнира": {
+            ru: "Название гарнира",
+            en: "Side dish name"
+        },
+        // Десерты
+        "Название Десерта": {
+            ru: "Название Десерта",
+            en: "Dessert name"
+        },
+        // Кремы/соусы
+        "Название кремы": {
+            ru: "Название кремы",
+            en: "Sauce name"
+        },
     },
     
     // Время и порции
@@ -251,5 +274,47 @@ const translations = {
                 note: "Feel free to add anything you have on hand — grated cheese, fresh herbs, or leftover vegetables work especially well."
             }
         },
+        "snacks_green_salad_with_balsamic":  {
+            ru: {
+                title: "Салатные листья с бальзамиком",
+                meta:  {
+                    time: "5 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "100 г зелёного салата", 
+"5 г оливкового масла", 
+"5 г бальзамического крема", 
+
+                ],
+                instructions: [
+                "Выложите зелёные листья в миску.", 
+"Добавьте оливковое масло и бальзамический крем, аккуратно перемешайте.", 
+
+                ],
+                note: "Можно сбрызнуть капелькой лимона для кокетства."
+             },
+            en: {
+                title: "Salad Leaves with Balsamic Dressing",
+                meta:  {
+                    time: "5 minutes",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "100 g green salad", 
+"5 g olive oil", 
+"5 g balsamic cream", 
+
+                ],
+                instructions: [
+                "Place the green leaves in a bowl.", 
+"Add the olive oil and balsamic cream, and mix gently.", 
+
+                ],
+                note: "You can spritz a little lemon for a touch of flair."
+             }
+        },
+
+
     }
 };
