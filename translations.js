@@ -45,9 +45,9 @@ const translations = {
         },
         
         // Закуска
-        "Греческий салат": {
+        "Греческий салат": {  
             ru: "Греческий салат",
-            en: "Greek salad"
+            en: "Greek Salad"
         },
         "Жареные кабачки": {
             ru: "Жареные кабачки",
@@ -282,14 +282,14 @@ const translations = {
                     servings: "2 порции"
                   },
                 ingredients: [
-                "100 г зелёного салата", 
-"5 г оливкового масла", 
-"5 г бальзамического крема", 
+                    "100 г зелёного салата", 
+                    "5 г оливкового масла", 
+                    "5 г бальзамического крема", 
 
                 ],
                 instructions: [
-                "Выложите зелёные листья в миску.", 
-"Добавьте оливковое масло и бальзамический крем, аккуратно перемешайте.", 
+                    "Выложите зелёные листья в миску.", 
+                    "Добавьте оливковое масло и бальзамический крем, аккуратно перемешайте.", 
 
                 ],
                 note: "Можно сбрызнуть капелькой лимона для кокетства."
@@ -312,6 +312,56 @@ const translations = {
 
                 ],
                 note: "You can spritz a little lemon for a touch of flair."
+             }
+        },
+        "snacks_greek_salad":  {
+            ru: {
+                title: "Греческий салат",
+                meta:  {
+                    time: "10 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "2 средних огурца", 
+"1 помидор", 
+"1 сладкий перец (не болгарский)", 
+"1/2 средней красной луковицы", 
+"50 г феты", 
+"2 столовые ложки оливкового масла", 
+"Соль, орегано по вкусу", 
+
+                ],
+                instructions: [
+                "Нарежьте все овощи и смешайте их в миске, добавьте соль и орегано.", 
+"Выложите целый кусок феты сверху овощей и полейте оливковым маслом.", 
+"Разломайте фету прямо в миске ложкой.", 
+
+                ],
+                note: "Огурец обязательно очистить от кожуры, а фету ни в коем случае не нарезать заранее. Можете добавить 50 г оливок Каламата."
+             },
+            en: {
+                title: "Greek Salad",
+                meta:  {
+                    time: "10 minutes",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "2 medium cucumbers", 
+"1 tomato", 
+"1 sweet pepper (not bell pepper)", 
+"1/2 medium red onion", 
+"50 g feta cheese", 
+"2 tablespoons olive oil", 
+"Salt and oregano to taste", 
+
+                ],
+                instructions: [
+                "Chop all the vegetables and combine them in a bowl. Add salt and oregano to taste.", 
+"Place a whole piece of feta on top of the vegetables and drizzle with olive oil.", 
+"Break the feta directly in the bowl using a spoon.", 
+
+                ],
+                note: "Be sure to peel the cucumbers, and do not cut the feta in advance. You can also add 50 g of Kalamata olives."
              }
         },
 

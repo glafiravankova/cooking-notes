@@ -164,6 +164,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'snacks_marinated_mashrooms';
         } else if (path.includes('snacks_green_salad_with_balsamic')) {
             recipeKey = 'snacks_green_salad_with_balsamic';
+        } else if (path.includes('snacks_greek_salad')) {
+            recipeKey = 'snacks_greek_salad';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
