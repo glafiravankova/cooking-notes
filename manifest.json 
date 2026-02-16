@@ -1,0 +1,15 @@
+{
+  "name": "Кулинарные заметки",
+  "short_name": "Рецепты",
+  "start_url": "/cooking-notes/",
+  "display": "standalone",
+  "background_color": "#fffaf7",
+  "theme_color": "#8b4513",
+  "icons": [
+    {
+      "src": "assets/icons/icons8-girl-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
