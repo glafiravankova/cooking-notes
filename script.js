@@ -195,6 +195,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_pelmeni';
         } else if (path.includes('main_dish_orzo')) {
             recipeKey = 'main_dish_orzo';
+        } else if (path.includes('main_dish_pasta_carbonara')) {
+            recipeKey = 'main_dish_pasta_carbonara';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

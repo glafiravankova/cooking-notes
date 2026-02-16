@@ -87,6 +87,10 @@ const translations = {
             ru: "Орзо с греческой колбаской",
             en: "Orzo with Greek Sausage"
             },
+        "Паста карбонара": {  
+            ru: "Паста карбонара",
+            en: "Pasta Carbonara"
+            },
         "Пельмени": {  
             ru: "Пельмени",
             en: "Pelmeni"
@@ -335,18 +339,18 @@ const translations = {
                             },
                             ingredients: [
                             "2 средних огурца", 
-            "1 помидор", 
-            "1 сладкий перец (не болгарский)", 
-            "1/2 средней красной луковицы", 
-            "50 г феты", 
-            "2 столовые ложки оливкового масла", 
-            "Соль, орегано по вкусу", 
+                            "1 помидор", 
+                            "1 сладкий перец (не болгарский)", 
+                            "1/2 средней красной луковицы", 
+                            "50 г феты", 
+                            "2 столовые ложки оливкового масла", 
+                            "Соль, орегано по вкусу", 
 
                             ],
                             instructions: [
                             "Нарежьте все овощи и смешайте их в миске, добавьте соль и орегано.", 
-            "Выложите целый кусок феты сверху овощей и полейте оливковым маслом.", 
-            "Разломайте фету прямо в миске ложкой.", 
+                            "Выложите целый кусок феты сверху овощей и полейте оливковым маслом.", 
+                            "Разломайте фету прямо в миске ложкой.", 
 
                             ],
                             note: "Огурец обязательно очистить от кожуры, а фету ни в коем случае не нарезать заранее. Можете добавить 50 г оливок Каламата."
@@ -359,18 +363,18 @@ const translations = {
                             },
                             ingredients: [
                             "2 medium cucumbers", 
-            "1 tomato", 
-            "1 sweet pepper (not bell pepper)", 
-            "1/2 medium red onion", 
-            "50 g feta cheese", 
-            "2 tablespoons olive oil", 
-            "Salt and oregano to taste", 
+                            "1 tomato", 
+                            "1 sweet pepper (not bell pepper)", 
+                            "1/2 medium red onion", 
+                            "50 g feta cheese", 
+                            "2 tablespoons olive oil", 
+                            "Salt and oregano to taste", 
 
                             ],
                             instructions: [
                             "Chop all the vegetables and combine them in a bowl. Add salt and oregano to taste.", 
-            "Place a whole piece of feta on top of the vegetables and drizzle with olive oil.", 
-            "Break the feta directly in the bowl using a spoon.", 
+                            "Place a whole piece of feta on top of the vegetables and drizzle with olive oil.", 
+                            "Break the feta directly in the bowl using a spoon.", 
 
                             ],
                             note: "Be sure to peel the cucumbers, and do not cut the feta in advance. You can also add 50 g of Kalamata olives."
@@ -402,7 +406,7 @@ const translations = {
                 title: "Cabbage and Carrot Salad",
                 meta:  {
                     time: "7 min",
-                    servings: "2 servings"
+                    servings: "Serves 2"
                   },
                 ingredients: [
                 "150 g cabbage", 
@@ -452,7 +456,7 @@ const translations = {
                 title: "Chicken Curry",
                 meta:  {
                     time: "40 min",
-                    servings: "4 servings"
+                    servings: "Serves 4"
                   },
                 ingredients: [
                 "700 g chicken breast", 
@@ -508,7 +512,7 @@ const translations = {
                 title: "Orzo with Greek Sausage",
                 meta:  {
                     time: "25 min",
-                    servings: "6 servings"
+                    servings: "Serves 6"
                   },
                 ingredients: [
                 "500 g orzo", 
@@ -571,7 +575,7 @@ const translations = {
                 title: "Pelmeni",
                 meta:  {
                     time: "180 min",
-                    servings: "6 servings"
+                    servings: "Serves 6"
                   },
                 ingredients: [
                 "600 g ground meat", 
@@ -600,6 +604,64 @@ const translations = {
 
                 ],
                 note: "It is better not to roll out all the dough at once, but to divide it into several parts and do several rollouts. The remaining dough can be used for the final batch of dumplings."
+             }
+        },
+        "main_dish_pasta_carbonara":  {
+            ru: {
+                title: "Паста карбонара",
+                meta:  {
+                    time: "15 мин",
+                    servings: "2 порций"
+                  },
+                ingredients: [
+                "200 мл сливок (15–20%)", 
+                "180 г спагетти", 
+                "150 г копченого бекона", 
+                "2 зубчика чеснока", 
+                "1 яичный желток", 
+                "Соль, перец", 
+                "Пармиджано для посыпания", 
+
+                ],
+                instructions: [
+                "Сварите спагетти в слегка подсоленной воде согласно инструкции на упаковке.", 
+                "Тем временем обжарьте бекон на сильном огне и добавьте чеснок.", 
+                "В небольшой миске смешайте сливки с яичным желтком, солью и перцем.", 
+                "Когда паста сварится, слейте почти всю воду, оставив немного воды, в которой варились спагетти.", 
+                "Верните спагетти в кастрюлю и убавьте огонь до очень слабого.", 
+                "Влейте сливочно-яичную смесь в бекон, постоянно помешивая, около 30 секунд. Затем добавьте всё к спагетти и готовьте на слабом огне около 5 минут, аккуратно перемешивая.", 
+                "Подавайте, слегка посыпав сыром пармезан.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Pasta Carbonara",
+                meta:  {
+                    time: "15 min",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "200 ml cream (15–20%)", 
+                "180 g spaghetti", 
+                "150 g smoked bacon", 
+                "2 cloves of garlic", 
+                "1 egg yolk", 
+                "Salt, pepper", 
+                "Parmigiano for sprinkling", 
+
+                ],
+                instructions: [
+                "Cook the spaghetti in lightly salted water according to the package instructions.", 
+                "Meanwhile, fry the bacon over high heat and add the garlic.", 
+                "In a small bowl, mix the cream with the egg yolk, salt, and pepper.", 
+                "When the pasta is cooked, drain almost all the water, leaving a little of the spaghetti cooking water.", 
+                "Return the spaghetti to the pot and reduce the heat to very low.", 
+                "Pour the cream and egg mixture into the bacon, stirring constantly for about 30 seconds. Then add everything to the spaghetti and cook over low heat for about 5 minutes, stirring gently.", 
+                "Serve lightly sprinkled with Parmesan cheese.", 
+
+                ],
+                note: ""
              }
         },
 
