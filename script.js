@@ -187,6 +187,14 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'snacks_green_salad_with_balsamic';
         } else if (path.includes('snacks_greek_salad')) {
             recipeKey = 'snacks_greek_salad';
+        } else if (path.includes('snaks_salad_carrot_cabbabege')) {
+            recipeKey = 'snaks_salad_carrot_cabbabege';
+        } else if (path.includes('main_dish_chicken_curry')) {
+            recipeKey = 'main_dish_chicken_curry';
+        } else if (path.includes('main_dish_pelmeni')) {
+            recipeKey = 'main_dish_pelmeni';
+        } else if (path.includes('main_dish_orzo')) {
+            recipeKey = 'main_dish_orzo';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
