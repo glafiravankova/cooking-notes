@@ -108,10 +108,31 @@ document.addEventListener('DOMContentLoaded', function() {
         // 6. Названия рецептов на главной
         const recipeTitles = document.querySelectorAll('.recipe-info h3');
         recipeTitles.forEach(title => {
-            const originalText = title.textContent.trim();
+            // Сохраняем оригинальный русский текст в data-атрибут при первой загрузке
+            if (!title.hasAttribute('data-original-ru')) {
+                title.setAttribute('data-original-ru', title.textContent.trim());
+            }
             
-            if (translations.recipes && translations.recipes[originalText]) {
-                title.textContent = translations.recipes[originalText][lang];
+            // Получаем текущий текст
+            const currentText = title.textContent.trim();
+            
+            // Для русского языка - берем сохраненный оригинал
+            if (lang === 'ru') {
+                const originalRu = title.getAttribute('data-original-ru');
+                title.textContent = originalRu;
+            } 
+            // Для английского - ищем перевод
+            else {
+                // Пробуем найти перевод по оригинальному русскому тексту
+                const originalRu = title.getAttribute('data-original-ru');
+                
+                if (translations.recipes && translations.recipes[originalRu]) {
+                    title.textContent = translations.recipes[originalRu][lang];
+                } 
+                // Если не нашли по оригиналу, пробуем по текущему тексту
+                else if (translations.recipes && translations.recipes[currentText]) {
+                    title.textContent = translations.recipes[currentText][lang];
+                }
             }
         });
         
