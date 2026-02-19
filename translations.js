@@ -33,7 +33,7 @@ const translations = {
         // Завтраки
         "Американские оладья": {
             ru: "Американские оладья",
-            en: "American pancakes"
+            en: "American Pancakes"
         },
         "Блины": {  
             ru: "Блины",
@@ -41,7 +41,7 @@ const translations = {
         },
         "Овсянка": {
             ru: "Овсянка",
-            en: "Oat porridge"
+            en: "Oat Porridge"
         },
         "Яйца с сосикой и томатами": {
             ru: "Яйца с сосикой и томатами",
@@ -63,7 +63,7 @@ const translations = {
         },
         "Маринованные грибы": {
             ru: "Маринованные грибы",
-            en: "Marinated mushrooms"
+            en: "Marinated Mushrooms"
         },
         "Маринованные огурцы": {
             ru: "Маринованные огурцы",
@@ -105,9 +105,13 @@ const translations = {
             en: "Side dish name"
             },
         // Десерты
-        "Название Десерта": {
-            ru: "Название Десерта",
-            en: "Dessert name"
+        "Банановый хлеб": {  
+            ru: "Банановый хлеб",
+            en: "Banana Bread"
+            },
+        "Безе": {  
+            ru: "Безе",
+            en: "Meringue"
             },
         // Кремы/соусы
         "Название кремы": {
@@ -218,16 +222,16 @@ const translations = {
 
                 ],
                 instructions: [
-                "Взбейте яйца с сахаром и солью, добавьте половину молока", 
-                "Постепенно всыпьте муку, тщательно перемешивая", 
-                "Влейте оставшееся молоко", 
-                "Затем тонкой струйкой влейте крутой кипяток и оставьте тесто на 20-30 минут", 
-                "Выпекайте блины на среднем огне, смазав сковороду растительным маслом", 
-                "Переворачивайте блины силиконовой лопаткой", 
-                "Готовые блины смазывайте сливочным маслом и складывайте стопкой, накрыв полотенцем", 
+                "Взбейте яйца с сахаром и солью, добавьте половину молока.", 
+                "Постепенно всыпьте муку, тщательно перемешивая.", 
+                "Влейте оставшееся молоко.", 
+                "Затем тонкой струйкой влейте крутой кипяток и оставьте тесто на 20-30 минут.", 
+                "Выпекайте блины на среднем огне, смазав сковороду растительным маслом.", 
+                "Переворачивайте блины силиконовой лопаткой.", 
+                "Готовые блины смазывайте сливочным маслом и складывайте стопкой, накрыв полотенцем.", 
 
                 ],
-                note: "Время готовки можно значительно сократить, если жарить блинчике на двух или трех сковородках"
+                note: "Время готовки можно значительно сократить, если жарить блинчике на двух или трех сковородках."
              },
             en: {
                 title: "Russian Crepes",
@@ -247,13 +251,13 @@ const translations = {
 
                 ],
                 instructions: [
-                "Whisk the eggs with the sugar and salt, then add half of the milk", 
-                "Gradually sift in the flour, mixing thoroughly to achieve a smooth batter", 
-                "Pour in the remaining milk", 
-                "Slowly stream in the freshly boiled water, stirring constantly, then let the batter rest for 20–30 minutes", 
-                "Cook the pancakes over medium heat, lightly greasing the pan with vegetable oil", 
-                "Flip the pancakes using a silicone spatula", 
-                "Brush the finished pancakes with butter and stack them, covering with a towel to keep warm", 
+                "Whisk the eggs with the sugar and salt, then add half of the milk.", 
+                "Gradually sift in the flour, mixing thoroughly to achieve a smooth batter.", 
+                "Pour in the remaining milk.", 
+                "Slowly stream in the freshly boiled water, stirring constantly, then let the batter rest for 20–30 minutes.", 
+                "Cook the pancakes over medium heat, lightly greasing the pan with vegetable oil.", 
+                "Flip the pancakes using a silicone spatula.", 
+                "Brush the finished pancakes with butter and stack them, covering with a towel to keep warm.", 
 
                 ],
                 note: "Cooking time can be significantly reduced by using two or three pans simultaneously."
@@ -281,7 +285,7 @@ const translations = {
                     "Доведите воду с молоком до кипения. Чтобы ускорить процесс, можно использовать заранее вскипяченную воду.",
                     "Добавьте овсяные хлопья, уменьшите огонь до среднего и варите, регулярно помешивая. По мере загустения перемешивайте чаще.",
                     "В конце приготовления добавьте соль, подсластитель и масло, аккуратно перемешайте.",
-                    "Снимите кастрюлю с плиты и накройте крышкой",
+                    "Снимите кастрюлю с плиты и накройте крышкой.",
                     "Перед подачей дайте каше настояться 5 минут.",
                 ],
                 note: "Сгущенка дает более нежную сладость по сравнению с сахаром. Также можно добавлять разные виды курдов или джемов."
@@ -728,7 +732,125 @@ const translations = {
                 note: ""
              }
         },
+        "dessert_banana_bread":  {
+            ru: {
+                title: "Банановый хлеб",
+                meta:  {
+                    time: "60 мин",
+                    servings: "10 порций"
+                  },
+                ingredients: [
+                "2 средних банана", 
+                "2 средних яйца (или 1 большое)", 
+                "200 г муки100 г сахара", 
+                "75 г сливочного масла", 
+                "1/2 ч.л. соды", 
+                "1 пакетик ванилина (1-2 гр)", 
+                "Щепотка соли", 
 
+                ],
+                instructions: [
+                "Разогрейте духовку до 175°C в режиме верхнего и нижнего нагрева.", 
+                "Растопите сливочное масло.", 
+                "Разомните бананы вилкой.", 
+                "Добавьте масло к бананам и перемешайте.", 
+                "Добавьте соду, соль, сахар, ванилин и яйцо, затем перемешайте.", 
+                "Просейте муку и добавьте в тесто, перемешайте до почти однородной консистенции.", 
+                "Застелите форму для выпечки пергаментом, вылейте тесто и слегка постучите формой по столу, чтобы выпустить пузырьки воздуха.", 
+                "Поставьте форму в разогретую духовку на 10 минут.", 
+                "Сделайте на поверхности кекса продольный разрез, отступив 2-3 см от края — это поможет кексу красиво раскрыться при выпекании.", 
+                "Выпекайте ещё 35 минут, готовность проверьте деревянной зубочисткой.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Banana Bread",
+                meta:  {
+                    time: "60 min",
+                    servings: "Serves 10"
+                  },
+                ingredients: [
+                "2 medium bananas", 
+                "2 medium eggs (or 1 large egg)", 
+                "200 g flour", 
+                "100 g sugar", 
+                "75 g butter", 
+                "1/2 tsp baking soda", 
+                "1 sachet of vanilla (1–2 g)", 
+                "A pinch of salt", 
+
+                ],
+                instructions: [
+                "Preheat the oven to 175°C using conventional top-and-bottom heat", 
+                "Melt the butter", 
+                "Mash the bananas with a fork", 
+                "Add the butter to the bananas and mix well", 
+                "Add the baking soda, salt, sugar, vanilla, and egg, then stir to combine", 
+                "Sift the flour and fold it into the batter, mixing until nearly smooth", 
+                "Line a baking tin with parchment paper, pour in the batter, and gently tap the tin on the counter to release air bubbles", 
+                "Place the tin in the preheated oven and bake for 10 minutes", 
+                "Make a lengthwise slit on the surface of the cake, 2–3 cm from the edge — this helps the cake open neatly while baking", 
+                "Continue baking for a further 35 minutes, check for doneness with a wooden toothpick", 
+
+                ],
+                note: ""
+             }
+        },
+        "dessert_bese":  {
+            ru: {
+                title: "Безе",
+                meta:  {
+                    time: "130 мин",
+                    servings: "10 порций"
+                  },
+                ingredients: [
+                "2 яйца (понадобится только белок)", 
+                "90 г сахара", 
+                "Щепотка соли", 
+
+                ],
+                instructions: [
+                "Тщательно обезжирьте и высушите миску, в которой будете взбивать белки.", 
+                "Аккуратно отделите белки от желтков (рекомендуется делать это над отдельной чашкой для каждого яйца, чтобы в белки не попала ни капли желтка).", 
+                "Добавьте к белкам щепотку соли и начните взбивать на минимальной скорости до появления белой пены.", 
+                "Увеличьте скорость до максимальной и продолжайте взбивать до тех пор, пока от венчика не начнет оставаться четкий след.", 
+                "Затем постепенно всыпьте сахар, продолжая взбивать до устойчивых пиков (при поднятии венчика пик из белка должен сохранять форму и не оседать).", 
+                "Застелите противень (или, лучше, решетку) бумагой для выпечки.", 
+                "Разогрейте духовку до 95°C - безе нужно не испечь, а высушить.", 
+                "Выложите безе на бумагу с помощью двух ложек или кондитерского мешка и поместите в духовку.", 
+                "Точное время приготовления безе в духовке указать невозможно, так как оно зависит от размера безе (чем они больше, тем дольше сушка) и желаемой текстуры (чем суше вы хотите получить безе, тем больше времени потребуется). Начинать проверять готовность можно через 1,5–2 часа.", 
+
+                ],
+                note: "Чтобы точно рассчитать количество сахара, взвесьте белки и возьмите сахар в пропорции 1:1,5 (например, на 100 г белков потребуется 150 г сахара). Если среди ваших гостей есть поклонники разных видов безе — одни любят с тянучкой внутри, а другие полностью сухие, — вы можете сделать одну партию безе чуть меньше и достать их позже (для сухих), а другую — крупнее и вынуть пораньше (для мягких)."
+             },
+            en: {
+                title: "Meringue",
+                meta:  {
+                    time: "130 min",
+                    servings: "Serves 10"
+                  },
+                ingredients: [
+                "2 eggs (whites only)", 
+                "90 g sugar", 
+                "A pinch of salt", 
+
+                ],
+                instructions: [
+                "Thoroughly degrease and dry the bowl you will use for whipping the egg whites.", 
+                "Carefully separate the whites from the yolks (it is advisable to do this over a separate cup for each egg to ensure that not a drop of yolk enters the whites).", 
+                "Add a pinch of salt to the whites and begin whisking at the lowest speed until a light white foam forms.", 
+                "Increase the speed to maximum and continue whisking until the whisk leaves a distinct trace.", 
+                "Gradually add the sugar while continuing to whisk until stiff, stable peaks form (when lifting the whisk, the peak should hold its shape without collapsing).", 
+                "Line a baking tray (or preferably a rack) with baking parchment.", 
+                "Preheat the oven to 95°C — the meringues should dry rather than bake.", 
+                "Spoon or pipe the meringue onto the parchment using two spoons or a piping bag, then place in the oven.", 
+                "The exact drying time cannot be specified, as it depends on the size of the meringues (larger ones require longer drying) and the desired texture (the drier the result, the longer the drying). Begin checking for readiness after 1.5–2 hours.", 
+
+                ],
+                note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:1.5 (for example, 100 g of egg whites requires 150 g of sugar). If your guests prefer different meringue textures — some with a soft, chewy centre and others fully crisp — you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
+             }
+        },
 
     }
 };

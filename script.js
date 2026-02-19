@@ -199,6 +199,10 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_pasta_carbonara';
         } else if (path.includes('breakfast_bliny')) {
             recipeKey = 'breakfast_bliny';
+        } else if (path.includes('dessert_banana_bread')) {
+            recipeKey = 'dessert_banana_bread';
+        } else if (path.includes('dessert_bese')) {
+            recipeKey = 'dessert_bese';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
