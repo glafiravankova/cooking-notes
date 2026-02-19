@@ -35,6 +35,10 @@ const translations = {
             ru: "Американские оладья",
             en: "American pancakes"
         },
+        "Блины": {  
+            ru: "Блины",
+            en: "Russian Crepes"
+        },
         "Овсянка": {
             ru: "Овсянка",
             en: "Oat porridge"
@@ -194,6 +198,66 @@ const translations = {
                 ],
                 note: "Using a piping bag makes it easier to form evenly sized, perfectly round pancakes."
             }
+        },
+        "breakfast_bliny":  {
+            ru: {
+                title: "Блины",
+                meta:  {
+                    time: "90 мин",
+                    servings: "~10 блинчиков"
+                  },
+                ingredients: [
+                "2 яйца", 
+                "40 г сахара", 
+                "300 мл молока", 
+                "125 г муки", 
+                "90 мл кипятка", 
+                "Щепота соли", 
+                "Подсолнечное масло, чтобы периодически смазывать сковородку", 
+                "Сливочное масло, чтобы смазавать готовый блин", 
+
+                ],
+                instructions: [
+                "Взбейте яйца с сахаром и солью, добавьте половину молока", 
+                "Постепенно всыпьте муку, тщательно перемешивая", 
+                "Влейте оставшееся молоко", 
+                "Затем тонкой струйкой влейте крутой кипяток и оставьте тесто на 20-30 минут", 
+                "Выпекайте блины на среднем огне, смазав сковороду растительным маслом", 
+                "Переворачивайте блины силиконовой лопаткой", 
+                "Готовые блины смазывайте сливочным маслом и складывайте стопкой, накрыв полотенцем", 
+
+                ],
+                note: "Время готовки можно значительно сократить, если жарить блинчике на двух или трех сковородках"
+             },
+            en: {
+                title: "Russian Crepes",
+                meta:  {
+                    time: "90 min",
+                    servings: "~10 crepes"
+                  },
+                ingredients: [
+                "2 eggs", 
+                "40 g sugar", 
+                "300 ml milk", 
+                "125 g flour", 
+                "90 ml boiling water", 
+                "A pinch of salt", 
+                "Sunflower oil, for greasing the pan as needed", 
+                "Butter, for brushing the finished pancakes", 
+
+                ],
+                instructions: [
+                "Whisk the eggs with the sugar and salt, then add half of the milk", 
+                "Gradually sift in the flour, mixing thoroughly to achieve a smooth batter", 
+                "Pour in the remaining milk", 
+                "Slowly stream in the freshly boiled water, stirring constantly, then let the batter rest for 20–30 minutes", 
+                "Cook the pancakes over medium heat, lightly greasing the pan with vegetable oil", 
+                "Flip the pancakes using a silicone spatula", 
+                "Brush the finished pancakes with butter and stack them, covering with a towel to keep warm", 
+
+                ],
+                note: "Cooking time can be significantly reduced by using two or three pans simultaneously."
+             }
         },
         "breakfast_oat_porridge": {
             ru: {
