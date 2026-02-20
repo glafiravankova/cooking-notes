@@ -213,6 +213,10 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_bese';
         } else if (path.includes('dessert_cupcake_creamchease_straberry_jam')) {
             recipeKey = 'dessert_cupcake_creamchease_straberry_jam';
+        } else if (path.includes('dessert_napoleon_individual')) {
+            recipeKey = 'dessert_napoleon_individual';
+        } else if (path.includes('dessert_panna_cotta')) {
+            recipeKey = 'dessert_panna_cotta';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

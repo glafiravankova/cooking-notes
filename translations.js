@@ -117,6 +117,14 @@ const translations = {
             ru: "Капекейки с клубничной начинкой и крем-чизом",
             en: "Cupcakes with Strawberry Filling and Cream Cheese Frosting"
             },
+        "Наполеон с малиновым джемом в стаканчике": {  
+            ru: "Наполеон с малиновым джемом в стаканчике",
+            en: "Napoleon with Raspberry Jam in a Glass"
+            },
+        "Панна-котта c клубничным джемом": {  
+                ru: "Панна-котта c клубничным джемом",
+                en: "Panna Cotta with Strawberry Jam"
+        },
         // Кремы/соусы
         "Название кремы": {
             ru: "Название кремы",
@@ -1061,13 +1069,12 @@ const translations = {
                 "3 яйца", 
                 "105 г сахара", 
                 "65 г муки", 
-                "8 г ванильного сахара", 
-                " ", 
+                "8 г ванильного сахара",
+                "Щепотка соли", 
                 "Для начинки:", 
                 "100 г замороженной клубники", 
                 "10 г сахара", 
                 "5 г кукурузного крахмала", 
-                " ", 
                 "Для крема:", 
                 "200 г творожного сыра", 
                 "65 г сливочного масла", 
@@ -1089,7 +1096,7 @@ const translations = {
                 "Затем к желтковой массе переложите треть белковой и аккуратно перемешайте силиконовой лопаткой движениями снизу вверх.", 
                 "Затем добавьте дважды просеянную муку и снова перемешайте аккуратными движениями снизу вверх.", 
                 "Добавьте массу к белкам и снова аккуратно перемешайте.", 
-                "Разогрейте духовку до 180 градусов с нагревом сверху и снизу.", 
+                "Разогрейте духовку до 180°C с нагревом сверху и снизу.", 
                 "Распределите тесто по формочкам для маффинов. Лучше внутрь вложить бумажные вкладыши для капкейков - так капкейк не заветрится и будет мягким несколько дней.", 
                 "Поставьте маффины в духовку на средний уровень примерно на 12 минут. Ориентируйтесь по своей духовке: когда маффины начнут покрываться золотистым цветом, проверьте готовность деревянной зубочисткой. Если она осталась сухой - маффины готовы.", 
                 "Выньте маффины и оставьте их остывать при комнатной температуре, накрыв чистым полотенцем.", 
@@ -1111,13 +1118,12 @@ const translations = {
                 "3 eggs", 
                 "105 g sugar", 
                 "65 g flour", 
-                "8 g vanilla sugar", 
-                " ", 
+                "8 g vanilla sugar",
+                "Pinch of salt",
                 "For the filling:", 
                 "100 g frozen strawberries", 
                 "10 g sugar", 
-                "5 g cornstarch", 
-                " ", 
+                "5 g cornstarch",
                 "For the frosting:", 
                 "200 g cream cheese", 
                 "65 g butter", 
@@ -1149,6 +1155,169 @@ const translations = {
 
                 ],
                 note: "If desired, raspberries may be used instead of strawberries, though a slightly larger quantity is recommended due to greater waste. Other berries are also suitable, or the filling may be omitted entirely."
+             }
+        },
+        "dessert_napoleon_individual":  {
+            ru: {
+                title: "Наполеон с малиновым джемом в стаканчике",
+                meta:  {
+                    time: "180 мин",
+                    servings: "9 порций"
+                  },
+                ingredients: [
+                "400 г слоеного теста", 
+                "Для заварного крема:", 
+                "500 мл молока", 
+                "150 г сахара", 
+                "100 г масла", 
+                "2 яйца", 
+                "40 г муки", 
+                "10 г ванильного сахара", 
+                "Для джема:100 г замороженной малины", 
+                "10 г сахара", 
+                "5 г крахмала", 
+
+                ],
+                instructions: [
+                "Начните с крема, так как ему потребуется больше всего времени для остывания. В маленькой кастрюльке взбейте вместе муку, сахар, ванильный сахар и яйца до получения однородной массы.", 
+                "Постепенно влейте небольшое количество молока, тщательно взбивая, чтобы удалить комочки.", 
+                "Продолжайте добавлять оставшееся молоко, взбивая, пока смесь не станет полностью однородной.", 
+                "Поставьте кастрюлю на слабый огонь. Готовьте, постоянно помешивая, особенно по дну, чтобы не образовались комочки.", 
+                "Как только заварной крем загустеет и начнет закипать, снимите его с огня.", 
+                "Добавьте размягченное сливочное масло в горячий заварной крем и перемешивайте, пока оно полностью не растает.", 
+                "Переложите заварной крем в широкую миску, чтобы он быстрее остыл. Накройте пищевой пленкой в контакт.", 
+                "Перейдите к приготовлению джема. Разморозьте малину, пробейте в блендере и протрите через сито.", 
+                "Переложите малиновое пюре в сотейник, добавьте сахар и начните нагревать массу на среднем огне.", 
+                "Когда масса загустеет, перелейте соус в широкую тарелку, накройте пленкой в контакт и оставьте остывать при комнатной температуре.", 
+                "Перейдите к приготовлению коржей. Разогрейте духовку до 210°C. Разрежьте готовое слоеное тесто на несколько частей, чуть меньше высоты вашего блендера.", 
+                "Выложите слоеное тесто на противень, застеленный бумагой для выпечки.", 
+                "Поместите коржи в духовку на 10-12 минут, в зависимости от вашей духовки. Они будут готовы, когда появится золотистая корочка.", 
+                "Выньте коржи и положите их на решетку, чтобы они остыли.", 
+                "Когда коржи остынут, перебейте их в блендере в крошку.", 
+                "Когда крем и джем остынут, можете приступать к сборке десерта.", 
+                "На дно стакана выложите немного крема, затем крошку, немного прижмите крошку ложкой, чтобы ее уплотнить.", 
+                "Затем крем, джем, крем и снова крошка. Важно выкладывать крем сначала у стенок стаканчика, затем в середине, чтобы джем не мог протечь на нижние слои. Малиновый джем сам по себе имеет яркий вкус, поэтому его нужно значительно меньше, чем заварного крема.", 
+                "Повторяйте, пока не останется 1-1,5 см до края стаканчика.", 
+                "Последний слой должен быть крошкой от слоеного теста.", 
+                "Можете подавать сразу, если любите, чтобы крошка хрустела, либо если любите пропитанный наполеон, подождите не меньше 5 часов.", 
+
+                ],
+                note: "Для джема подойдут и другие ягоды или можно вообще не использовать начинку."
+             },
+            en: {
+                title: "Napoleon with Raspberry Jam in a Glass",
+                meta:  {
+                    time: "180 minutes",
+                    servings: "Serves 9"
+                  },
+                ingredients: [
+                "400 g puff pastry", 
+                "For the custard cream:", 
+                "500 ml milk", 
+                "150 g sugar", 
+                "100 g butter", 
+                "2 eggs", 
+                "40 g flour", 
+                "10 g vanilla sugar", 
+                "For the jam:", 
+                "100 g frozen raspberries", 
+                "10 g sugar", 
+                "5 g corn starch", 
+
+                ],
+                instructions: [
+                "Begin with the custard cream, as it requires the most time to cool. In a small saucepan, whisk together the flour, sugar, vanilla sugar, and eggs until smooth.", 
+                "Gradually pour in a small amount of the milk, whisking thoroughly to remove any lumps.", 
+                "Add the remaining milk, whisking until the mixture is completely smooth.", 
+                "Place the saucepan over low heat. Cook, stirring constantly, especially along the bottom, to prevent lumps.", 
+                "As soon as the custard thickens and begins to boil, remove it from the heat.", 
+                "Add the softened butter to the hot custard and stir until fully melted and incorporated.", 
+                "Transfer the custard to a wide bowl to cool more quickly. Cover with cling film in direct contact.", 
+                "Prepare the jam. Thaw the raspberries, blend until smooth, then strain through a sieve.", 
+                "Transfer the raspberry purée to a saucepan, add the sugar, and heat over medium.", 
+                "Once thickened, pour the jam onto a wide plate, cover with cling film in contact, and leave to cool at room temperature.", 
+                "Prepare the pastry layers. Preheat the oven to 210°C. Cut the puff pastry into several pieces slightly smaller than the height of your blender.", 
+                "Place the pastry on a baking tray lined with parchment paper.", 
+                "Bake for 10-12 minutes, depending on your oven, until golden.", 
+                "Remove and allow the pastry to cool on a rack.", 
+                "Once cooled, pulse the pastry in a blender into coarse crumbs.", 
+                "When the custard and jam have cooled, assemble the dessert.", 
+                "Spoon a layer of custard into the bottom of each glass, followed by a layer of crumbs. Lightly press the crumbs with a spoon.", 
+                "Continue layering: custard, jam, custard, and crumbs. Spread the custard along the sides of the glass first, then add the jam in the centre to prevent it from seeping downward. As raspberry jam has a pronounced flavour, use less jam than custard.", 
+                "Repeat until 1-1.5 cm remains to the rim.", 
+                "Finish with a layer of puff pastry crumbs.", 
+                "Serve immediately for a crisp texture, or chill for at least 5 hours for a softened, infused dessert.", 
+
+                ],
+                note: "Other berries may be used for the jam, or the filling may be omitted entirely."
+             }
+        },
+        "dessert_panna_cotta":  {
+            ru: {
+                title: "Панна-котта c клубничным джемом",
+                meta:  {
+                    time: "240 мин",
+                    servings: "4 порций"
+                  },
+                ingredients: [
+                "Для панна-котты:", 
+                "300 г 20% сливок", 
+                "100 г молока", 
+                "50 г сахара", 
+                "50 г воды", 
+                "10 г желатина", 
+                "Для джема:250 г замороженной клубники", 
+                "30 г сахарной пудры", 
+                "5 г крахмала", 
+
+                ],
+                instructions: [
+                "Замочите желатин в холодной воде.Замочите желатин в холодной воде.", 
+                "В кастрюле смешайте сливки, молоко, сахар и ванильный сахар и доведите до 70°С. Снимите кастрюлю с плиты.", 
+                "Добавьте размягченный желатин в горячую смесь и перемешайте до полного растворения.", 
+                "Разлейте кремовую смесь по порционным формочкам. Удобно сначала взвесить смесь и разделить ее на количество порций, исходя из размера используемой посуды.", 
+                "Дайте ей немного остыть при комнатной температуре, затем поставьте в холодильник на 2 часа.", 
+                "Добавьте размягченное сливочное масло в горячий заварной крем и перемешивайте, пока оно полностью не растает.", 
+                "Затем измельчите клубнику, процедите ее через сито в кастрюлю и добавьте сахарную пудру.", 
+                "Взвесьте клубничную массу, разделите ее на равные порции и вылейте поверх слоя крема.", 
+                "Поставьте в холодильник еще на 2 часа до полного застывания. ", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Panna Cotta with Strawberry Jam",
+                meta:  {
+                    time: "240 minutes",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "For the panna cotta:", 
+                "300 g 20% cream", 
+                "100 g milk", 
+                "50 g sugar", 
+                "50 g water", 
+                "10 g gelatin", 
+                " ", 
+                "For the jam:", 
+                "250 g frozen strawberries", 
+                "30 g icing sugar", 
+                "5 g starch", 
+
+                ],
+                instructions: [
+                "Soak the gelatin in cold water and leave it to bloom.", 
+                "In a saucepan, combine the cream, milk, sugar, and (optionally) vanilla sugar, then heat gently to about 70°C. Remove from the heat.", 
+                "Add the softened gelatin to the hot mixture and stir until completely dissolved.", 
+                "Pour the mixture into serving moulds. For precision, you may weigh the mixture and divide it evenly according to the number of portions.", 
+                "Allow it to cool slightly at room temperature, then refrigerate for about 2 hours.", 
+                "Prepare the jam by blending the strawberries and straining the purée into a saucepan. Add the icing sugar.", 
+                "Heat the mixture gently until slightly thickened, then cool to room temperature.", 
+                "Divide the strawberry layer evenly and pour it over the chilled panna cotta.", 
+                "Return to the refrigerator for a further 2 hours, or until fully set.", 
+
+                ],
+                note: ""
              }
         },
 
