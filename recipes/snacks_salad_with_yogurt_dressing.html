@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
-<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Зеленый салат с йогуртовым соусом - Кулинарные заметки</title> <!-- ОТРЕДАКТИРОВАТЬ НАЗВАНИЕ -->
+    <title>Зеленый салат с йогуртовым соусом - Кулинарные заметки</title>
+    <!-- Favicon (иконка вкладки) -->
     <link rel="icon" href="../assets/icons/icons8-girl-64.png" type="image/png">
     <link rel="stylesheet" href="../style.css">
     <script src="../script.js" defer></script>
@@ -14,7 +15,7 @@
             margin: 40px auto;
             padding: 0 20px;
         }
-        
+
         .back-link {
             display: inline-flex;
             align-items: center;
@@ -24,22 +25,22 @@
             margin-bottom: 20px;
             font-weight: 500;
         }
-        
+
         .back-link:hover {
             text-decoration: underline;
         }
-        
+
         .recipe-header {
             text-align: center;
             margin-bottom: 40px;
         }
-        
+
         .recipe-header h1 {
             color: #8b4513;
             font-size: 2.5rem;
             margin-bottom: 10px;
         }
-        
+
         .recipe-meta {
             display: flex;
             justify-content: center;
@@ -47,7 +48,7 @@
             color: #666;
             margin-bottom: 30px;
         }
-        
+
         .recipe-image-main {
             width: 100%;
             height: 400px;
@@ -56,52 +57,52 @@
             margin-bottom: 30px;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
         }
-        
+
         .recipe-content {
             background: white;
             padding: 40px;
             border-radius: 15px;
             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
         }
-        
+
         .ingredients, .instructions {
             margin-bottom: 40px;
         }
-        
+
         .ingredients h2, .instructions h2 {
             color: #8b4513;
             border-bottom: 2px solid #f0e6d6;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        
+
         .ingredients ul {
             list-style: none;
             padding: 0;
         }
-        
+
         .ingredients li {
             padding: 8px 0;
             padding-left: 30px;
             position: relative;
             border-bottom: 1px solid #f0e6d6;
         }
-        
+
         .ingredients li:before {
             content: "•";
             position: absolute;
             left: 0;
         }
-        
+
         .instructions ol {
             padding-left: 20px;
         }
-        
+
         .instructions li {
             margin-bottom: 15px;
             line-height: 1.6;
         }
-        
+
         .note {
             background: #f9f3ec;
             padding: 20px;
@@ -113,7 +114,7 @@
 </head>
 <body>
     <header class="main-header">
-        <div class="header-content">
+        <div class="header-top"> 
             <h1>Кулинарные заметки</h1>
         </div>
     </header>
@@ -123,49 +124,61 @@
             <i class="fas fa-arrow-left"></i>
             Вернуться к рецептам
         </a>
-        
+
         <div class="recipe-header">
-            <h1>Зеленый салат с йогуртовым соусом</h1> <!-- ОТРЕДАКТИРОВАТЬ НАЗВАНИЕ -->
+            <h1>Зеленый салат с йогуртовым соусом</h1>
             <div class="recipe-meta">
-                <span><i class="far fa-clock"></i> 7 минут </span> <!-- ОТРЕДАКТИРОВАТЬ ВРЕМЯ -->
-                <span><i class="fas fa-user-friends"></i> 2 проции</span> <!-- ОТРЕДАКТИРОВАТЬ ПОРЦИИ -->
-                
+                <span><i class="far fa-clock"></i> 7 мин</span>
+                <span><i class="fas fa-user-friends"></i> 2 порции</span>
+
             </div>
         </div>
-        
+
         <img src="../site-photos/snacks_salad_with_yogurt_dressing.jpg" 
-             alt="Зеленый салат с йогуртовым соусом" class="recipe-image-main"> <!-- ДОБАВИТЬ ФОТО -->
-        
+             alt="Зеленый салат с йогуртовым соусом" class="recipe-image-main">
+
         <div class="recipe-content">
             <div class="ingredients">
-                <h2><i class="fas fa-shopping-basket"></i> Ингредиенты</h2> <!-- ОТРЕДАКТИРОВАТЬ ИНГРЕДИЕНТЫ -->
+                <h2><i class="fas fa-shopping-basket"></i> Ингредиенты</h2>
                 <ul>
-                    <li>150 г зелёных листьев (по выбору)</li>
-                    <li>100 г греческого йогурта</li>
-                    <li>1 зубчик чеснока</li>
-                    <li>Небольшой пучок укропа</li>
-                    <li>Соль, сахар, по вкусу</li>
+                    <li>150 г зелёных листьев (по выбору)</li> 
+<li>100 г греческого йогурта</li> 
+<li>1 зубчик чеснока</li> 
+<li>Небольшой пучок укропа</li> 
+<li>Соль, сахар, по вкусу</li> 
+
+
+
                 </ul>
             </div>
-            
-            <div class="instructions"> <!-- ОТРЕДАКТИРОВАТЬ РЕЦЕПТ -->
+
+            <div class="instructions">
                 <h2><i class="fas fa-list-ol"></i> Способ приготовления</h2>
-                <ol> 
-                    <li>Промойте, обсушите и нарежьте салатные листья.</li>
-                    <li>Измельчите укроп, натрите чеснок.</li>
-                    <li>Соедините всё в миске с йогуртом и добавьте щепотку сахара и соль по вкусу, аккуратно перемешайте.</li>
+                <ol>
+                    <li>Промойте, обсушите и нарежьте салатные листья.</li> 
+<li>Измельчите укроп, натрите чеснок.</li> 
+<li>Соедините всё в миске с йогуртом и добавьте щепотку сахара и соль по вкусу, аккуратно перемешайте.</li> 
 
                 </ol>
             </div>
-  
+
+            
+
         </div>
     </main>
 
     <footer class="main-footer">
-        <p>2026 Кулинарные заметки</p>
-        <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        <div class="footer-content">
+            <div class="footer-lang-switcher">
+                <button class="footer-lang-btn active" data-lang="ru">RU</button>
+                <button class="footer-lang-btn" data-lang="en">EN</button>
+            </div>
+            <p>2026 Кулинарные заметки</p>
+            <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../translations.js" defer></script>
+    <script src="../script.js" defer></script>
 </body>
 </html>

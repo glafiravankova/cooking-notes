@@ -177,18 +177,28 @@ document.addEventListener('DOMContentLoaded', function() {
         
         if (path.includes('breakfast_american_style_pancakes')) {
             recipeKey = 'breakfast_american_style_pancakes';
+        } else if (path.includes('breakfast_bliny')) {
+            recipeKey = 'breakfast_bliny';
         } else if (path.includes('breakfast_oat_porridge')) {
             recipeKey = 'breakfast_oat_porridge';
         } else if (path.includes('breakfast_eggs_sausage_tomato')) {
             recipeKey = 'breakfast_eggs_sausage_tomato';
         } else if (path.includes('snacks_marinated_mashrooms')) {
             recipeKey = 'snacks_marinated_mashrooms';
-        } else if (path.includes('snacks_green_salad_with_balsamic')) {
-            recipeKey = 'snacks_green_salad_with_balsamic';
         } else if (path.includes('snacks_greek_salad')) {
             recipeKey = 'snacks_greek_salad';
-        } else if (path.includes('snaks_salad_carrot_cabbabege')) {
+        }  else if (path.includes('snacks_fried_zucchini')) {
+            recipeKey = 'snacks_fried_zucchini';
+        }  else if (path.includes('snacks_salad_with_yogurt_dressing')) {
+            recipeKey = 'snacks_salad_with_yogurt_dressing';
+        }  else if (path.includes('snacks_marinated_mashrooms')) {
+            recipeKey = 'snacks_marinated_mashrooms';
+        }   else if (path.includes('snacks_semi_salted_cucumbers')) {
+            recipeKey = 'snacks_semi_salted_cucumbers';
+        }  else if (path.includes('snaks_salad_carrot_cabbabege')) {
             recipeKey = 'snaks_salad_carrot_cabbabege';
+        } else if (path.includes('snacks_green_salad_with_balsamic')) {
+            recipeKey = 'snacks_green_salad_with_balsamic';
         } else if (path.includes('main_dish_chicken_curry')) {
             recipeKey = 'main_dish_chicken_curry';
         } else if (path.includes('main_dish_pelmeni')) {
@@ -197,8 +207,6 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_orzo';
         } else if (path.includes('main_dish_pasta_carbonara')) {
             recipeKey = 'main_dish_pasta_carbonara';
-        } else if (path.includes('breakfast_bliny')) {
-            recipeKey = 'breakfast_bliny';
         } else if (path.includes('dessert_banana_bread')) {
             recipeKey = 'dessert_banana_bread';
         } else if (path.includes('dessert_bese')) {

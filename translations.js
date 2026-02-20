@@ -57,26 +57,26 @@ const translations = {
             ru: "Жареные кабачки",
             en: "Fried Zucchini"
         },
-        "Зеленый салат с йогуртовым соусом": {
+        "Зеленый салат с йогуртовым соусом": {  
             ru: "Зеленый салат с йогуртовым соусом",
             en: "Green Salad with Yogurt Dressing"
         },
-        "Маринованные грибы": {
+        "Маринованные грибы": {  
             ru: "Маринованные грибы",
             en: "Marinated Mushrooms"
         },
-        "Маринованные огурцы": {
+        "Маринованные огурцы": {  
             ru: "Маринованные огурцы",
-            en: "Quick Pickled Cucumbers"
+            en: "Marinated Cucumbers"
         },
         "Салатные листья с бальзамиком": {  
             ru: "Салатные листья с бальзамиком",
             en: "Salad Leaves with Balsamic Dressing"
-            }, 
+        }, 
         "Салат из капусты с морковью": {  
             ru: "Салат из капусты с морковью",
             en: "Cabbage and Carrot Salad"
-            },
+        },
         // Супы
         "Название супа": {
             ru: "Название супа",
@@ -172,7 +172,7 @@ const translations = {
                     "Смешайте кефир, яйцо, сахар и растопленное масло до однородной консистенции.",
                     "В отдельной миске соедините муку, разрыхлитель, соду и соль.",
                     "Добавьте сухие ингредиенты к кефирной смеси и быстро перемешайте. Небольшие комочки допустимы.",
-                    "Не перемешивая повторно, переложите тесто в кондитерский мешок или оставьте в миске на 15–30 минут.",
+                    "Не перемешивая повторно, переложите тесто в кондитерский мешок или оставьте в миске на 15-30 минут.",
                     "Хорошо разогрейте сковороду и выпекайте на среднем огне на сухой поверхности, не накрывая крышкой."
                 ],
                 note: "Оладья удобно высаживать кондитерским мешком, так они получаются круглые и одного размера."
@@ -408,7 +408,7 @@ const translations = {
                             ingredients: [
                             "2 средних огурца", 
                             "1 помидор", 
-                            "1 сладкий перец (не болгарский)", 
+                            "1 перец Рамиро (не болгарский)", 
                             "1/2 средней красной луковицы", 
                             "50 г феты", 
                             "2 столовые ложки оливкового масла", 
@@ -447,6 +447,203 @@ const translations = {
                             ],
                             note: "Be sure to peel the cucumbers, and do not cut the feta in advance. You can also add 50 g of Kalamata olives."
                         }
+        },
+        "snacks_fried_zucchini":  {
+            ru: {
+                title: "Жареные кабачки",
+                meta:  {
+                    time: "20 мин",
+                    servings: "2-4 порции"
+                  },
+                ingredients: [
+                "1 средний кабачок", 
+                "Подсолнечное масло - для жарки", 
+
+                ],
+                instructions: [
+                "Очистите кабачок от кожуры и нарежьте тонкими кружочками.", 
+                "Разогрейте сковороду и добавьте небольшое количество подсолнечного масла.", 
+                "Выложите кабачок в один слой.", 
+                "Обжаривайте без крышки с обеих сторон до золотистой корочки.", 
+
+                ],
+                note: "Удобнее переворачивать кружочки двумя лопатками: поддевать мягкой силиконовой и придерживать более плотной."
+             },
+            en: {
+                title: "Fried Zucchini",
+                meta:  {
+                    time: "20 min",
+                    servings: "Serves 2-4"
+                  },
+                ingredients: [
+                "1 medium courgette", 
+                "Мegetable oil - for frying", 
+
+                ],
+                instructions: [
+                "Peel the courgette and slice it into thin rounds.", 
+                "Heat a frying pan and add a small amount of sunflower oil.", 
+                "Arrange the courgette slices in a single layer.", 
+                "Fry uncovered on both sides until golden.", 
+
+                ],
+                note: "It is easier to turn the slices using two spatulas: lift with a soft silicone one and steady with a firmer spatula."
+             }
+        },
+        "snacks_salad_with_yogurt_dressing":  {
+            ru: {
+                title: "Зеленый салат с йогуртовым соусом",
+                meta:  {
+                    time: "7 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "150 г зелёных листьев (по выбору)", 
+                "100 г греческого йогурта", 
+                "1 зубчик чеснока", 
+                "Небольшой пучок укропа", 
+                "Соль, сахар, по вкусу", 
+
+                ],
+                instructions: [
+                "Промойте, обсушите и нарежьте салатные листья.", 
+                "Измельчите укроп, натрите чеснок.", 
+                "Соедините всё в миске с йогуртом и добавьте щепотку сахара и соль по вкусу, аккуратно перемешайте.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Green Salad with Yogurt Dressing",
+                meta:  {
+                    time: "7 minutes",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "150 g green leaves (of your choice)", 
+                "100 g Greek yogurt", 
+                "1 clove of garlic", 
+                "A small bunch of dill", 
+                "Salt and sugar, to taste", 
+
+                ],
+                instructions: [
+                "Rinse, dry, and slice the salad leaves.", 
+                "Finely chop the dill and grate the garlic.", 
+                "Combine everything in a bowl with the yogurt, add a pinch of sugar and salt to taste, and toss gently.", 
+
+                ],
+                note: ""
+             }
+        },
+        "snacks_marinated_mashrooms":  {
+            ru: {
+                title: "Маринованные грибы",
+                meta:  {
+                    time: "60 мин",
+                    servings: "4-6 порций"
+                  },
+                ingredients: [
+                "500 г шампиньонов", 
+                "1 болгарский перец", 
+                "1 небольшой красный лук", 
+                "3 зубчика чеснока", 
+                "1 пучок петрушки", 
+                "50 г соевого соуса", 
+                "1/2 ст. л. сахара", 
+                "1 ст. л. зернистой горчицы", 
+                "1 ст. л. растительного масла", 
+                "1 ч. л. лимонного сока", 
+                "1/2 ч. л. соли", 
+
+                ],
+                instructions: [
+                "Тщательно вымойте шампиньоны. Если грибы крупные, разрежьте их на четвертинки.", 
+                "Поместите шампиньоны в кастрюлю, залейте водой, доведите до кипения и варите в течение 10 минут.", 
+                "Тем временем мелко нарежьте чеснок и лук, а болгарский перец нарежьте тонкими полосками.", 
+                "Разложите сваренные шампиньоны на ровной поверхности, чтобы они быстрее остыли.", 
+                "После полного остывания (примерно через 10-15 минут) добавьте к грибам нарезанные овощи, растительное масло, зернистую горчицу, лимонный сок, соевый соус, соль и сахар.", 
+                "Переложите всё в банку, закройте крышкой и оставьте мариноваться в холодильнике.", 
+
+                ],
+                note: "Грибы можно есть через час, но через 12-24 часа они становятся их вкус становится более нежным."
+             },
+            en: {
+                title: "Marinated Mushrooms",
+                meta:  {
+                    time: "60 minutes",
+                    servings: "Serves 4-6"
+                  },
+                ingredients: [
+                "500 g button mushrooms", 
+                "1 bell pepper", 
+                "1 small red onion", 
+                "3 cloves of garlic", 
+                "1 bunch of parsley", 
+                "50 g soy sauce", 
+                "1/2 tbsp sugar", 
+                "1 tbsp wholegrain mustard", 
+                "1 tbsp vegetable oil", 
+                "1 tsp lemon juice", 
+                "1/2 tsp salt", 
+
+                ],
+                instructions: [
+                "Wash the mushrooms thoroughly. If they are large, cut them into quarters.", 
+                "Place the mushrooms in a saucepan, cover with water, bring to a boil, and cook for 10 minutes.", 
+                "Meanwhile, finely chop the garlic and onion, and slice the bell pepper into thin strips.", 
+                "Spread the cooked mushrooms out on a flat surface to cool more quickly.", 
+                "Once completely cooled (about 10-15 minutes), add the chopped vegetables, vegetable oil, wholegrain mustard, lemon juice, soy sauce, salt, and sugar.", 
+                "Transfer everything to a jar, seal with a lid, and leave to marinate in the refrigerator.", 
+
+                ],
+                note: "The mushrooms can be enjoyed after one hour, but after 12-24 hours their flavour becomes noticeably more delicate."
+             }
+        },
+
+        "snacks_semi_salted_cucumbers":  {
+            ru: {
+                title: "Маринованные огурцы",
+                meta:  {
+                    time: "65 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "2 свежих огурца", 
+                "1 пучок укропа", 
+                "1 головка чеснока", 
+                "Соль, сахар, по вкусу", 
+
+                ],
+                instructions: [
+                "Нарежьте огурец, натрите чеснок и измельчите укроп.", 
+                "Соедините все ингредиенты в миске, добавьте соль и щепотку сахара, аккуратно перемешайте.", 
+                "Перед подачей уберите в холодильник на 1 час.", 
+
+                ],
+                note: "Можете добавить дополнительные специи по вкусу, например, гвоздику."
+             },
+            en: {
+                title: "Marinated Cucumbers",
+                meta:  {
+                    time: "65 minutes",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "2 fresh cucumbers", 
+                "1 bunch of dill", 
+                "1 head of garlic", 
+                "Salt and sugar, to taste", 
+
+                ],
+                instructions: [
+                "Slice the cucumbers, grate the garlic, and finely chop the dill.", 
+                "Combine all the ingredients in a bowl, add salt and a pinch of sugar, and mix gently.", 
+                "Refrigerate for 1 hour before serving.", 
+
+                ],
+                note: "You may add additional spices to taste, such as cloves."
+             }
         },
         "snaks_salad_carrot_cabbabege":  {
             ru: {
@@ -509,13 +706,13 @@ const translations = {
 
                 ],
                 instructions: [
-                "Нарежьте куриное филе кусочками и обжарьте на сильном огне. Готовьте 3-5 минут на нагреве 9/9. Приправьте солью и перцем.", 
+                "Нарежьте куриное филе кусочками и обжарьте на сильном огне. Готовьте 3-5 минут на максимальном нагреве. Приправьте солью и перцем.", 
                 "После того, как перевернете курицу, добавьте на сковороду лук, нарезанный четвертинками колец.", 
-                "Когда курица будет почти готова, убавьте огонь до 5/9 и добавьте нарезанные помидоры, потомите.", 
+                "Когда курица будет почти готова, убавьте огонь до среднего и добавьте нарезанные помидоры, потомите.", 
                 "Добавьте сливки, перемешайте и снова оставьте томиться на 3-5 минут.", 
                 "Добавляйте приправу карри постепенно, регулируя количество по вкусу. Если хотите получить более острый карри, можно также добавить хлопья чили.", 
-                "Смешайте все вместе, убавьте огонь до минимума (1/9) и всыпьте кукурузный крахмал.", 
-                "Перемешайте и дайте курице потушиться в течение 10–15 минут, чтобы она полностью пропиталась соусом.", 
+                "Смешайте все вместе, убавьте огонь до минимума и всыпьте кукурузный крахмал.", 
+                "Перемешайте и дайте курице потушиться в течение 10-15 минут, чтобы она полностью пропиталась соусом.", 
 
                 ],
                 note: "Острая курица карри отлично идет с рисом и салатными листьями."
@@ -536,13 +733,13 @@ const translations = {
 
                 ],
                 instructions: [
-                "Cut the chicken fillet into pieces and fry over high heat. Cook for 3–5 minutes at heat level 9/9. Season with salt and pepper.", 
+                "Cut the chicken fillet into pieces and fry over high heat. Cook for 3-5 minutes at maximum heat level. Season with salt and pepper.", 
                 "After flipping the chicken, add the onion sliced into quarter rings to the pan.", 
-                "When the chicken is almost cooked through, reduce the heat to 5/9 and add the chopped tomatoes. Let it simmer.", 
-                "Add the cream, stir, and let it simmer again for 3–5 minutes.", 
+                "When the chicken is almost cooked through, reduce the heat to medium and add the chopped tomatoes. Let it simmer.", 
+                "Add the cream, stir, and let it simmer again for 3-5 minutes.", 
                 "Add the curry seasoning gradually, adjusting the amount to taste. If you prefer a spicier curry, you can also add chili flakes.", 
-                "Mix everything together, reduce the heat to minimum (1/9), and add the cornstarch.", 
-                "Stir and let the chicken simmer for 10–15 minutes so it fully absorbs the sauce.", 
+                "Mix everything together, reduce the heat to minimum, and add the cornstarch.", 
+                "Stir and let the chicken simmer for 10-15 minutes so it fully absorbs the sauce.", 
 
                 ],
                 note: "Spicy chicken curry goes great with rice and salad greens."
@@ -622,19 +819,19 @@ const translations = {
                 ],
                 instructions: [
                 "Добавьте щепотку соли в ледяную воду и влейте ее в муку.", 
-                "Замешивайте тесто в течение 8–12 минут. Оно должно получиться мягким, тянуться, не рваться и не липнуть к рукам.", 
+                "Замешивайте тесто в течение 8-12 минут. Оно должно получиться мягким, тянуться, не рваться и не липнуть к рукам.", 
                 "Дайте тесту отдохнуть 30 минут.", 
                 "Измельчите лук в блендере и добавьте его в фарш.", 
                 "Растворите половину бульонного кубика в 50 мл воды и добавьте к фаршу. Приправьте солью и перцем, а также добавьте дополнительные специи по вкусу, например, паприки и чили, если хотите.", 
                 "Слегка припылите рабочую поверхность мукой и раскатайте тесто.", 
-                "Вырежьте кружочки диаметром 5–7 см. Отложите обрезки отдельно, не вмешивая их обратно в основное тесто.", 
+                "Вырежьте кружочки диаметром 5-7 см. Отложите обрезки отдельно, не вмешивая их обратно в основное тесто.", 
                 "Выложите примерно по 1 чайной ложке фарша на каждый кружок.", 
                 "Смочите одну половину внешнего края водой, сложите в форме полумесяца, защипните края и сверните в пельмень.", 
                 "Если пельмени планируете есть сразу, отварите в кипящей подсоленной воде после всплытия минут 6-7", 
                 "Если пельмени замораживаете, то выложите готовые пельмени на припыленный мукой противень так, чтобы они не соприкасались.", 
-                "Охладите пельмени в холодильнике в течение 20–30 минут, затем уберите в морозилку.", 
-                "Через 4–6 часов переложите их в пакет или контейнер, где их можно хранить слоями.", 
-                "Чтобы сварить замороженные или свежие пельмени, бросьте их в кипящую воду и варите 6–7 минут после того, как они всплывут на поверхность.", 
+                "Охладите пельмени в холодильнике в течение 20-30 минут, затем уберите в морозилку.", 
+                "Через 4-6 часов переложите их в пакет или контейнер, где их можно хранить слоями.", 
+                "Чтобы сварить замороженные или свежие пельмени, бросьте их в кипящую воду и варите 6-7 минут после того, как они всплывут на поверхность.", 
 
                 ],
                 note: "Лучше не раскатывать все тесто сразу, а разделить на несколько частей и сделать несколько раскаток. Остатки теста можно использовать для последней порции пельменей."
@@ -656,19 +853,19 @@ const translations = {
                 ],
                 instructions: [
                 "Add a pinch of salt to the ice-cold water and pour it into the flour.", 
-                "Knead the dough for 8–12 minutes. It should become soft, elastic, not tear, and not stick to your hands.", 
+                "Knead the dough for 8-12 minutes. It should become soft, elastic, not tear, and not stick to your hands.", 
                 "Let the dough rest for 30 minutes.", 
                 "Blend the onion and add it to the ground meat.", 
                 "Dissolve half of the bouillon cube in 50 ml of water and add it to the meat. Season with salt and pepper, and add additional spices to taste, such as paprika and chili if desired.", 
                 "Lightly dust the work surface with flour and roll out the dough.", 
-                "Cut out circles 5–7 cm in diameter. Set the scraps aside without kneading them back into the main dough.", 
+                "Cut out circles 5-7 cm in diameter. Set the scraps aside without kneading them back into the main dough.", 
                 "Place about 1 teaspoon of filling onto each circle.", 
                 "Moisten one half of the outer edge with water, fold into a half-moon shape, pinch the edges together, and shape into a dumpling.", 
-                "If you plan to eat the dumplings right away, boil them in salted water for 6–7 minutes after they float to the surface.", 
+                "If you plan to eat the dumplings right away, boil them in salted water for 6-7 minutes after they float to the surface.", 
                 "If you are freezing the dumplings, place them on a flour-dusted tray so that they do not touch each other.", 
-                "Chill the dumplings in the refrigerator for 20–30 minutes, then transfer them to the freezer.", 
-                "After 4–6 hours, move them to a bag or container where they can be stored in layers.", 
-                "To cook frozen or fresh dumplings, drop them into boiling water and cook for 6–7 minutes after they float to the surface.",            
+                "Chill the dumplings in the refrigerator for 20-30 minutes, then transfer them to the freezer.", 
+                "After 4-6 hours, move them to a bag or container where they can be stored in layers.", 
+                "To cook frozen or fresh dumplings, drop them into boiling water and cook for 6-7 minutes after they float to the surface.",            
 
                 ],
                 note: "It is better not to roll out all the dough at once, but to divide it into several parts and do several rollouts. The remaining dough can be used for the final batch of dumplings."
@@ -679,7 +876,7 @@ const translations = {
                 title: "Паста карбонара",
                 meta:  {
                     time: "15 мин",
-                    servings: "2 порций"
+                    servings: "2 порции"
                   },
                 ingredients: [
                 "200 мл сливок (15–20%)", 
@@ -777,7 +974,7 @@ const translations = {
                 "100 g sugar", 
                 "75 g butter", 
                 "1/2 tsp baking soda", 
-                "1 sachet of vanilla (1–2 g)", 
+                "1 sachet of vanilla (1-2 g)", 
                 "A pinch of salt", 
 
                 ],
@@ -790,7 +987,7 @@ const translations = {
                 "Sift the flour and fold it into the batter, mixing until nearly smooth", 
                 "Line a baking tin with parchment paper, pour in the batter, and gently tap the tin on the counter to release air bubbles", 
                 "Place the tin in the preheated oven and bake for 10 minutes", 
-                "Make a lengthwise slit on the surface of the cake, 2–3 cm from the edge — this helps the cake open neatly while baking", 
+                "Make a lengthwise slit on the surface of the cake, 2-3 cm from the edge — this helps the cake open neatly while baking", 
                 "Continue baking for a further 35 minutes, check for doneness with a wooden toothpick", 
 
                 ],
