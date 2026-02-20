@@ -187,15 +187,15 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'snacks_marinated_mashrooms';
         } else if (path.includes('snacks_greek_salad')) {
             recipeKey = 'snacks_greek_salad';
-        }  else if (path.includes('snacks_fried_zucchini')) {
+        } else if (path.includes('snacks_fried_zucchini')) {
             recipeKey = 'snacks_fried_zucchini';
-        }  else if (path.includes('snacks_salad_with_yogurt_dressing')) {
+        } else if (path.includes('snacks_salad_with_yogurt_dressing')) {
             recipeKey = 'snacks_salad_with_yogurt_dressing';
-        }  else if (path.includes('snacks_marinated_mashrooms')) {
+        } else if (path.includes('snacks_marinated_mashrooms')) {
             recipeKey = 'snacks_marinated_mashrooms';
-        }   else if (path.includes('snacks_semi_salted_cucumbers')) {
+        } else if (path.includes('snacks_semi_salted_cucumbers')) {
             recipeKey = 'snacks_semi_salted_cucumbers';
-        }  else if (path.includes('snaks_salad_carrot_cabbabege')) {
+        } else if (path.includes('snaks_salad_carrot_cabbabege')) {
             recipeKey = 'snaks_salad_carrot_cabbabege';
         } else if (path.includes('snacks_green_salad_with_balsamic')) {
             recipeKey = 'snacks_green_salad_with_balsamic';
@@ -211,6 +211,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_banana_bread';
         } else if (path.includes('dessert_bese')) {
             recipeKey = 'dessert_bese';
+        } else if (path.includes('dessert_cupcake_creamchease_straberry_jam')) {
+            recipeKey = 'dessert_cupcake_creamchease_straberry_jam';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

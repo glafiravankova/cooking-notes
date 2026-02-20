@@ -31,8 +31,8 @@ const translations = {
     // Рецепты (для главной страницы)
     recipes: {
         // Завтраки
-        "Американские оладья": {
-            ru: "Американские оладья",
+        "Американские оладьи": {
+            ru: "Американские оладьи",
             en: "American Pancakes"
         },
         "Блины": {  
@@ -43,8 +43,8 @@ const translations = {
             ru: "Овсянка",
             en: "Oat Porridge"
         },
-        "Яйца с сосикой и томатами": {
-            ru: "Яйца с сосикой и томатами",
+        "Яйца с сосиской и томатами": {
+            ru: "Яйца с сосиской и томатами",
             en: "Eggs with sausage and tomatoes"
         },
         
@@ -113,6 +113,10 @@ const translations = {
             ru: "Безе",
             en: "Meringue"
             },
+        "Капекейки с клубничной начинкой и крем-чизом": {  
+            ru: "Капекейки с клубничной начинкой и крем-чизом",
+            en: "Cupcakes with Strawberry Filling and Cream Cheese Frosting"
+            },
         // Кремы/соусы
         "Название кремы": {
             ru: "Название кремы",
@@ -153,7 +157,7 @@ const translations = {
     recipeDetails: {
         "breakfast_american_style_pancakes": {
             ru: {
-                title: "Американские оладья",
+                title: "Американские оладьи",
                 meta: {
                     time: "45 минут",
                     servings: "3-4 порции"
@@ -271,14 +275,12 @@ const translations = {
                     servings: "1 порция"
                 },
                 ingredients: [
-                    "330 мл теплого кефира",
-                    "200 г муки",
-                    "1 яйцо",
-                    "1,5 ст.л. сахара",
-                    "2 ст.л. подсолнечного масла",
-                    "1 ч.л. разрыхлителя",
-                    "1/2 ч.л. соды",
-                    "1/3 ч.л. соли"
+                    "60 г овсянки",
+                    "280 г воды",
+                    "145 г молока",
+                    "5 г сливочного масла",
+                    "Щепотка соли",
+                    "Подсластители по вкусу (необязательно)"
                 ],
                 instructions: [
                     "На 1/3 стакана овсяных хлопьев возьмите 2/3 стакана воды и 1/3 стакана молока.",
@@ -318,7 +320,7 @@ const translations = {
         },
         "breakfast_eggs_sausage_tomato": {
             ru: {
-                title: "Яйца с сосикой и томатами",
+                title: "Яйца с сосиской и томатами",
                 meta: {
                     time: "10 минут",
                     servings: "1 порция"
@@ -373,7 +375,7 @@ const translations = {
                 ],
                 instructions: [
                     "Выложите зеленые листья в миску.", 
-                    "Добавьте оливковое масло и бальзамический крем, аккуратно перемешайте.", 
+                    "Добавьте оливковое масло и бальзамический крем, перемешайте.", 
 
                 ],
                 note: "Можно сбрызнуть капелькой лимона для кокетства."
@@ -498,7 +500,7 @@ const translations = {
                     servings: "2 порции"
                   },
                 ingredients: [
-                "150 г зелёных листьев (по выбору)", 
+                "150 г зеленых листьев (по выбору)", 
                 "100 г греческого йогурта", 
                 "1 зубчик чеснока", 
                 "Небольшой пучок укропа", 
@@ -507,11 +509,11 @@ const translations = {
                 ],
                 instructions: [
                 "Промойте, обсушите и нарежьте салатные листья.", 
-                "Измельчите укроп, натрите чеснок.", 
-                "Соедините всё в миске с йогуртом и добавьте щепотку сахара и соль по вкусу, аккуратно перемешайте.", 
+                "Измельчите укроп, натрите чеснок, добавьте йогурт, соль и сахар по вкусу, перемешайте.", 
+                "Заправку для салата добавьте прямо перед подачей на стол.", 
 
                 ],
-                note: ""
+                note: "Если за столом присутствуют люди с разными предпочтениями по чесноку в соусе, подавайте соус отдельно."
              },
             en: {
                 title: "Green Salad with Yogurt Dressing",
@@ -529,11 +531,11 @@ const translations = {
                 ],
                 instructions: [
                 "Rinse, dry, and slice the salad leaves.", 
-                "Finely chop the dill and grate the garlic.", 
-                "Combine everything in a bowl with the yogurt, add a pinch of sugar and salt to taste, and toss gently.", 
+                "Finely chop the dill, grate the garlic, then add the yogurt, salt, and sugar to taste; mix well.", 
+                "The dressing should be added to the salad immediately before serving.", 
 
                 ],
-                note: ""
+                note: "If your guests have different preferences regarding garlic in the dressing, serve the sauce separately."
              }
         },
         "snacks_marinated_mashrooms":  {
@@ -560,13 +562,13 @@ const translations = {
                 instructions: [
                 "Тщательно вымойте шампиньоны. Если грибы крупные, разрежьте их на четвертинки.", 
                 "Поместите шампиньоны в кастрюлю, залейте водой, доведите до кипения и варите в течение 10 минут.", 
-                "Тем временем мелко нарежьте чеснок и лук, а болгарский перец нарежьте тонкими полосками.", 
+                "Тем временем нарежьте лук полукольцами, чеснок и болгарский перец нарежьте тонкими полосками.", 
                 "Разложите сваренные шампиньоны на ровной поверхности, чтобы они быстрее остыли.", 
-                "После полного остывания (примерно через 10-15 минут) добавьте к грибам нарезанные овощи, растительное масло, зернистую горчицу, лимонный сок, соевый соус, соль и сахар.", 
-                "Переложите всё в банку, закройте крышкой и оставьте мариноваться в холодильнике.", 
+                "После полного остывания добавьте к грибам нарезанные овощи, растительное масло, зернистую горчицу, лимонный сок, соевый соус, соль и сахар.", 
+                "Переложите все в банку, закройте крышкой и оставьте мариноваться в холодильнике.", 
 
                 ],
-                note: "Грибы можно есть через час, но через 12-24 часа они становятся их вкус становится более нежным."
+                note: "Грибы уже будут вкусные через час, но через 12-24 часа их вкус станет более нежным."
              },
             en: {
                 title: "Marinated Mushrooms",
@@ -597,10 +599,9 @@ const translations = {
                 "Transfer everything to a jar, seal with a lid, and leave to marinate in the refrigerator.", 
 
                 ],
-                note: "The mushrooms can be enjoyed after one hour, but after 12-24 hours their flavour becomes noticeably more delicate."
+                note: "The mushrooms are ready after one hour, but after 12-24 hours their flavour becomes more delicate."
              }
         },
-
         "snacks_semi_salted_cucumbers":  {
             ru: {
                 title: "Маринованные огурцы",
@@ -610,15 +611,15 @@ const translations = {
                   },
                 ingredients: [
                 "2 свежих огурца", 
-                "1 пучок укропа", 
-                "1 головка чеснока", 
+                "1 небольшой пучок укропа", 
+                "1 зубчик чеснока", 
                 "Соль, сахар, по вкусу", 
 
                 ],
                 instructions: [
                 "Нарежьте огурец, натрите чеснок и измельчите укроп.", 
-                "Соедините все ингредиенты в миске, добавьте соль и щепотку сахара, аккуратно перемешайте.", 
-                "Перед подачей уберите в холодильник на 1 час.", 
+                "Соедините все ингредиенты в миске, добавьте соль и щепотку сахара, перемешайте.", 
+                "Уберите в холодильник на 1 час.", 
 
                 ],
                 note: "Можете добавить дополнительные специи по вкусу, например, гвоздику."
@@ -631,14 +632,14 @@ const translations = {
                   },
                 ingredients: [
                 "2 fresh cucumbers", 
-                "1 bunch of dill", 
-                "1 head of garlic", 
+                "1 small bunch of dill", 
+                "1 clove of garlic", 
                 "Salt and sugar, to taste", 
 
                 ],
                 instructions: [
                 "Slice the cucumbers, grate the garlic, and finely chop the dill.", 
-                "Combine all the ingredients in a bowl, add salt and a pinch of sugar, and mix gently.", 
+                "Combine all the ingredients in a bowl, add salt and a pinch of sugar, and mix.", 
                 "Refrigerate for 1 hour before serving.", 
 
                 ],
@@ -662,7 +663,7 @@ const translations = {
                 instructions: [
                 "Мелко нашинкуйте капусту и слегка помните ее руками.", 
                 "Натрите морковь на терке.", 
-                "Смешайте все в миске и хорошо перемешайте.", 
+                "Объедините все в миске и хорошо перемешайте.", 
 
                 ],
                 note: "Можно добавить чуть-чуть сахара, если капуста горчит."
@@ -754,51 +755,51 @@ const translations = {
                   },
                 ingredients: [
                 "500 г орзо", 
-                "500 г концентрированного томатного сока", 
+                "300 г бульона", 
                 "200 г греческой колбасы", 
                 "50 г феты", 
+                "50 г томатной пасты", 
                 "1 луковица", 
                 "4 зубчика чеснока", 
-                "1 бульонный кубик", 
                 "Соль, перец, паприка, чили", 
 
                 ],
                 instructions: [
                 "Сварите орзо в подсоленной воде согласно инструкции на упаковке.", 
                 "Тем временем обжарьте колбасу на сильном огне. Добавьте лук и выдавите чеснок.", 
-                "Когда орзо сварится, слейте почти всю воду, оставив небольшое количество воды, в которой варились макароны.", 
-                "Убавьте огонь до минимума, добавьте томатный сок, обжаренную колбасу с луком и чесноком, раскрошенную фету и приправы.", 
+                "Когда орзо сварится, слейте почти всю воду, оставив небольшое количество воды, в которой варилась паста.", 
+                "Убавьте огонь до минимума, добавьте бульон, томатную пасту, обжаренную колбасу с луком и чесноком, раскрошенную руками фету и приправы.", 
                 "Хорошо перемешайте, доведите до слабого кипения, затем снимите с огня и дайте постоять 5–10 минут перед подачей.", 
 
                 ],
-                note: ""
+                note: "Если нет бульона, то его можно заменить на бульонный кубик, но вместо томатной пасты потребуется 500 г протертых помидоров."
              },
             en: {
                 title: "Orzo with Greek Sausage",
                 meta:  {
-                    time: "25 min",
+                    time: "25 minutes",
                     servings: "Serves 6"
                   },
                 ingredients: [
                 "500 g orzo", 
-                "500 g concentrated tomato juice", 
+                "300 g broth", 
                 "200 g Greek sausage", 
                 "50 g feta", 
+                "50 g tomato paste", 
                 "1 onion", 
                 "4 cloves of garlic", 
-                "1 bouillon cube", 
-                "Salt, pepper, paprika, chili", 
+                "Salt, pepper, paprika, and chili", 
 
                 ],
                 instructions: [
                 "Cook the orzo in salted water according to the package instructions.", 
-                "Meanwhile, fry the sausage over high heat. Add the onion and press in the garlic.", 
-                "When the orzo is cooked, drain almost all the water, leaving a small amount of the pasta cooking water.", 
-                "Reduce the heat to low, add the tomato juice, the fried sausage with onion and garlic, crumbled feta, and the seasonings.", 
-                "Mix well, bring to a gentle simmer, then remove from the heat and let it rest for 5–10 minutes before serving.", 
+                "Meanwhile, sear the sausage over high heat. Add the onion and press in the garlic.", 
+                "Once the orzo is cooked, drain most of the water, reserving a small amount of the cooking liquid.", 
+                "Reduce the heat to low, then add the broth, tomato paste, sautéed sausage with onion and garlic, hand-crumbled feta, and the seasonings.", 
+                "Stir well, bring to a gentle simmer, then remove from the heat and let stand for 5–10 minutes before serving.", 
 
                 ],
-                note: ""
+                note: "If broth is unavailable, you may substitute a stock cube; however, replace the tomato paste with 500 g of crushed tomatoes."
              }
         },
         "main_dish_pelmeni":  {
@@ -879,13 +880,13 @@ const translations = {
                     servings: "2 порции"
                   },
                 ingredients: [
-                "200 мл сливок (15–20%)", 
+                "200 мл сливок (15-20%)", 
                 "180 г спагетти", 
                 "150 г копченого бекона", 
                 "2 зубчика чеснока", 
                 "1 яичный желток", 
                 "Соль, перец", 
-                "Пармиджано для посыпания", 
+                "Пармиджано для подачи", 
 
                 ],
                 instructions: [
@@ -894,7 +895,7 @@ const translations = {
                 "В небольшой миске смешайте сливки с яичным желтком, солью и перцем.", 
                 "Когда паста сварится, слейте почти всю воду, оставив немного воды, в которой варились спагетти.", 
                 "Верните спагетти в кастрюлю и убавьте огонь до очень слабого.", 
-                "Влейте сливочно-яичную смесь в бекон, постоянно помешивая, около 30 секунд. Затем добавьте всё к спагетти и готовьте на слабом огне около 5 минут, аккуратно перемешивая.", 
+                "Влейте сливочно-яичную смесь в бекон, постоянно помешивая, около 30 секунд. Затем добавьте все к спагетти и готовьте на слабом огне около 5 минут, аккуратно перемешивая.", 
                 "Подавайте, слегка посыпав сыром пармезан.", 
 
                 ],
@@ -956,7 +957,7 @@ const translations = {
                 "Застелите форму для выпечки пергаментом, вылейте тесто и слегка постучите формой по столу, чтобы выпустить пузырьки воздуха.", 
                 "Поставьте форму в разогретую духовку на 10 минут.", 
                 "Сделайте на поверхности кекса продольный разрез, отступив 2-3 см от края — это поможет кексу красиво раскрыться при выпекании.", 
-                "Выпекайте ещё 35 минут, готовность проверьте деревянной зубочисткой.", 
+                "Выпекайте еще 35 минут, готовность проверьте деревянной зубочисткой.", 
 
                 ],
                 note: ""
@@ -1046,6 +1047,108 @@ const translations = {
 
                 ],
                 note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:1.5 (for example, 100 g of egg whites requires 150 g of sugar). If your guests prefer different meringue textures — some with a soft, chewy centre and others fully crisp — you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
+             }
+        },
+        "dessert_cupcake_creamchease_straberry_jam":  {
+            ru: {
+                title: "Капекейки с клубничной начинкой и крем-чизом",
+                meta:  {
+                    time: "60 мин",
+                    servings: "9 порций"
+                  },
+                ingredients: [
+                "Для капкейков:", 
+                "3 яйца", 
+                "105 г сахара", 
+                "65 г муки", 
+                "8 г ванильного сахара", 
+                " ", 
+                "Для начинки:", 
+                "100 г замороженной клубники", 
+                "10 г сахара", 
+                "5 г кукурузного крахмала", 
+                " ", 
+                "Для крема:", 
+                "200 г творожного сыра", 
+                "65 г сливочного масла", 
+                "55 г сахарной пудры", 
+                "2 г ванилина", 
+
+                ],
+                instructions: [
+                "Начните с начинки, так как ей потребуется больше всего времени для остывания. Разморозьте клубнику, пробейте в блендере и протрите через сито.", 
+                "Переложите клубничное пюре в сотейник, добавьте сахар и начните нагревать массу на среднем огне.", 
+                "Когда сахар растворится, добавьте крахмал и варите, постоянно помешивая, до загустения.", 
+                "Когда масса загустеет, перелейте соус в широкую тарелку, накройте пленкой в контакт и оставьте остывать при комнатной температуре.", 
+                "Перейдите к приготовлению маффинов для капкейков. Тщательно обезжирьте и высушите миску, в которой будете взбивать белки.", 
+                "Аккуратно отделите белки от желтков (рекомендуется делать это над отдельной чашкой для каждого яйца, чтобы в белки не попала ни капли желтка).", 
+                "Добавьте к белкам щепотку соли и начните взбивать на минимальной скорости до появления белой пены.", 
+                "Увеличьте скорость до максимальной и продолжайте взбивать до тех пор, пока от венчика не начнет оставаться четкий след.", 
+                "Затем постепенно всыпьте половину сахара, продолжая взбивать до устойчивых пиков (при поднятии венчика пик из белка должен сохранять форму и не оседать).", 
+                "В другой миске смешайте оставшиеся желтки, вторую половину сахара и ванильный сахар. Взбивайте массу до тех пор, пока она не станет пышной.", 
+                "Затем к желтковой массе переложите треть белковой и аккуратно перемешайте силиконовой лопаткой движениями снизу вверх.", 
+                "Затем добавьте дважды просеянную муку и снова перемешайте аккуратными движениями снизу вверх.", 
+                "Добавьте массу к белкам и снова аккуратно перемешайте.", 
+                "Разогрейте духовку до 180 градусов с нагревом сверху и снизу.", 
+                "Распределите тесто по формочкам для маффинов. Лучше внутрь вложить бумажные вкладыши для капкейков - так капкейк не заветрится и будет мягким несколько дней.", 
+                "Поставьте маффины в духовку на средний уровень примерно на 12 минут. Ориентируйтесь по своей духовке: когда маффины начнут покрываться золотистым цветом, проверьте готовность деревянной зубочисткой. Если она осталась сухой - маффины готовы.", 
+                "Выньте маффины и оставьте их остывать при комнатной температуре, накрыв чистым полотенцем.", 
+                "Перейдите к приготовлению крема. Смешайте масло, творожный сыр, сахарную пудру и ванилин в однородную массу.", 
+                "Когда начинка и капкейки остынут, сделайте неглубокий надрез по кругу в центре капкейка, снимите получившуюся шапочку, положите внутрь начинку, а затем снова накройте шапочкой.", 
+                "Затем с помощью кондитерского мешка выложите крем сверху капкейка. Если основание капкейка будет закрывать бумага, а верх - крем, капкейк останется мягким несколько дней.", 
+
+                ],
+                note: "Если хочется, можно использовать вместо клубники малину, но ее стоит взять чуть побольше, так как процент отходов у малины больше. Подойдут и другие ягоды. Или можно вообще не использовать начинку."
+             },
+            en: {
+                title: "Cupcakes with Strawberry Filling and Cream Cheese Frosting",
+                meta:  {
+                    time: "60 minutes",
+                    servings: "Serves 9"
+                  },
+                ingredients: [
+                "For the cupcakes:", 
+                "3 eggs", 
+                "105 g sugar", 
+                "65 g flour", 
+                "8 g vanilla sugar", 
+                " ", 
+                "For the filling:", 
+                "100 g frozen strawberries", 
+                "10 g sugar", 
+                "5 g cornstarch", 
+                " ", 
+                "For the frosting:", 
+                "200 g cream cheese", 
+                "65 g butter", 
+                "55 g icing sugar", 
+                "2 g vanilla", 
+
+                ],
+                instructions: [
+                "Begin with the filling, as it requires the most time to cool. Thaw the strawberries, blend until smooth, then strain through a sieve.", 
+                "Transfer the strawberry purée to a saucepan, add the sugar, and heat over medium.", 
+                "Once the sugar has dissolved, add the cornstarch and cook, stirring constantly, until thickened.", 
+                "Pour the thickened sauce onto a wide plate, cover with cling film in direct contact, and leave to cool at room temperature.", 
+                "Proceed with the cupcakes. Thoroughly degrease and dry the bowl for whipping the egg whites.", 
+                "Carefully separate the whites from the yolks (it is best to do this over a separate cup for each egg to avoid any yolk entering the whites).", 
+                "Add a pinch of salt to the whites and whisk at low speed until a light foam forms.", 
+                "Increase the speed to maximum and whisk until the whisk leaves a distinct trace.", 
+                "Gradually add half of the sugar, continuing to whisk until stiff peaks form.", 
+                "In a separate bowl, combine the yolks, the remaining sugar, and the vanilla sugar. Whisk until pale and fluffy.", 
+                "Gently fold one-third of the whipped whites into the yolk mixture using a silicone spatula, lifting from the bottom upwards.", 
+                "Add the twice-sifted flour and fold gently until incorporated.", 
+                "Fold the yolk mixture back into the remaining whites, mixing carefully.", 
+                "Preheat the oven to 180°C using top-and-bottom heat.", 
+                "Divide the batter among muffin moulds. Paper liners are recommended to keep the cupcakes soft for several days.", 
+                "Bake on the middle rack for about 12 minutes. Adjust to your oven: once lightly golden, test with a wooden toothpick. If it comes out dry, they are done.", 
+                "Remove the cupcakes and allow them to cool at room temperature, covered with a clean towel.", 
+                "Prepare the frosting by mixing the butter, cream cheese, icing sugar, and vanilla until smooth.", 
+                "Once both filling and cupcakes have cooled, cut a shallow circular cavity in the centre of each cupcake, remove the top, add the filling, and replace the top.", 
+                "Pipe the frosting onto the cupcakes using a piping bag. Properly stored, the cupcakes will remain soft for several days.", 
+
+                ],
+                note: "If desired, raspberries may be used instead of strawberries, though a slightly larger quantity is recommended due to greater waste. Other berries are also suitable, or the filling may be omitted entirely."
              }
         },
 
