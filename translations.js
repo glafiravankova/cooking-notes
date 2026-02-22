@@ -81,46 +81,50 @@ const translations = {
         "Название супа": {
             ru: "Название супа",
             en: "Soup name"
-            },
+        },
         // Основные блюда
         "Курица карри": {  
             ru: "Курица карри",
             en: "Chicken Curry"
-            },
+        },
         "Орзо с греческой колбаской": {  
             ru: "Орзо с греческой колбаской",
             en: "Orzo with Greek Sausage"
-            },
+        },
         "Паста карбонара": {  
             ru: "Паста карбонара",
             en: "Pasta Carbonara"
-            },
+        },
         "Пельмени": {  
             ru: "Пельмени",
             en: "Pelmeni"
-            },
+        },
         // Гарниры
         "Название гарнира": {
             ru: "Название гарнира",
             en: "Side dish name"
-            },
+        },
         // Десерты
         "Банановый хлеб": {  
             ru: "Банановый хлеб",
             en: "Banana Bread"
-            },
+        },
         "Безе": {  
             ru: "Безе",
             en: "Meringue"
-            },
+        },
+        "Блинный торт": {  
+            ru: "Блинный торт",
+            en: "Pancake Cake"
+        },
         "Капекейки с клубничной начинкой и крем-чизом": {  
             ru: "Капекейки с клубничной начинкой и крем-чизом",
             en: "Cupcakes with Strawberry Filling and Cream Cheese Frosting"
-            },
+        },
         "Наполеон с малиновым джемом в стаканчике": {  
             ru: "Наполеон с малиновым джемом в стаканчике",
             en: "Napoleon with Raspberry Jam in a Cup"
-            },
+        },
         "Панна-котта c клубничным джемом": {  
                 ru: "Панна-котта c клубничным джемом",
                 en: "Panna Cotta with Strawberry Jam"
@@ -129,7 +133,7 @@ const translations = {
         "Название кремы": {
             ru: "Название кремы",
             en: "Sauce name"
-            },
+        },
     },
     
     // Время и порции
@@ -1057,6 +1061,100 @@ const translations = {
 
                 ],
                 note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:1.5 (for example, 100 g of egg whites requires 150 g of sugar). If your guests prefer different meringue textures — some with a soft, chewy centre and others fully crisp — you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
+             }
+        },
+
+        "dessert_pancake_cake":  {
+            ru: {
+                title: "Блинный торт",
+                meta:  {
+                    time: "240 мин",
+                    servings: "8 порций"
+                  },
+                ingredients: [
+                "Для блинов:", 
+                "4 яйца", 
+                "80 г сахара", 
+                "600 мл молока", 
+                "250 г муки", 
+                "180 мл кипятка", 
+                "4 ст.л. растительного масла", 
+                "Щепотка соли", 
+                "Подсолнечное масло, чтобы периодически смазывать сковородку", 
+                "Сливочное масло, чтобы смазавать готовый блинДля начинки:", 
+                "500 г свежей клубники", 
+                "700 г творожного сыра", 
+                "140 г холодных 33% сливок", 
+                "100 г сахарной пудры", 
+                "Ягоды и листики мяты для украшения", 
+
+                ],
+                instructions: [
+                "Начните с приготовления блинов. Взбейте яйца с сахаром и солью, затем добавьте половину молока.", 
+                "Постепенно всыпьте муку, тщательно перемешивая, чтобы не осталось комочков.", 
+                "Влейте оставшееся молоко и снова перемешайте до однородности.", 
+                "Помешивая массу, тонкой струйкой влейте крутой кипяток, добавьте растительное масло, еще раз перемешайте и оставьте тесто на 20-30 минут при комнатной температуре.", 
+                "Выпекайте блины на среднем огне, слегка смазав сковороду растительным маслом перед первым блином.", 
+                "Переворачивайте блины с помощью силиконовой лопатки.", 
+                "Готовые блины смазывайте сливочным маслом, складывайте стопкой и накрывайте полотенцем, чтобы они оставались мягкими.", 
+                "Перейдите к приготовлению крема. Вмешайте сахарную пудру в творожный сыр до однородности.", 
+                "Взбейте сливки до устойчивых пиков, затем аккуратно вмешайте в них творожный сыр с сахарной пудрой.", 
+                "Нарежьте клубнику тонкими пластинками вдоль.", 
+                "Подготовьте кондитерское кольцо, соответствующее диаметру блинов. Чтобы сформировать красивые стенки торта, выложите блины следующим образом: поместите блин внутрь кольца так, чтобы центральная часть блина закрывала кондитерское кольцо, а края свешивались наружу. Следующий блин уложите внахлест, постепенно закрывая внутреннюю поверхность кольца. Края блинов, свисающие наружу, позже закроют верх торта.", 
+                "На дно (поверх блинов, которые формируют стенки) выложите один целый блин. Смажьте его тонким слоем крема и выложите слой клубничных пластинок.", 
+                "Повторяйте слои: блин, крем, клубника - пока не закончатся ингредиенты или не будет заполнено кольцо.", 
+                "Заверните свисающие края блинов наверх торта, формируя аккуратное покрытие.", 
+                "Сверху положите красивый блин - он станет основой для украшения.", 
+                "Украсьте поверхность по желанию. Торт готов к подаче сразу после сборки.", 
+
+                ],
+                note: "Возьмите две сковородки и подружку, тогда время готовки снизится с 4 часов до 1,5."
+             },
+            en: {
+                title: "Pancake Cake",
+                meta:  {
+                    time: "240 minutes",
+                    servings: "Serves 8"
+                  },
+                ingredients: [
+                "For the pancakes:", 
+                "4 eggs", 
+                "80 g sugar", 
+                "600 ml milk", 
+                "250 g flour", 
+                "180 ml boiling water", 
+                "4 tbsp vegetable oil", 
+                "A pinch of salt", 
+                "Sunflower oil, for greasing the pan as needed", 
+                "Butter, for brushing the finished pancakes", 
+                "For the filling:", 
+                "500 g fresh strawberries", 
+                "700 g cream cheese", 
+                "140 g cold 33% cream", 
+                "100 g icing sugar", 
+                "Berries and mint leaves, for decoration", 
+
+                ],
+                instructions: [
+                "Begin by preparing the pancakes. Whisk the eggs with the sugar and salt, then add half of the milk.", 
+                "Gradually add the flour, mixing thoroughly until no lumps remain.", 
+                "Pour in the remaining milk and stir until smooth.", 
+                "While stirring, slowly stream in the boiling water. Add the vegetable oil, mix again, and let the batter rest for 20–30 minutes at room temperature.", 
+                "Cook the pancakes over medium heat, lightly greasing the pan before the first pancake.", 
+                "Flip using a silicone spatula.", 
+                "Brush the finished pancakes with butter, stack them, and cover with a towel to keep them soft.", 
+                "Prepare the cream. Mix the icing sugar into the cream cheese until smooth.", 
+                "Whip the cream to stiff peaks, then gently fold it into the cream cheese mixture.", 
+                "Slice the strawberries lengthwise into thin pieces.", 
+                "Prepare a pastry ring matching the diameter of the pancakes. To create neat sides, place a pancake inside the ring so that the centre covers the base and the edges hang over. Overlap additional pancakes until the inner wall of the ring is lined. The overhanging edges will later cover the top.", 
+                "Place one whole pancake on the bottom. Spread a thin layer of cream and add a layer of strawberries.", 
+                "Repeat the layers: pancake, cream, strawberries, until the ring is filled or the ingredients are used up.", 
+                "Fold the overhanging pancake edges over the top to seal the cake.", 
+                "Finish with a smooth pancake on top as the base for decoration.", 
+                "Decorate as desired. The cake may be served immediately.", 
+
+                ],
+                note: "Use two frying pans and a helpful friend, this way the preparation time shrinks from four hours to about one and a half."
              }
         },
         "dessert_cupcake_creamchease_straberry_jam":  {
