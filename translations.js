@@ -82,6 +82,10 @@ const translations = {
             ru: "Бульон куриный",
             en: "Chicken Broth"
         },
+        "Крем-суп из шампиньонов": {  
+            ru: "Крем-суп из шампиньонов",
+            en: "Creamy Mushroom Soup"
+        },
         // Основные блюда
         "Курица карри": {  
             ru: "Курица карри",
@@ -766,6 +770,70 @@ const translations = {
                 note: "The finished chicken broth can be divided into portions (approximately 500 ml each) and frozen. This way, you will always have a convenient base for quick soups or sauces."
              }
         },
+        "soup_creamy_mashroom_soup":  {
+            ru: {
+                title: "Крем-суп из шампиньонов",
+                meta:  {
+                    time: "45 мин",
+                    servings: "4 порции"
+                  },
+                ingredients: [
+                "400 г шампиньонов", 
+                "300 г картофеля", 
+                "600 мл воды или куриного бульона", 
+                "200 мл сливок (20%)", 
+                "1 луковица", 
+                "20 г сливочного масла", 
+                "10 мл растительного масла", 
+                "Соль, перец по вкусу", 
+
+                ],
+                instructions: [
+                "Очистите картофель и нарежьте небольшими кубиками - так он сварится быстрее.", 
+                "Залейте картофель водой, поставьте на максимальный огонь и доведите до кипения.", 
+                "После закипания посолите, убавьте огонь и варите до мягкости (картофель должен легко протыкаться вилкой). Воду от картофеля слейте.", 
+                "Тем временем очистите шампиньоны. Удобнее всего делать это с помощью небольшой щетки (пригодится старая зубная щетка).", 
+                "В сковороде разогрейте растительное масло, добавьте сливочное. Обжарьте мелко нарезанный лук до прозрачности.", 
+                "Добавьте к луку нарезанные шампиньоны. Жарьте на сильном огне, пока не выпарится вся жидкость, а грибы не подрумянятся. На этом этапе не солите - иначе грибы пустят сок и начнут тушиться.", 
+                "Переложите обжаренные грибы к картофелю, влейте воду или бульон и прогрейте массу.", 
+                "Измельчите суп погружным блендером до состояния гладкого пюре.", 
+                "Посолите, поперчите по вкусу и влейте сливки.", 
+                "Поставьте суп на самый маленький огонь и прогревайте, постоянно помешивая, 2-3 минуты. Как только появятся первые пузырьки - суп готов.", 
+
+                ],
+                note: "Для хрустящих гренок нарежьте хлеб кубиками, смешайте оливковое масло с измельченным чесноком, сбрызните хлеб и подсушите в духовке при 180°C около 10 минут."
+             },
+            en: {
+                title: "Creamy Mushroom Soup",
+                meta:  {
+                    time: "45 minutes",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "700-1000 g chicken (preferably bone-in)", 
+                "1 onion", 
+                "1 carrot", 
+                "1 bunch of dill", 
+                "5 peppercorns", 
+                "Salt to taste", 
+
+                ],
+                instructions: [
+                "Place the chicken in a big pot and cover with cold water.", 
+                "Set over high heat and bring to a boil.", 
+                "Skim off any foam that rises to the surface.", 
+                "Add the salt, peppercorns, dill, peeled carrot, and onion. Reduce the heat so the broth simmers gently.", 
+                "Cover with a lid and cook for 1-1.5 hours.", 
+                "Once the broth is ready, remove the onion, carrot, and herbs (if used).", 
+                "Lift out the chicken, allow it to cool slightly, then separate the meat from the bones. Slice or shred and return the meat to the broth (or store separately if preparing ahead).", 
+                "If you plan to add vermicelli or potatoes, pour the required amount of broth into a separate saucepan — only as much as you intend to serve now.", 
+                "Bring the broth to a boil. Add vermicelli (about 20 g per serving) or diced potatoes (1 medium potato per serving).", 
+                "Cook until done: vermicelli according to the package instructions; potatoes until tender and easily pierced with a fork.", 
+
+                ],
+                note: "For crisp croutons, cut the bread into cubes. Combine olive oil with finely minced garlic, drizzle over the bread, and dry in the oven at 180°C for about 10 minutes."
+             }
+        },
         "main_dish_chicken_curry":  {
             ru: {
                 title: "Курица карри",
@@ -1080,7 +1148,7 @@ const translations = {
                   },
                 ingredients: [
                 "2 яйца (понадобится только белок)", 
-                "90 г сахара", 
+                "120 г сахара", 
                 "Щепотка соли", 
 
                 ],
@@ -1096,7 +1164,7 @@ const translations = {
                 "Точное время приготовления безе в духовке указать невозможно, так как оно зависит от размера безе (чем они больше, тем дольше сушка) и желаемой текстуры (чем суше вы хотите получить безе, тем больше времени потребуется). Начинать проверять готовность можно через 1,5–2 часа.", 
 
                 ],
-                note: "Чтобы точно рассчитать количество сахара, взвесьте белки и возьмите сахар в пропорции 1:1,5 (например, на 100 г белков потребуется 150 г сахара). Если среди ваших гостей есть поклонники разных видов безе — одни любят с тянучкой внутри, а другие полностью сухие, — вы можете сделать одну партию безе чуть меньше и достать их позже (для сухих), а другую — крупнее и вынуть пораньше (для мягких)."
+                note: "Чтобы точно рассчитать количество сахара, взвесьте белки и возьмите сахар в пропорции 1:2 (например, на 100 г белков потребуется 200 г сахара). Если среди ваших гостей есть поклонники разных видов безе - одни любят с тянучкой внутри, а другие полностью сухие, - вы можете сделать одну партию безе чуть меньше и достать их позже (для сухих), а другую - крупнее и вынуть пораньше (для мягких)."
              },
             en: {
                 title: "Meringue",
@@ -1106,7 +1174,7 @@ const translations = {
                   },
                 ingredients: [
                 "2 eggs (whites only)", 
-                "90 g sugar", 
+                "120 g sugar", 
                 "A pinch of salt", 
 
                 ],
@@ -1122,7 +1190,7 @@ const translations = {
                 "The exact drying time cannot be specified, as it depends on the size of the meringues (larger ones require longer drying) and the desired texture (the drier the result, the longer the drying). Begin checking for readiness after 1.5–2 hours.", 
 
                 ],
-                note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:1.5 (for example, 100 g of egg whites requires 150 g of sugar). If your guests prefer different meringue textures — some with a soft, chewy centre and others fully crisp — you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
+                note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:2 (for example, 100 g of egg whites requires 200 g of sugar). If your guests prefer different meringue textures - some with a soft, chewy centre and others fully crisp - you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
              }
         },
         "dessert_pancake_cake":  {
