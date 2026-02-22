@@ -119,7 +119,7 @@ const translations = {
             },
         "Наполеон с малиновым джемом в стаканчике": {  
             ru: "Наполеон с малиновым джемом в стаканчике",
-            en: "Napoleon with Raspberry Jam in a Glass"
+            en: "Napoleon with Raspberry Jam in a Cup"
             },
         "Панна-котта c клубничным джемом": {  
                 ru: "Панна-котта c клубничным джемом",
@@ -227,7 +227,8 @@ const translations = {
                 "40 г сахара", 
                 "300 мл молока", 
                 "125 г муки", 
-                "90 мл кипятка", 
+                "90 мл кипятка",
+                "2 ст.л. растительного масла", 
                 "Щепотка соли", 
                 "Подсолнечное масло, чтобы периодически смазывать сковородку", 
                 "Сливочное масло, чтобы смазавать готовый блин", 
@@ -237,7 +238,7 @@ const translations = {
                 "Взбейте яйца с сахаром и солью, добавьте половину молока.", 
                 "Постепенно всыпьте муку, тщательно перемешивая.", 
                 "Влейте оставшееся молоко.", 
-                "Затем тонкой струйкой влейте крутой кипяток и оставьте тесто на 20-30 минут.", 
+                "Затем, помешивая массу, тонкой струйкой влейте крутой кипяток, добавьте масло, перемешайте и оставьте тесто на 20-30 минут.", 
                 "Выпекайте блины на среднем огне, смазав сковороду растительным маслом.", 
                 "Переворачивайте блины силиконовой лопаткой.", 
                 "Готовые блины смазывайте сливочным маслом и складывайте стопкой, накрыв полотенцем.", 
@@ -256,7 +257,8 @@ const translations = {
                 "40 g sugar", 
                 "300 ml milk", 
                 "125 g flour", 
-                "90 ml boiling water", 
+                "90 ml boiling water",
+                "2 tbsp vegetable oil", 
                 "A pinch of salt", 
                 "Sunflower oil, for greasing the pan as needed", 
                 "Butter, for brushing the finished pancakes", 
@@ -266,7 +268,7 @@ const translations = {
                 "Whisk the eggs with the sugar and salt, then add half of the milk.", 
                 "Gradually sift in the flour, mixing thoroughly to achieve a smooth batter.", 
                 "Pour in the remaining milk.", 
-                "Slowly stream in the freshly boiled water, stirring constantly, then let the batter rest for 20–30 minutes.", 
+                "Slowly stream in the freshly boiled water, stirring constantly, add oil, mix and then let the batter rest for 20–30 minutes.", 
                 "Cook the pancakes over medium heat, lightly greasing the pan with vegetable oil.", 
                 "Flip the pancakes using a silicone spatula.", 
                 "Brush the finished pancakes with butter and stack them, covering with a towel to keep warm.", 
@@ -1205,7 +1207,7 @@ const translations = {
                 note: "Для джема подойдут и другие ягоды или можно вообще не использовать начинку."
              },
             en: {
-                title: "Napoleon with Raspberry Jam in a Glass",
+                title: "Napoleon with Raspberry Jam in a Cup",
                 meta:  {
                     time: "180 minutes",
                     servings: "Serves 9"
@@ -1266,7 +1268,8 @@ const translations = {
                 "50 г сахара", 
                 "50 г воды", 
                 "10 г желатина", 
-                "Для джема:250 г замороженной клубники", 
+                "Для джема:", 
+                "250 г замороженной клубники", 
                 "30 г сахарной пудры", 
                 "5 г крахмала", 
 
@@ -1298,7 +1301,6 @@ const translations = {
                 "50 g sugar", 
                 "50 g water", 
                 "10 g gelatin", 
-                " ", 
                 "For the jam:", 
                 "250 g frozen strawberries", 
                 "30 g icing sugar", 
