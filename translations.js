@@ -78,9 +78,9 @@ const translations = {
             en: "Cabbage and Carrot Salad"
         },
         // Супы
-        "Название супа": {
-            ru: "Название супа",
-            en: "Soup name"
+        "Бульон куриный": {  
+            ru: "Бульон куриный",
+            en: "Chicken Broth"
         },
         // Основные блюда
         "Курица карри": {  
@@ -704,6 +704,68 @@ const translations = {
                 note: "You can add a little sugar if the cabbage tastes bitter."
              }
         },
+        "soup_chicken_broth":  {
+            ru: {
+                title: "Бульон куриный",
+                meta:  {
+                    time: "90 мин",
+                    servings: "12 порций"
+                  },
+                ingredients: [
+                "700-1000 г курицы (желательно с костью)", 
+                "1 луковица", 
+                "1 морковь", 
+                "1 пучок укропа", 
+                "5 горошков перца", 
+                "Соль по вкусу", 
+
+                ],
+                instructions: [
+                "Положите курицу в большую кастрюлю и залейте холодной водой.", 
+                "Поставьте кастрюлю на максимальный огонь и доведите до кипения.", 
+                "Снимите образовавшуюся пену шумовкой.", 
+                "Добавьте соль, перец горошком, укроп, очищенную морковь и луковицу. Убавьте огонь так, чтобы суп слегка побулькивал.", 
+                "Накройте кастрюлю крышкой и варите бульон 1–1,5 часа.", 
+                "Когда бульон будет готов, выньте из него лук, морковь и зелень (если добавляли).", 
+                "Достаньте курицу, дайте ей немного остыть и отделите мясо от костей. Нарежьте или разберите на волокна и верните в бульон (или храните отдельно, если суп варите впрок).", 
+                "Если планируете добавить вермишель или картофель, отлейте нужное количество бульона в отдельную кастрюлю - столько, сколько планируете съесть сейчас.", 
+                "Доведите бульон до кипения. Добавьте вермишель (примерно 20 г на порцию) или нарезанный картофель (1 средняя картофелина на порцию).", 
+                "Варите до готовности: вермишель - столько, сколько указано на упаковке, картофель - пока не станет мягким и легко протыкаться вилкой.", 
+
+                ],
+                note: "Готовый куриный бульон можно разлить по порциям (примерно по 500 мл) и заморозить. Так у вас всегда будет основа для быстрых супов или соусов."
+             },
+            en: {
+                title: "Chicken Broth",
+                meta:  {
+                    time: "90 minutes",
+                    servings: "Serves 12"
+                  },
+                ingredients: [
+                "700-1000 g chicken (preferably bone-in)", 
+                "1 onion", 
+                "1 carrot", 
+                "1 bunch of dill", 
+                "5 peppercorns", 
+                "Salt to taste", 
+
+                ],
+                instructions: [
+                "Place the chicken in a big pot and cover with cold water.", 
+                "Set over high heat and bring to a boil.", 
+                "Skim off any foam that rises to the surface.", 
+                "Add the salt, peppercorns, dill, peeled carrot, and onion. Reduce the heat so the broth simmers gently.", 
+                "Cover with a lid and cook for 1-1.5 hours.", 
+                "Once the broth is ready, remove the onion, carrot, and herbs (if used).", 
+                "Lift out the chicken, allow it to cool slightly, then separate the meat from the bones. Slice or shred and return the meat to the broth (or store separately if preparing ahead).", 
+                "If you plan to add vermicelli or potatoes, pour the required amount of broth into a separate saucepan — only as much as you intend to serve now.", 
+                "Bring the broth to a boil. Add vermicelli (about 20 g per serving) or diced potatoes (1 medium potato per serving).", 
+                "Cook until done: vermicelli according to the package instructions; potatoes until tender and easily pierced with a fork.", 
+
+                ],
+                note: "The finished chicken broth can be divided into portions (approximately 500 ml each) and frozen. This way, you will always have a convenient base for quick soups or sauces."
+             }
+        },
         "main_dish_chicken_curry":  {
             ru: {
                 title: "Курица карри",
@@ -1063,7 +1125,6 @@ const translations = {
                 note: "To calculate the precise amount of sugar, weigh the egg whites and use a ratio of 1:1.5 (for example, 100 g of egg whites requires 150 g of sugar). If your guests prefer different meringue textures — some with a soft, chewy centre and others fully crisp — you may pipe one batch smaller and remove it later (for a drier finish), and another batch larger and take it out earlier (for a softer centre)."
              }
         },
-
         "dessert_pancake_cake":  {
             ru: {
                 title: "Блинный торт",

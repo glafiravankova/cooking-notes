@@ -219,6 +219,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_panna_cotta';
         }  else if (path.includes('dessert_pancake_cake')) {
             recipeKey = 'dessert_pancake_cake';
+        } else if (path.includes('soup_chicken_broth')) {
+            recipeKey = 'soup_chicken_broth';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
