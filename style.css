@@ -488,3 +488,17 @@ a {
 .ingredients-table table {
     min-width: 300px;
 }
+
+/* Стили для ссылки в заметке */
+.note a,
+.note .keep-link {
+    color: #8b4513 !important;
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}
+
+.note a:hover,
+.note .keep-link:hover {
+    color: #a05252 !important;
+    text-decoration: underline !important;
+}

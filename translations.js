@@ -1,4 +1,3 @@
-// translations.js
 const translations = {
     // Общие фразы
     common: {
@@ -1808,7 +1807,7 @@ const translations = {
                 "Когда коржи и крем полностью остынут, распределите крем по каждому коржу. Посыпьте верх торта крошкой и уберите в холодильник. Через 203 часа торт уже можно есть, но он будет менее пропитанным. На следующий день торт станет максимально мягким", 
 
                 ],
-                note: "Если вас раздражает, что слоеное тесто при нарезке разлетается по всей кухне, попробуйте рецепт Наполеона в стакане."
+                note: "Если вас раздражает, что слоеное тесто при нарезке разлетается по всей кухне, попробуйте рецепт <a href='dessert_napoleon_individual.html' class='elegant-link keep-link'>Наполеона в стакане</a>."
              },
             en: {
                 title: "Napoleon Cake",
@@ -1842,7 +1841,7 @@ const translations = {
                 "Once both layers and cream are fully cooled, spread the cream evenly between the layers. Sprinkle the top with crumbs and refrigerate. The cake may be enjoyed after several hours, though it will be less infused. By the next day, it will reach its ideal softness.", 
 
                 ],
-                note: "If you find it frustrating that puff pastry scatters crumbs all over the kitchen when sliced, try the Napoleon in a cup variation."
+                note: "If you find it frustrating that puff pastry scatters crumbs all over the kitchen when sliced, try the <a href='dessert_napoleon_individual.html' class='elegant-link keep-link'>Napoleon in a cup</a> variation."
              }
         },
 

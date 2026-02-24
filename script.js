@@ -281,17 +281,10 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             // Заметка/совет
-            const note = document.querySelector('.note p');
-            if (note) {
-                const strong = note.querySelector('strong');
-                if (strong) {
-                    strong.textContent = translations.sections[lang].tip + ':';
-                    // Сохраняем остальной текст
-                    const noteText = recipe.note;
-                    note.innerHTML = `${strong.outerHTML} ${noteText}`;
-                } else {
-                    note.innerHTML = `<strong>${translations.sections[lang].tip}:</strong> ${recipe.note}`;
-                }
+            const note = document.querySelector('.note');
+            if (note && recipe.note && translations.sections[lang]) {
+                const tipText = translations.sections[lang].tip;
+                note.innerHTML = `<p><strong>${tipText}:</strong> ${recipe.note}</p>`;
             }
         }
     }
@@ -383,47 +376,3 @@ document.addEventListener('DOMContentLoaded', function() {
     
     console.log('✅ Все функции инициализированы');
 });
-
-// Функция для инициализации вкладок
-function initializeTabs() {
-    if (tabButtons.length === 0) {
-        console.log('Нет кнопок вкладок');
-        return;
-    }
-    
-    // Сначала скрываем все вкладки
-    tabContents.forEach(content => {
-        content.style.display = 'none';
-    });
-    
-    // Пытаемся загрузить последнюю активную вкладку
-    const lastActiveTab = localStorage.getItem('lastActiveTab');
-    
-    if (lastActiveTab && document.getElementById(lastActiveTab)) {
-        // Если есть сохраненная вкладка и она существует
-        switchTab(lastActiveTab);
-    } else {
-        // Если нет сохраненной вкладки, активируем первую
-        const firstTabId = tabButtons[0].getAttribute('data-tab');
-        switchTab(firstTabId);
-    }
-}
-
-// Добавить обработчики кликов на кнопки вкладок
-tabButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        const tabId = this.getAttribute('data-tab');
-        switchTab(tabId);
-        
-        // Анимация нажатия
-        this.style.transform = 'scale(0.95)';
-        setTimeout(() => {
-            this.style.transform = '';
-        }, 150);
-        
-        console.log(`Переключились на категорию: ${this.querySelector('span').textContent}`);
-    });
-});
-
-// Инициализируем вкладки
-initializeTabs();
