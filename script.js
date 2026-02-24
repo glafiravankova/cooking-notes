@@ -221,10 +221,16 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_pancake_cake';
         } else if (path.includes('soup_chicken_broth')) {
             recipeKey = 'soup_chicken_broth';
-        }  else if (path.includes('soup_creamy_mashroom_soup')) {
+        } else if (path.includes('soup_creamy_mashroom_soup')) {
             recipeKey = 'soup_creamy_mashroom_soup';
-        }  else if (path.includes('dessert_profiterol')) {
+        } else if (path.includes('dessert_profiterol')) {
             recipeKey = 'dessert_profiterol';
+        } else if (path.includes('dessert_grapefruit_cake')) {
+            recipeKey = 'dessert_grapefruit_cake';
+        } else if (path.includes('dessert_grapefruit_jelly')) {
+            recipeKey = 'dessert_grapefruit_jelly';
+        } else if (path.includes('dessert_napoleon_cake')) {
+            recipeKey = 'dessert_napoleon_cake';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

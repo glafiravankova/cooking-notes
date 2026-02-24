@@ -121,6 +121,14 @@ const translations = {
             ru: "Блинный торт",
             en: "Pancake Cake"
         },
+        "Грейпфрутовое желе": {  
+            ru: "Грейпфрутовое желе",
+            en: "Grapefruit Jelly"
+        },
+        "Грейпфрутовый торт": {  
+            ru: "Грейпфрутовый торт",
+            en: "Grapefruit Cake"
+        },
         "Капекейки с клубничной начинкой и крем-чизом": {  
             ru: "Капекейки с клубничной начинкой и крем-чизом",
             en: "Cupcakes with Strawberry Filling and Cream Cheese Frosting"
@@ -136,7 +144,11 @@ const translations = {
         "Профитроли с заварным кремом": {  
             ru: "Профитроли с заварным кремом",
             en: "Profiteroles with custard cream"
-            },
+        },
+        "Торт Наполеон": {  
+            ru: "Торт Наполеон",
+            en: "Napoleon Cake"
+        },
         // Кремы/соусы
         "Название кремы": {
             ru: "Название кремы",
@@ -1291,6 +1303,131 @@ const translations = {
                 note: "Use two frying pans and a helpful friend, this way the preparation time shrinks from four hours to about one and a half."
              }
         },
+        "dessert_grapefruit_jelly":  {
+            ru: {
+                title: "Грейпфрутовое желе",
+                meta:  {
+                    time: "180 мин",
+                    servings: "1-2 порции"
+                  },
+                ingredients: [
+                "1 грейпфрут", 
+                "2 столовые ложки сахара", 
+                "130 мл воды", 
+                "10 г желатина", 
+
+                ],
+                instructions: [
+                "Тщательно вымойте и обсушите грейпфрут", 
+                "Разрежьте его пополам", 
+                "Аккуратно извлеките мякоть, не повреждая кожуру. Промойте половинки и обсушите их бумажным полотенцем", 
+                "Очистите мякоть от косточек и перепонок между дольками и поместите мякоть грейпфрута в блендер", 
+                "Измельчите и процедите сок через мелкое сито или марлю", 
+                "В кастрюльке смешайте воду, желатин и сахар. Нагрейте примерно до 60°C или следуйте инструкции на упаковке желатина. Добавьте сок грейпфрута, хорошо перемешайте и разлейте смесь по половинкам грейпфрута", 
+                "Поставьте половинки грейпфрута на стаканы и уберите в холодильник до полного застывания", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Grapefruit Jelly",
+                meta:  {
+                    time: "240 minutes",
+                    servings: "Serves 12"
+                  },
+                ingredients: [
+                "1 grapefruit", 
+                "2 tbsp sugar", 
+                "130 ml water", 
+                "10 g gelatin", 
+
+                ],
+                instructions: [
+                "Wash and dry the grapefruit thoroughly.", 
+                "Cut it in half.", 
+                "Carefully remove the pulp without damaging the peel. Rinse the shells and pat them dry with a paper towel.", 
+                "Remove seeds and membranes from the pulp, then place it in a blender.", 
+                "Blend and strain the juice through a fine sieve or cheesecloth.", 
+                "In a small saucepan, combine the water, gelatin, and sugar. Heat gently to about 60°C, or according to the gelatin package instructions. Add the grapefruit juice, stir well, and pour the mixture into the grapefruit shells.", 
+                "Set the filled halves on glasses for stability and refrigerate until fully set.", 
+
+                ],
+                note: ""
+             }
+        },
+        "dessert_grapefruit_cake":  {
+            ru: {
+                title: "Грейпфрутовый торт",
+                meta:  {
+                    time: "180 мин",
+                    servings: "12 порций"
+                  },
+                ingredients: [
+                "Для торта100 г сливочного масла", 
+                "1 большой грейпфрут", 
+                "200 мл молока", 
+                "3 яйца", 
+                "350 г сахара", 
+                "350 г муки", 
+                "10 г разрыхлителяДля украшения:250 мл сливок 33%", 
+                "25 г сахарной пудры", 
+                "Загуститель для сливок (по инструкции)", 
+
+                ],
+                instructions: [
+                "Начните с теста. Разогрейте духовку до 180°C в режиме верхнего и нижнего нагрева. Охладите венчик и миску для взбивания в морозилке или холодильнике, а сливки оставьте в холодильнике", 
+                "Тщательно вымойте грейпфрут и натрите цедру. Можно отложить одну дольку и нарезать ее на 12 кусочков для последующего украшения торта", 
+                "Очистите грейпфрут, удалите косточки и перепонки между дольками. Слегка отожмите немного сока и положите мякоть в миску, сохранив сок для сиропа", 
+                "Добавьте к мякоти грейпфрута 150 г сахара и цедру, затем пробейте погружным блендером до однородности", 
+                "Добавьте растопленное сливочное масло, яйца и молоко, перемешайте блендером до объединения", 
+                "Постепенно всыпайте муку, смешанную с разрыхлителем, перемешивая после каждого добавления", 
+                "Вылейте тесто в форму для выпечки, застеленную пергаментом, и выпекайте 40 минут", 
+                "Для сиропа смешайте в кастрюльке отложенный сок грейпфрута и сахар. Доведите до кипения на среднем огне, периодически помешивая", 
+                "Когда бисквит остынет, проткните его зубочисткой и полейте остывшим сиропом, давая ему пропитаться", 
+                "Перейдите к приготовлению крема. Начните взбивать сливки на низкой скорости, затем постепенно добавьте сахарную пудру и загуститель. Увеличьте скорость и взбивайте до устойчивых пиков.", 
+                "Выложите крем на торт, затем разделите взбитые сливки на 12 порций. При желании украсьте дольками грейпфрута", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Grapefruit Cake",
+                meta:  {
+                    time: "180 minutes",
+                    servings: "Serves 12"
+                  },
+                ingredients: [
+                "For the cake:", 
+                "100 g butter", 
+                "1 large grapefruit", 
+                "200 ml milk", 
+                "3 eggs", 
+                "350 g sugar", 
+                "350 g flour", 
+                "10 g baking powder", 
+                "For the decoration:", 
+                "250 ml cream (33%)", 
+                "25 g icing sugar", 
+                "Cream stabiliser (as directed)", 
+
+                ],
+                instructions: [
+                "Begin with the batter. Preheat the oven to 180°C using conventional top-and-bottom heat. Chill the whisk and mixing bowl in the refrigerator or freezer, and keep the cream refrigerated.", 
+                "Wash the grapefruit thoroughly and grate the zest. If desired, reserve one segment and cut it into 12 small pieces for decoration.", 
+                "Peel the grapefruit, removing seeds and membranes. Gently squeeze out a little juice and set it aside for the syrup, placing the pulp in a bowl.", 
+                "Add 150 g of sugar and the zest to the grapefruit pulp, then blend with an immersion blender until smooth.", 
+                "Add the melted butter, eggs, and milk, and blend briefly until combined.", 
+                "Gradually add the flour mixed with baking powder, stirring after each addition.", 
+                "Pour the batter into a parchment-lined baking tin and bake for about 40 minutes.", 
+                "Prepare the syrup by combining the reserved grapefruit juice with sugar in a small saucepan. Bring to a boil over medium heat, stirring occasionally.", 
+                "Once the cake has cooled, prick it with a toothpick and pour over the cooled syrup, allowing it to soak in.", 
+                "Prepare the cream. Whip the chilled cream at low speed, then gradually add the icing sugar and stabiliser. Increase the speed and whip to stiff peaks.", 
+                "Spread the cream over the cake and divide the whipped cream into 12 portions. Decorate as desired, optionally with grapefruit pieces.", 
+
+                ],
+                note: ""
+             }
+        },
         "dessert_cupcake_creamchease_straberry_jam":  {
             ru: {
                 title: "Капекейки с клубничной начинкой и крем-чизом",
@@ -1609,7 +1746,6 @@ const translations = {
                 "4–6 eggs (depending on size)", 
                 "A pinch of salt", 
                 "5 g icing sugar (for dusting)", 
-                " ", 
                 "For the cream:", 
                 "500 ml milk", 
                 "2 eggs", 
@@ -1637,6 +1773,76 @@ const translations = {
 
                 ],
                 note: ""
+             }
+        },
+        "dessert_napoleon_cake":  {
+            ru: {
+                title: "Торт Наполеон",
+                meta:  {
+                    time: "180 мин",
+                    servings: "12 порций"
+                  },
+                ingredients: [
+                "850 г замороженного теста", 
+                "500 мл молока", 
+                "2 яйца", 
+                "40 г муки", 
+                "150 г сахара", 
+                "100 г сливочного масла", 
+                "10 г ванильного сахара", 
+
+                ],
+                instructions: [
+                "Начните с приготовления крема. В небольшой кастрюльке венчиком взбейте муку, сахар, ванильный сахар и яйца до однородности", 
+                "Постепенно влейте небольшое количество молока, тщательно взбивая, чтобы не было комочков", 
+                "Продолжайте вливать оставшееся молоко, взбивая смесь до полной однородности", 
+                "Поставьте кастрюльку на слабый огонь. Варите, постоянно помешивая, особенно по дну, чтобы не образовались комочки", 
+                "Как только крем загустеет и начнет закипать, снимите его с огня", 
+                "Добавьте размягченное сливочное масло в горячий крем и мешайте, пока оно полностью не растает и не вмешается", 
+                "Переложите крем в широкую миску для более быстрого остывания. Накройте пищевой пленкой «в контакт», чтобы не образовалась корочка. Дайте остыть в течение 2-3 часов", 
+                "Перейдите к приготовлению теста. Выложите тесто и дайте ему полностью разморозиться", 
+                "Подготовьте блюдо для подачи и застелите его фольгой", 
+                "Когда тесто разморозится, слегка припылите мукой рабочую поверхность и само тесто. Немного раскатайте его, затем вырежьте по форме вашего блюда. В идеале у вас должно получиться 4 коржа, но можно сделать больше слоев, раскатав тесто тоньше", 
+                "Выпекайте коржи и обрезки на противне, застеленном пергаментом, на среднем уровне духовки в режиме верхнего и нижнего нагрева при 220°C в течение 7-12 минут до золотистого цвета", 
+                "Дайте коржам остыть, затем измельчите обрезки в мелкую крошку", 
+                "Когда коржи и крем полностью остынут, распределите крем по каждому коржу. Посыпьте верх торта крошкой и уберите в холодильник. Через 203 часа торт уже можно есть, но он будет менее пропитанным. На следующий день торт станет максимально мягким", 
+
+                ],
+                note: "Если вас раздражает, что слоеное тесто при нарезке разлетается по всей кухне, попробуйте рецепт Наполеона в стакане."
+             },
+            en: {
+                title: "Napoleon Cake",
+                meta:  {
+                    time: "180 minutes",
+                    servings: "Serves 12"
+                  },
+                ingredients: [
+                "850 g frozen puff pastry", 
+                "500 ml milk", 
+                "2 eggs", 
+                "40 g flour", 
+                "150 g sugar", 
+                "100 g butter", 
+                "10 g vanilla sugar", 
+
+                ],
+                instructions: [
+                "Begin with the cream. In a small saucepan, whisk together the flour, sugar, vanilla sugar, and eggs until smooth.", 
+                "Gradually pour in a small amount of the milk, whisking thoroughly to prevent lumps.", 
+                "Add the remaining milk, whisking until completely smooth.", 
+                "Place the saucepan over low heat and cook, stirring constantly, especially along the bottom, until thickened.", 
+                "As soon as the cream thickens and begins to boil, remove it from the heat.", 
+                "Add the softened butter to the hot cream and stir until fully melted and incorporated.", 
+                "Transfer the cream to a wide bowl to cool more quickly. Cover with cling film in direct contact and allow to cool for 2–3 hours.", 
+                "Prepare the pastry. Remove the dough and allow it to thaw completely.", 
+                "Prepare a serving dish and line it with foil.", 
+                "Once thawed, lightly flour the work surface and the pastry. Roll it out slightly and cut to fit the shape of your dish. Ideally, you should obtain four layers, though more layers can be made by rolling the pastry thinner.", 
+                "Bake the layers and trimmings on a parchment-lined tray at 220°C using top-and-bottom heat for 7–12 minutes, until golden.", 
+                "Allow the layers to cool, then crush the trimmings into fine crumbs.", 
+                "Once both layers and cream are fully cooled, spread the cream evenly between the layers. Sprinkle the top with crumbs and refrigerate. The cake may be enjoyed after several hours, though it will be less infused. By the next day, it will reach its ideal softness.", 
+
+                ],
+                note: "If you find it frustrating that puff pastry scatters crumbs all over the kitchen when sliced, try the Napoleon in a cup variation."
              }
         },
 
