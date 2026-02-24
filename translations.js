@@ -133,6 +133,10 @@ const translations = {
                 ru: "Панна-котта c клубничным джемом",
                 en: "Panna Cotta with Strawberry Jam"
         },
+        "Профитроли с заварным кремом": {  
+            ru: "Профитроли с заварным кремом",
+            en: "Profiteroles with custard cream"
+            },
         // Кремы/соусы
         "Название кремы": {
             ru: "Название кремы",
@@ -1210,7 +1214,8 @@ const translations = {
                 "4 ст.л. растительного масла", 
                 "Щепотка соли", 
                 "Подсолнечное масло, чтобы периодически смазывать сковородку", 
-                "Сливочное масло, чтобы смазавать готовый блинДля начинки:", 
+                "Сливочное масло, чтобы смазавать готовый блин", 
+                "Для начинки:", 
                 "500 г свежей клубники", 
                 "700 г творожного сыра", 
                 "140 г холодных 33% сливок", 
@@ -1544,6 +1549,91 @@ const translations = {
                 "Heat the mixture gently until slightly thickened, then cool to room temperature.", 
                 "Divide the strawberry layer evenly and pour it over the chilled panna cotta.", 
                 "Return to the refrigerator for a further 2 hours, or until fully set.", 
+
+                ],
+                note: ""
+             }
+        },
+        "dessert_profiterol":  {
+            ru: {
+                title: "Профитроли с заварным кремом",
+                meta:  {
+                    time: "150 мин",
+                    servings: "15 порций"
+                  },
+                ingredients: [
+                "Для теста:150 г муки", 
+                "250 г воды", 
+                "100 г сливочного масла", 
+                "4–6 штук яиц (в зависимости от размера)", 
+                "1 щепотка соли", 
+                "5 г сахарной пудры (для посыпки)", 
+                "Для крема:500 мл молока", 
+                "2 яйца", 
+                "50 г крахмала (или 40 г муки)", 
+                "150 г сахара", 
+                "100 г сливочного масла", 
+                "10 г ванильного сахара", 
+
+                ],
+                instructions: [
+                "Начните с теста. Налейте воду в кастрюлю, добавьте сливочное масло и соль, доведите до кипения, помешивая, пока масло не растает", 
+                "Всыпьте сразу всю муку и перемешивайте, пока не исчезнут комочки", 
+                "Варите тесто на слабом огне около 3 минут, постоянно помешивая, затем снимите с огня и дайте немного остыть, примерно до 70°C", 
+                "Добавляйте яйца по одному, тщательно вымешивая после каждого до получения однородной массы. Первые 3 яйца вмешивайте без сомнений; начиная с 4-го ориентируйтесь по консистенции. Тесто должно падать с лопатки широкой гладкой лентой, не разрываясь, а образовавшиеся пики медленно оседать. Если тесто слишком густое и не стекает, продолжайте добавлять яйца, пока не достигнете нужной консистенции", 
+                "Разогрейте духовку до 200°C. Переложите тесто в кондитерский мешок с насадкой или в бумажный корнетик с отрезанным кончиком", 
+                "Выпекайте профитроли при 200°C в течение 15 минут, затем уменьшите температуру до 180°C и выпекайте еще 20 минут. НЕ ОТКРЫВАЙТЕ ДУХОВКУ ПЕРВЫЕ 15 МИНУТ", 
+                "Перейдите к приготовлению крема. В небольшой кастрюльке венчиком взбейте муку, сахар, ванильный сахар и яйца до однородности", 
+                "Постепенно влейте небольшое количество молока, тщательно взбивая, чтобы не было комочков", 
+                "Продолжайте вливать оставшееся молоко, взбивая смесь до полной однородности", 
+                "Поставьте кастрюльку на слабый огонь. Варите, постоянно помешивая, особенно по дну, чтобы не образовались комочки", 
+                "Как только крем загустеет и начнет закипать, снимите его с огня", 
+                "Добавьте размягченное сливочное масло в горячий крем и мешайте, пока оно полностью не растает и не вмешается", 
+                "Переложите крем в широкую миску для более быстрого остывания. Накройте пищевой пленкой «в контакт», чтобы не образовалась корочка. Дайте остыть в течение 2–3 часов", 
+                "Наполните профитроли кремом: либо разрежьте их, отсадите крем и накройте верхушками, либо сделайте маленькое отверстие и отсадите начинку внутрь", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Profiteroles with custard cream",
+                meta:  {
+                    time: "150 minutes",
+                    servings: "Serves 15"
+                  },
+                ingredients: [
+                "For the choux pastry:", 
+                "150 g flour", 
+                "250 g water", 
+                "100 g butter", 
+                "4–6 eggs (depending on size)", 
+                "A pinch of salt", 
+                "5 g icing sugar (for dusting)", 
+                " ", 
+                "For the cream:", 
+                "500 ml milk", 
+                "2 eggs", 
+                "50 g starch (or 40 g flour)", 
+                "150 g sugar", 
+                "100 g butter", 
+                "10 g vanilla sugar", 
+
+                ],
+                instructions: [
+                "Begin with the choux pastry. Pour the water into a saucepan, add the butter and salt, and bring to a boil, stirring until the butter has melted.", 
+                "Add all the flour at once and stir vigorously until the mixture becomes smooth and free of lumps.", 
+                "Cook the dough over low heat for about 3 minutes, stirring constantly. Remove from the heat and allow it to cool slightly, to approximately 70°C.", 
+                "Add the eggs one at a time, mixing thoroughly after each addition until fully incorporated. Add the first three eggs without hesitation; from the fourth onward, judge by consistency. The dough should fall from the spatula in a thick, smooth ribbon without breaking, and any peaks should slowly settle. If the dough is too stiff, continue adding eggs until the desired texture is achieved.", 
+                "Preheat the oven to 200°C. Transfer the dough to a piping bag fitted with a nozzle, or to a paper cone with the tip cut off.", 
+                "Bake the profiteroles at 200°C for 15 minutes, then reduce the temperature to 180°C and bake for a further 20 minutes. Do not open the oven during the first 15 minutes.", 
+                "Prepare the cream. In a small saucepan, whisk together the flour (or starch), sugar, vanilla sugar, and eggs until smooth.", 
+                "Gradually pour in a small portion of the milk, whisking carefully to avoid lumps.", 
+                "Add the remaining milk, whisking until completely smooth.", 
+                "Place the saucepan over low heat and cook, stirring constantly, especially along the bottom, until thickened.", 
+                "As soon as the cream thickens and begins to boil, remove it from the heat.", 
+                "Add the softened butter to the hot cream and stir until fully melted and incorporated.", 
+                "Transfer the cream to a wide bowl to cool more quickly. Cover with cling film in direct contact to prevent a skin from forming. Allow to cool for 2–3 hours.", 
+                "Fill the profiteroles with the cream: either slice them open, pipe in the filling, and replace the tops, or make a small hole and pipe the cream inside.", 
 
                 ],
                 note: ""
