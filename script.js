@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Скрыть все вкладки
         tabContents.forEach(content => {
             content.classList.remove('active');
+            content.style.display = 'none'; // Добавляем скрытие
         });
         
         // Убрать активный класс со всех кнопок
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const activeContent = document.getElementById(tabId);
         if (activeContent) {
             activeContent.classList.add('active');
+            activeContent.style.display = 'block'; // Показываем выбранную
         }
         
         // Активировать соответствующую кнопку
@@ -34,6 +36,31 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Сохранить выбранную вкладку в localStorage
         localStorage.setItem('lastActiveTab', tabId);
+    }
+    
+    // Функция для инициализации вкладок
+    function initializeTabs() {
+        if (tabButtons.length === 0) {
+            console.log('Нет кнопок вкладок');
+            return;
+        }
+        
+        // Сначала скрываем все вкладки
+        tabContents.forEach(content => {
+            content.style.display = 'none';
+        });
+        
+        // Пытаемся загрузить последнюю активную вкладку
+        const lastActiveTab = localStorage.getItem('lastActiveTab');
+        
+        if (lastActiveTab && document.getElementById(lastActiveTab)) {
+            // Если есть сохраненная вкладка и она существует
+            switchTab(lastActiveTab);
+        } else {
+            // Если нет сохраненной вкладки, активируем первую
+            const firstTabId = tabButtons[0].getAttribute('data-tab');
+            switchTab(firstTabId);
+        }
     }
     
     // Добавить обработчики кликов на кнопки вкладок
@@ -47,17 +74,13 @@ document.addEventListener('DOMContentLoaded', function() {
             setTimeout(() => {
                 this.style.transform = '';
             }, 150);
+            
+            console.log(`Переключились на категорию: ${this.querySelector('span').textContent}`);
         });
     });
     
-    // Восстановить последнюю активную вкладку
-    const lastActiveTab = localStorage.getItem('lastActiveTab');
-    if (lastActiveTab && document.getElementById(lastActiveTab)) {
-        switchTab(lastActiveTab);
-    } else if (tabButtons.length > 0) {
-        const firstTabId = tabButtons[0].getAttribute('data-tab');
-        switchTab(firstTabId);
-    }
+    // Инициализируем вкладки (это решит проблему первого открытия)
+    initializeTabs();
     
     // ========== ПЕРЕКЛЮЧЕНИЕ ЯЗЫКА ==========
     
