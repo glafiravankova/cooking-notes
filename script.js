@@ -254,6 +254,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_grapefruit_jelly';
         } else if (path.includes('dessert_napoleon_cake')) {
             recipeKey = 'dessert_napoleon_cake';
+        } else if (path.includes('snaks_garlic_croutons')) {
+            recipeKey = 'snaks_garlic_croutons';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
