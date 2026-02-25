@@ -93,6 +93,10 @@ const translations = {
             ru: "Курица карри",
             en: "Chicken Curry"
         },
+        "Лазанья": {  
+            ru: "Лазанья",
+            en: "Lasagna"
+        },
         "Орзо с греческой колбаской": {  
             ru: "Орзо с греческой колбаской",
             en: "Orzo with Greek Sausage"
@@ -954,6 +958,64 @@ const translations = {
 
                 ],
                 note: "Spicy chicken curry goes great with rice and salad greens."
+             }
+        },
+        "main_dish_lasagna":  {
+            ru: {
+                title: "Лазанья",
+                meta:  {
+                    time: "90 мин",
+                    servings: "8-10 порций"
+                  },
+                ingredients: [
+                "800 г фарша", 
+                "500 г концентрированного томатного сока", 
+                "N листов лазаньи (точное количество никогда неизвестно)", 
+                "600 г сыра (например, для пиццы)", 
+                "500 мл молока", 
+                "50 г муки", 
+                "50 г сливочного масла", 
+                "Соль, перец, базилик, паприка, чили по вкусу", 
+
+                ],
+                instructions: [
+                "Обжарьте фарш на сильном огне до полной готовности, приправляя специями по вкусу.", 
+                "Добавьте томатный сок и сушеный базилик, убавьте огонь до минимума и тушите 5 минут.", 
+                "Приготовьте соус бешамель (или используйте готовый): растопите сливочное масло в кастрюльке, добавьте муку и взбивайте венчиком около 2 минут до загустения. Постепенно влейте молоко, непрерывно взбивая до однородности, затем приправьте солью и перцем и снова перемешайте.", 
+                "Разогрейте духовку до 180°C.", 
+                "Соберите лазанью следующим образом: распределите тонкий слой соуса бешамель по дну формы для запекания, затем выложите листы лазаньи, половину мясного соуса, треть сыра и немного бешамеля. Повторите слой: снова листы лазаньи, оставшийся мясной соус, еще треть сыра и бешамель. Завершите листами лазаньи, оставшимся бешамелем и остатками сыра. Накройте форму фольгой.", 
+                "Запекайте 45 минут. Затем снимите фольгу, включите режим верхнего гриля и запекайте до образования золотистой сырной корочки.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Lasagna",
+                meta:  {
+                    time: "90 minutes",
+                    servings: "Serves 8-10"
+                  },
+                ingredients: [
+                "800 g ground meat", 
+                "500 g concentrated tomato juice", 
+                "Lasagna sheets (as needed; the exact quantity may vary)", 
+                "600 g cheese (e.g., mozzarella or pizza cheese)", 
+                "500 ml milk", 
+                "50 g flour", 
+                "50 g butter", 
+                "Salt, pepper, basil, paprika, and chili to taste", 
+
+                ],
+                instructions: [
+                "Brown the ground meat over high heat until fully cooked, seasoning to taste.", 
+                "Add the tomato juice and dried basil, reduce the heat to low, and simmer for 5 minutes.", 
+                "Prepare the béchamel sauce (or use a ready-made one): melt the butter in a saucepan, add the flour, and whisk for about 2 minutes until slightly thickened. Gradually pour in the milk, whisking continuously until smooth. Season with salt and pepper and stir well.", 
+                "Preheat the oven to 180°C.", 
+                "Assemble the lasagna as follows: spread a thin layer of béchamel sauce over the bottom of the baking dish, then add a layer of lasagna sheets, half of the meat sauce, one-third of the cheese, and a little béchamel. Repeat with another layer of lasagna sheets, the remaining meat sauce, another third of the cheese, and béchamel. Finish with lasagna sheets, the remaining béchamel, and the rest of the cheese. Cover with foil.", 
+                "Bake for 45 minutes. Remove the foil, switch to the top grill/broil setting, and bake until a golden cheese crust forms.", 
+
+                ],
+                note: ""
              }
         },
         "main_dish_orzo":  {
