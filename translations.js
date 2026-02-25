@@ -139,6 +139,10 @@ const translations = {
             ru: "Капекейки с клубничной начинкой и крем-чизом",
             en: "Cupcakes with Strawberry Filling and Cream Cheese Frosting"
         },
+        "Московская плюшка": {  
+            ru: "Московская плюшка",
+            en: "Moscow Style Sugar Bun"
+        },
         "Наполеон с малиновым джемом в стаканчике": {  
             ru: "Наполеон с малиновым джемом в стаканчике",
             en: "Napoleon with Raspberry Jam in a Cup"
@@ -1641,6 +1645,79 @@ const translations = {
 
                 ],
                 note: "If desired, raspberries may be used instead of strawberries, though a slightly larger quantity is recommended due to greater waste. Other berries are also suitable, or the filling may be omitted entirely."
+             }
+        },
+        "dessert_moscow_style_sugar_bun":  {
+            ru: {
+                title: "Московская плюшка",
+                meta:  {
+                    time: "300 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "300-350 г муки", 
+                "150 мл молока", 
+                "1 яйцо + 1 желок", 
+                "60 г сахара + ~ 100 г для начинки", 
+                "50 г мягкого сливочного масла + ~ 30 г для начинки", 
+                "7 г сухих дрожжей", 
+                "1 ст.л. сливок (можно заменить на молоко)1 ч.л. соли", 
+                "1-2 г ванилина", 
+
+                ],
+                instructions: [
+                "В теплом молоке растворите дрожжи и 1 ст. л. сахара (около 20 г). Добавьте 2 ст. л. муки (примерно 30 г). Оставьте в тепле на 15 минут, чтобы появилась «шапка».", 
+                "В миске смешайте опару, яйцо, оставшийся сахар и ванилин.", 
+                "Просейте муку, добавьте соль и перемешайте.", 
+                "Постепенно добавляйте просеянную муку, вымешивая тесто.", 
+                "Когда тесто соберется в ком, добавьте мягкое сливочное масло и месите около 10 минут, пока тесто не станет гладким и эластичным (оно не должно липнуть к рукам). Советую сначала добавить 300 г муки, замесить тесто, затем добавить масло и снова вымесить. Если тесто окажется слишком жидким, подсыпайте муку по столовой ложке.", 
+                "Переложите тесто в миску, слегка смазанную маслом, и смажьте его растительным маслом. Накройте миску пленкой или полотенцем. Убедитесь, что все окна закрыты и нет сквозняка, либо поставьте миску в духовку, нагретую до 30°C. Оставьте тесто на 1,5-2 часа. Оно должно увеличиться вдвое.", 
+                "Взвесьте готовое тесто и разделите его на 6 равных частей. Каждую скатайте в шарик и, если позволяет время, выложите на противень, застеленный бумагой для выпечки. Накройте пленкой и полотенцем и оставьте еще на 30-60 минут.", 
+                "Подошедшее тесто обомните и раскатайте в прямоугольный пласт толщиной около 4-5 мм.", 
+                "Смажьте пласт мягким сливочным маслом и посыпьте сахаром. Сверните в рулет, защипните край, затем сложите рулет пополам швом внутрь. Разрежьте получившийся полурулет со стороны сгиба на 2/3 и выверните разрезанные части наружу, формируя «лепестки». Переложите булочку обратно на бумагу для выпечки и накройте пленкой. Повторите с оставшимся тестом.", 
+                "Дайте булочкам отдохнуть 15-20 минут, затем разогрейте духовку до 180°C.", 
+                "Перед выпеканием смажьте булочки теплым желтком, смешанным со сливками или молоком.", 
+                "Поставьте на нижний уровень духовки жаропрочную емкость с теплой водой, а противень с булочками на средний уровень. Выпекайте 20-25 минут.", 
+                "Сразу после духовки смажьте булочки кусочком сливочного масла, накройте пленкой в контакт, а сверху полотенцем. Оставьте до полного остывания.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Moscow Style Sugar Bun",
+                meta:  {
+                    time: "300 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "300–350 g flour", 
+                "150 ml milk", 
+                "1 egg + 1 egg yolk", 
+                "60 g sugar + ~100 g for the filling", 
+                "50 g softened butter + ~30 g for the filling", 
+                "7 g dry yeast", 
+                "1 tbsp cream (may be substituted with milk)", 
+                "1 tsp salt", 
+                "1–2 g vanillin", 
+
+                ],
+                instructions: [
+                "In warm milk, dissolve the yeast and 1 tbsp of sugar (about 20 g). Add 2 tbsp of flour (about 30 g). Leave in a warm place for 15 minutes until a foamy cap forms.", 
+                "In a bowl, combine the sponge, the egg, the remaining sugar, and the vanillin.", 
+                "Sift the flour, add the salt, and mix.", 
+                "Gradually add the sifted flour, kneading into a dough.", 
+                "Once the dough comes together, add the softened butter and knead for about 10 minutes until smooth and elastic. The dough should no longer stick to your hands. Tip: start with 300 g of flour, knead, then incorporate the butter. If the dough is too soft, add flour one tablespoon at a time.", 
+                "Transfer the dough to a lightly oiled bowl and brush it with a little vegetable oil. Cover with plastic wrap or a towel. Let rise in a draft-free warm place (or in an oven at 30°C) for 1.5–2 hours, until doubled in size.", 
+                "Weigh the risen dough and divide into 6 equal portions. Shape each into a ball. If time allows, place on a baking tray lined with parchment, cover, and proof for another 30–60 minutes.", 
+                "Gently deflate the dough and roll into a rectangle about 4–5 mm thick.", 
+                "Spread with softened butter and sprinkle with sugar. Roll into a log and seal the edge. Fold the log in half seam-side inward. Cut along the fold about two-thirds of the way through and twist the cut sections outward to form the classic shape. Return to the parchment. Repeat with the remaining dough.", 
+                "Let the buns rest for 15–20 minutes. Meanwhile, preheat the oven to 180°C.", 
+                "Brush the buns with warm egg yolk mixed with cream or milk.", 
+                "Place a heatproof dish with warm water on the lower rack of the oven. Bake the buns on the middle rack for 20–25 minutes.", 
+                "Immediately after baking, brush the buns with a little butter. Cover with plastic wrap (in contact) and a towel. Leave to cool completely.", 
+
+                ],
+                note: ""
              }
         },
         "dessert_napoleon_individual":  {

@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Московская плюшка - Кулинарные заметки</title>
+    <!-- Favicon (иконка вкладки) -->
+    <link rel="icon" href="../assets/icons/icons8-girl-64.png" type="image/png">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .recipe-page {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #8b4513;
+            text-decoration: none;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .recipe-header h1 {
+            color: #8b4513;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .recipe-image-main {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-content {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .ingredients, .instructions {
+            margin-bottom: 40px;
+        }
+
+        .ingredients h2, .instructions h2 {
+            color: #8b4513;
+            border-bottom: 2px solid #f0e6d6;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .ingredients li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+            border-bottom: 1px solid #f0e6d6;
+        }
+
+        .ingredients li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .note {
+            background: #f9f3ec;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #d4a574;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-top"> 
+            <h1>Кулинарные заметки</h1>
+        </div>
+    </header>
+
+    <main class="recipe-page">
+        <a href="../index.html" class="back-link">
+            <i class="fas fa-arrow-left"></i>
+            Вернуться к рецептам
+        </a>
+
+        <div class="recipe-header">
+            <h1>Московская плюшка</h1>
+            <div class="recipe-meta">
+                <span><i class="far fa-clock"></i> 300 мин</span>
+                <span><i class="fas fa-user-friends"></i> 6 порций</span>
+
+            </div>
+        </div>
+
+        <img src="../site-photos/dessert_moscow_style_sugar_bun.jpg" 
+             alt="Московская плюшка" class="recipe-image-main">
+
+        <div class="recipe-content">
+            <div class="ingredients">
+                <h2><i class="fas fa-shopping-basket"></i> Ингредиенты</h2>
+                <ul>
+                    <li>300-350 г муки</li> 
+<li>150 мл молока</li> 
+<li>1 яйцо + 1 желок</li> 
+<li>60 г сахара + ~ 100 г для начинки</li> 
+<li>50 г мягкого сливочного масла + ~ 30 г для начинки</li> 
+<li>7 г сухих дрожжей</li> 
+<li>1 ст.л. сливок (можно заменить на молоко)1 ч.л. соли</li> 
+<li>1-2 г ванилина</li> 
+
+
+
+                </ul>
+            </div>
+
+            <div class="instructions">
+                <h2><i class="fas fa-list-ol"></i> Способ приготовления</h2>
+                <ol>
+                    <li>В теплом молоке растворите дрожжи и 1 ст. л. сахара (около 20 г). Добавьте 2 ст. л. муки (примерно 30 г). Оставьте в тепле на 15 минут, чтобы появилась «шапка».</li> 
+<li>В миске смешайте опару, яйцо, оставшийся сахар и ванилин.</li> 
+<li>Просейте муку, добавьте соль и перемешайте.</li> 
+<li>Постепенно добавляйте просеянную муку, вымешивая тесто.</li> 
+<li>Когда тесто соберется в ком, добавьте мягкое сливочное масло и месите около 10 минут, пока тесто не станет гладким и эластичным (оно не должно липнуть к рукам). Советую сначала добавить 300 г муки, замесить тесто, затем добавить масло и снова вымесить. Если тесто окажется слишком жидким, подсыпайте муку по столовой ложке.</li> 
+<li>Переложите тесто в миску, слегка смазанную маслом, и смажьте его растительным маслом. Накройте миску пленкой или полотенцем. Убедитесь, что все окна закрыты и нет сквозняка, либо поставьте миску в духовку, нагретую до 30°C. Оставьте тесто на 1,5-2 часа. Оно должно увеличиться вдвое.</li> 
+<li>Взвесьте готовое тесто и разделите его на 6 равных частей. Каждую скатайте в шарик и, если позволяет время, выложите на противень, застеленный бумагой для выпечки. Накройте пленкой и полотенцем и оставьте еще на 30-60 минут.</li> 
+<li>Подошедшее тесто обомните и раскатайте в прямоугольный пласт толщиной около 4-5 мм.</li> 
+<li>Смажьте пласт мягким сливочным маслом и посыпьте сахаром. Сверните в рулет, защипните край, затем сложите рулет пополам швом внутрь. Разрежьте получившийся полурулет со стороны сгиба на 2/3 и выверните разрезанные части наружу, формируя «лепестки». Переложите булочку обратно на бумагу для выпечки и накройте пленкой. Повторите с оставшимся тестом.</li> 
+<li>Дайте булочкам отдохнуть 15-20 минут, затем разогрейте духовку до 180°C.</li> 
+<li>Перед выпеканием смажьте булочки теплым желтком, смешанным со сливками или молоком.</li> 
+<li>Поставьте на нижний уровень духовки жаропрочную емкость с теплой водой, а противень с булочками на средний уровень. Выпекайте 20-25 минут.</li> 
+<li>Сразу после духовки смажьте булочки кусочком сливочного масла, накройте пленкой в контакт, а сверху полотенцем. Оставьте до полного остывания.</li> 
+
+                </ol>
+            </div>
+
+            
+
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-lang-switcher">
+                <button class="footer-lang-btn active" data-lang="ru">RU</button>
+                <button class="footer-lang-btn" data-lang="en">EN</button>
+            </div>
+            <p>2026 Кулинарные заметки</p>
+            <p class="footer-note">С любовью к вкусной еде ❤️</p>
+        </div>
+    </footer>
+
+    <script src="../translations.js" defer></script>
+    <script src="../script.js" defer></script>
+</body>
+</html>
