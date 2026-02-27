@@ -42,6 +42,10 @@ const translations = {
             ru: "Овсянка",
             en: "Oat Porridge"
         },
+        "Творожная запеканка": {  
+            ru: "Творожная запеканка",
+            en: "Сottage cheese casserole"
+        },
         "Яйца с сосиской и томатами": {
             ru: "Яйца с сосиской и томатами",
             en: "Eggs with sausage and tomatoes"
@@ -84,6 +88,10 @@ const translations = {
             ru: "Бульон куриный",
             en: "Chicken Broth"
         },
+        "Крем-суп из тыквы": {  
+            ru: "Крем-суп из тыквы",
+            en: "Сreamy pumpkin soup"
+        },
         "Крем-суп из шампиньонов": {  
             ru: "Крем-суп из шампиньонов",
             en: "Creamy Mushroom Soup"
@@ -92,6 +100,18 @@ const translations = {
         "Курица карри": {  
             ru: "Курица карри",
             en: "Chicken Curry"
+        },
+        "Куриные крылышки в соево-томатном маринаде": {  
+            ru: "Куриные крылышки в соево-томатном маринаде",
+            en: "Chicken wings in soy-tomato marinade"
+        },
+        "Курица с брокколи в сливочном соусе": {  
+            ru: "Курица с брокколи в сливочном соусе",
+            en: "Chicken with Broccoli in Cream Sauce"
+        },
+        "Курица с грибами в сливочном соусе": {  
+            ru: "Курица с грибами в сливочном соусе",
+            en: "Chicken with Mashrooms in Cream Sauce"
         },
         "Лазанья": {  
             ru: "Лазанья",
@@ -365,6 +385,61 @@ const translations = {
                 
                 note: "Sweetened condensed milk provides a softer, more delicate sweetness than sugar. You can also serve the porridge with different types of curds or jams."
             }
+        },
+        "breakfast_cottage_cheese_casserole":  {
+            ru: {
+                title: "Творожная запеканка",
+                meta:  {
+                    time: "55 мин",
+                    servings: "2-4 порции"
+                  },
+                ingredients: [
+                "360-400 г 9% творога (2 упаковки)", 
+                "50 г сметаны", 
+                "2 яйца50 г муки", 
+                "3 ст.л. сахара", 
+                "1-2 г ванилина", 
+                "Щепотка соли", 
+                "Ягоды свежие или замороженные, по желанию", 
+
+                ],
+                instructions: [
+                "Разогрейте духовку до 180°C.", 
+                "В миске смешайте все ингредиенты. Если творог с крупинками, пробейте погружным блендером до однородности.", 
+                "Перед выпеканием можете добавить ягоды в творожную массу - сверху или внутрь теста.", 
+                "Застелите форму для запекания бумагой для выпечки и перелейте творожную массу.", 
+                "Поставьте форму в духовку на 40-45 минут до образования золотой корочки.", 
+
+                ],
+                note: "Запеканку можно приготовить с вечера, а перед подачей только немного разогреть."
+             },
+            en: {
+                title: "Сottage cheese casserole",
+                meta:  {
+                    time: "55 minutes",
+                    servings: "Serves 2-4"
+                  },
+                ingredients: [
+                "360–400 g 9% cottage cheese (2 packs)", 
+                "50 g sour cream", 
+                "2 eggs", 
+                "50 g flour", 
+                "3 tbsp sugar", 
+                "1–2 g vanillin", 
+                "A pinch of salt", 
+                "Fresh or frozen berries, optional", 
+
+                ],
+                instructions: [
+                "Preheat the oven to 180°C.", 
+                "In a bowl, combine all the ingredients. If the cottage cheese is grainy, blend with an immersion blender until smooth.", 
+                "Before baking, you may add berries to the mixture — either folded into the batter or placed on top.", 
+                "Line a baking dish with parchment paper and pour in the cottage cheese mixture.", 
+                "Bake for 40–45 minutes, until a golden crust forms.", 
+
+                ],
+                note: "The casserole can be prepared in the evening and gently reheated before serving."
+             }
         },
         "breakfast_eggs_sausage_tomato": {
             ru: {
@@ -848,6 +923,72 @@ const translations = {
                 note: "The finished chicken broth can be divided into portions (approximately 500 ml each) and frozen. This way, you will always have a convenient base for quick soups or sauces."
              }
         },
+        "soup_creamy_pumpkin_soup":  {
+            ru: {
+                title: "Крем-суп из тыквы",
+                meta:  {
+                    time: "55 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "1 кг очищенной тыквы", 
+                "2 средние моркови", 
+                "2 средних лука", 
+                "3 зубчика чеснока", 
+                "1 ч.л. сухого имбиря", 
+                "800-900 мл бульона (можно заменить на воду)", 
+                "200 мл 20% сливок", 
+                "Соль, перец", 
+
+                ],
+                instructions: [
+                "Тыкву нарежьте кубиками со стороной 2-3 см. Морковь нарежьте тонкими кружочками или полукружьями. Лук нарежьте мелким кубиком.", 
+                "Сначала обжарьте лук до прозрачности. Добавьте морковь, жарьте еще 5 минут. Добавьте свежий чеснок и имбирь, жарьте 1 минуту.", 
+                "Перемешайте и прогревайте специи вместе с овощами буквально 30-60 секунд.", 
+                "Высыпьте всю тыкву в кастрюлю. Перемешайте и готовьте все вместе 5-7 минут. Тыква должна немного поджариться.", 
+                "Залейте овощи горячей водой или бульоном. Жидкость должна почти полностью покрывать овощи.", 
+                "Добавьте соль, перец. Доведите до кипения, убавьте огонь до минимума, накройте крышкой и варите до мягкости овощей.", 
+                "Снимите кастрюлю с плиты. Дайте супу постоять 2-3 минуты, чтобы он немного остыл.", 
+                "Возьмите погружной блендер и тщательно измельчите содержимое кастрюли до состояния абсолютно гладкого пюре. Движения лучше делать круговыми, чтобы захватить все кусочки. Для идеальной текстуры пропустите суп через сито.", 
+                "Влейте в суп-пюре сливки и тщательно перемешайте ложкой. Поставьте кастрюлю на самый маленький огонь. Если суп получился слишком густой, добавьте еще бульона (или воды).", 
+                "Прогревайте суп, постоянно помешивая. Как только появятся первые пузырьки воздуха, сразу выключайте.", 
+
+                ],
+                note: "К крем-супу отлично подойдут <a href='snaks_garlic_croutons.html' class='elegant-link keep-link'>чесночные сухарики</a>."
+             },
+            en: {
+                title: "Сreamy pumpkin soup",
+                meta:  {
+                    time: "55 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "1 kg peeled pumpkin", 
+                "2 medium carrots", 
+                "2 medium onions", 
+                "3 garlic cloves", 
+                "1 tsp ground ginger", 
+                "800–900 ml broth (can be replaced with water)", 
+                "200 ml 20% cream", 
+                "Salt, black pepper", 
+
+                ],
+                instructions: [
+                "Cut the pumpkin into 2–3 cm cubes. Slice the carrots into thin rounds or half-moons. Dice the onions finely.", 
+                "First, sauté the onions for 3–4 minutes. Add the carrots and cook for another 5 minutes. Add fresh garlic and ginger, cooking for 1 minute.", 
+                "Stir and heat the spices with the vegetables for 30–60 seconds.", 
+                "Add all the pumpkin to the pot, mix, and cook together for 5–7 minutes until the pumpkin starts to brown slightly.", 
+                "Pour in hot water or broth so that the liquid almost fully covers the vegetables.", 
+                "Season with salt and pepper. Bring to a boil, then reduce heat to a minimum, cover, and simmer until the vegetables are tender.", 
+                "Remove the pot from the heat and let the soup rest for 2–3 minutes to cool slightly.", 
+                "Use an immersion blender to puree the soup until completely smooth. Move the blender in circular motions to capture all pieces. For an ideal texture, strain the soup through a fine sieve.", 
+                "Stir in the cream thoroughly and place the pot over the lowest heat. If the soup is too thick, add more broth (or water).", 
+                "Heat the soup while stirring constantly. As soon as the first bubbles appear, immediately remove from heat.", 
+
+                ],
+                note: "<a href='snaks_garlic_croutons.html' class='elegant-link keep-link'>Garlic croutons</a> fit here perfectly."
+             }
+        },
         "soup_creamy_mashroom_soup":  {
             ru: {
                 title: "Крем-суп из шампиньонов",
@@ -966,6 +1107,190 @@ const translations = {
 
                 ],
                 note: "Spicy chicken curry goes great with rice and salad greens."
+             }
+        },
+        "main_dish_chicken_wings_soy_tomato_marinate":  {
+            ru: {
+                title: "Куриные крылышки в соево-томатном маринаде",
+                meta:  {
+                    time: "180 мин",
+                    servings: "4 порций"
+                  },
+                ingredients: [
+                "1,5 кг куриных крыльев", 
+                "30 гр греческого йогурта", 
+                "150 мл молока", 
+                "3 зубчика чеснока", 
+                "25 г оливкого масла", 
+                "30 г томатной пасты", 
+                "30 г меда", 
+                "15 г зернистой горчицы", 
+                "Соль, перец, паприка, чили - по вкусу", 
+
+                ],
+                instructions: [
+                "Разделите куриные крылышки по суставам на 3 части. Для рецепта понадобятся плечевая (толстая) и локтевая (средняя) части.", 
+                "Соедините все остальные ингредиенты и тщательно перемешайте.", 
+                "Поместите крылышки в маринад, накройте пленкой и уберите в холодильник на 2 часа.", 
+                "Разогрейте духовку до 200°C.", 
+                "Выложите крылышки на противень, застеленный бумагой для выпечки, в один слой и запекайте 20 минут.", 
+                "Через 20 минут переверните крылышки и готовьте еще 10-15 минут. Если за 5 минут до окончания корочка еще не образовалась, включите режим гриля.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Chicken wings in soy-tomato marinade",
+                meta:  {
+                    time: "180 minutes",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "1.5 kg chicken wings", 
+                "30 g Greek yogurt", 
+                "150 ml milk", 
+                "3 garlic cloves", 
+                "25 g olive oil", 
+                "30 g tomato paste", 
+                "30 g honey", 
+                "15 g wholegrain mustard", 
+                "Salt, black pepper, paprika, chili — to taste", 
+
+                ],
+                instructions: [
+                "Separate the chicken wings at the joints into three parts. For this recipe, use the drumette (the thick upper section) and the wingette (the middle section).", 
+                "Combine all the remaining ingredients and mix thoroughly.", 
+                "Place the wings in the marinade, cover with plastic wrap, and refrigerate for 2 hours.", 
+                "Preheat the oven to 200°C.", 
+                "Arrange the wings in a single layer on a baking tray lined with parchment paper and bake for 20 minutes.", 
+                "After 20 minutes, turn the wings over and cook for an additional 10–15 minutes. If the skin has not crisped during the last 5 minutes, switch on the grill/broiler setting.", 
+
+                ],
+                note: ""
+             }
+        },
+        "main_dish_chicken_broccoli_creamy_sauce":  {
+            ru: {
+                title: "Курица с брокколи в сливочном соусе",
+                meta:  {
+                    time: "50 мин",
+                    servings: "4 порции"
+                  },
+                ingredients: [
+                "700 г куриной грудки", 
+                "200-250 брокколи", 
+                "220 мл 20% сливок70 г твердого сыра (например, Пармезан)", 
+                "30 г сливочного масла", 
+                "2 зубчика чеснока", 
+                "1 ч.л. кукурузного крахмала (опционально)", 
+                "Соль, перец, орегано - по вкусу", 
+
+                ],
+                instructions: [
+                "Куриное филе нарежьте кусочками или полосками. Если позволяет время, то в миске смешайте нарезанное мясо с 2 ст. ложками сливок и крахмалом. Перемешайте руками, чтобы масса слегка обволакивала каждый кусочек. Оставьте мариноваться при комнатной температуре на 15-25 минут.", 
+                "На сильном огне разогрейте сковороду с небольшим количеством растительного или сливочного масла. Выложите курицу в один слой. Жарьте до легкой румяной корочки. ", 
+                "Если брокколи свежая, то предварительно разберите на соцветия, если замороженная - используйте без разморозки.", 
+                "Готовую курицу переложите на тарелку и накройте, чтобы сохранить тепло.", 
+                "В ту же сковороду добавьте сливочное масло и растопите его на среднем огне. Высыпьте брокколи. Обжаривайте на среднем огне 2-3 минуты, помешивая.", 
+                "Добавьте к брокколи мелко нарезанный чеснок и сушеный орегано. Прогрейте все вместе 20-30 секунд, до появления яркого чесночного аромата.", 
+                "Влейте в сковороду оставшиеся сливки. Посолите и поперчите по вкусу. Доведите соус до легкого кипения, затем убавьте огонь до минимума и прогревайте 1-2 минуты, пока соус слегка не загустеет. Не давайте бурно кипеть, чтобы сливки не свернулись.", 
+                "Натрите сыр на мелкой терке. Засыпьте его в сковороду с соусом и брокколи. Перемешивайте, пока сыр полностью не расплавится.", 
+                "Выложите обжаренную курицу обратно в сковороду с готовым соусом. Перемешайте, прогревайте все вместе буквально пару минут, чтобы курица пропиталась ароматами.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Chicken with Broccoli in Cream Sauce",
+                meta:  {
+                    time: "50 minutes",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "700 g chicken breast", 
+                "200–250 g broccoli", 
+                "220 ml 20% cream", 
+                "70 g hard cheese (e.g., Parmesan)", 
+                "30 g butter", 
+                "2 garlic cloves", 
+                "1 tsp cornstarch (optional)", 
+                "Salt, black pepper, oregano — to taste", 
+
+                ],
+                instructions: [
+                "Cut the chicken breast into pieces or strips. If time allows, combine the chicken in a bowl with 2 tbsp of the cream and the cornstarch. Mix by hand so the mixture lightly coats each piece. Leave to marinate at room temperature for 15–25 minutes.", 
+                "Heat a pan over high heat with a small amount of vegetable oil or butter. Arrange the chicken in a single layer and sear until lightly golden.", 
+                "If using fresh broccoli, divide it into florets. If frozen, use directly without thawing.", 
+                "Transfer the cooked chicken to a plate and cover to keep warm.", 
+                "In the same pan, add the butter and melt over medium heat. Add the broccoli and sauté for 2–3 minutes, stirring occasionally.", 
+                "Add the finely chopped garlic and dried oregano. Cook for 20–30 seconds until fragrant.", 
+                "Pour in the remaining cream (about 180–200 ml). Season with salt and pepper. Bring to a gentle simmer, then reduce the heat to low and cook for 1–2 minutes until slightly thickened. Do not allow it to boil vigorously to prevent curdling.", 
+                "Grate the cheese finely and add it to the pan. Stir until completely melted.", 
+                "Return the chicken to the pan with the sauce and broccoli. Stir and heat together for a couple of minutes so the chicken absorbs the flavors.", 
+
+                ],
+                note: "The casserole can be prepared in the evening and gently reheated before serving."
+             }
+        },
+        "main_dish_chicken_mashrooms_creamy_sauce":  {
+            ru: {
+                title: "Курица с грибами в сливочном соусе",
+                meta:  {
+                    time: "55 мин",
+                    servings: "4 порции"
+                  },
+                ingredients: [
+                "700 г куриной грудки", 
+                "250 гр шампиньонов", 
+                "220 мл 20% сливок", 
+                "100 гр сыра", 
+                "3 головки чеснока", 
+                "1 ч.л. кукурузного крахмала (опционально)", 
+                "Соль, перец по вкусу", 
+
+                ],
+                instructions: [
+                "Куриное филе нарежьте кусочками или полосками. Если позволяет время, то в миске смешайте нарезанное мясо с 2 ст. ложками сливок и крахмалом. Перемешайте руками, чтобы масса слегка обволакивала каждый кусочек. Оставьте мариноваться при комнатной температуре на 15-25 минут.", 
+                "На сильном огне разогрейте сковороду с небольшим количеством растительного или сливочного масла. Выложите курицу в один слой. Жарьте до легкой румяной корочки. ", 
+                "Промойте шампиньоны. Если они крупные - нарежьте на четвертинки вдоль ножки.Готовую курицу переложите на тарелку и накройте, чтобы сохранить тепло.", 
+                "В ту же сковороду добавьте сливочное масло и растопите его на среднем огне. Высыпьте шампиньоны. Обжаривайте на максимальном огне, пока вода из них не выпарится.", 
+                "Добавьте к шампиньонам мелко нарезанный чеснок. Прогрейте все вместе 20-30 секунд, до появления яркого чесночного аромата.", 
+                "Влейте в сковороду оставшиеся сливки. Посолите и поперчите по вкусу. Доведите соус до легкого кипения, затем убавьте огонь до минимума и прогревайте 1-2 минуты, пока соус слегка не загустеет. Не давайте бурно кипеть, чтобы сливки не свернулись.", 
+                "Натрите сыр на мелкой терке. Засыпьте его в сковороду с соусом и брокколи. Перемешивайте, пока сыр полностью не расплавится.", 
+                "Выложите обжаренную курицу обратно в сковороду с готовым соусом. Перемешайте, прогревайте все вместе буквально пару минут, чтобы курица пропиталась ароматами.", 
+
+                ],
+                note: "Курица идеальна как начинка для фаршированных блинов."
+             },
+            en: {
+                title: "Chicken with Mashrooms in Cream Sauce",
+                meta:  {
+                    time: "55 minutes",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "700 g chicken breast", 
+                "250 g champignon mushrooms", 
+                "220 ml 20% cream", 
+                "100 g cheese", 
+                "3 garlic bulbs", 
+                "1 tsp cornstarch (optional)", 
+                "Salt and black pepper to taste", 
+
+                ],
+                instructions: [
+                "Cut the chicken breast into pieces or strips. If time allows, combine the chicken with 2 tbsp of cream and the cornstarch in a bowl. Mix by hand so the mixture lightly coats each piece. Let marinate at room temperature for 15–25 minutes.", 
+                "Heat a pan over high heat with a small amount of vegetable oil or butter. Arrange the chicken in a single layer and sear until lightly golden.", 
+                "Rinse the mushrooms. If large, cut them into quarters lengthwise.", 
+                "Transfer the cooked chicken to a plate and cover to keep warm.", 
+                "In the same pan, add a little butter and melt over medium heat. Add the mushrooms and cook over high heat until all released moisture evaporates.", 
+                "Add the finely chopped garlic and cook for 20–30 seconds until fragrant.", 
+                "Pour in the remaining cream (about 180–200 ml). Season with salt and pepper. Bring to a gentle simmer, then reduce the heat and cook for 1–2 minutes until slightly thickened. Do not let it boil vigorously to prevent curdling.", 
+                "Grate the cheese finely and add it to the pan. Stir until completely melted.", 
+                "Return the chicken to the pan and mix well. Heat together for a couple of minutes so the chicken absorbs the flavors.", 
+
+                ],
+                note: "Chicken is perfect as a filling for stuffed pancakes."
              }
         },
         "main_dish_lasagna":  {

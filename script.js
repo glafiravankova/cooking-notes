@@ -260,6 +260,18 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_moscow_style_sugar_bun';
         } else if (path.includes('main_dish_lasagna')) {
             recipeKey = 'main_dish_lasagna';
+        } else if (path.includes('main_dish_stuffed_pepper')) {
+            recipeKey = 'main_dish_stuffed_pepper';
+        } else if (path.includes('breakfast_cottage_cheese_casserole')) {
+            recipeKey = 'breakfast_cottage_cheese_casserole';
+        } else if (path.includes('main_dish_chicken_broccoli_creamy_sauce')) {
+            recipeKey = 'main_dish_chicken_broccoli_creamy_sauce';
+        } else if (path.includes('main_dish_chicken_mashrooms_creamy_sauce')) {
+            recipeKey = 'main_dish_chicken_mashrooms_creamy_sauce';
+        } else if (path.includes('main_dish_chicken_wings_soy_tomato_marinate')) {
+            recipeKey = 'main_dish_chicken_wings_soy_tomato_marinate';
+        } else if (path.includes('soup_creamy_pumpkin_soup')) {
+            recipeKey = 'soup_creamy_pumpkin_soup';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
