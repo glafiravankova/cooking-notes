@@ -90,7 +90,7 @@ const translations = {
         },
         "Крем-суп из тыквы": {  
             ru: "Крем-суп из тыквы",
-            en: "Сreamy pumpkin soup"
+            en: "Сreamy Pumpkin Soup"
         },
         "Крем-суп из шампиньонов": {  
             ru: "Крем-суп из шампиньонов",
@@ -956,8 +956,8 @@ const translations = {
                 ],
                 note: "К крем-супу отлично подойдут <a href='snaks_garlic_croutons.html' class='elegant-link keep-link'>чесночные сухарики</a>."
              },
-            en: {
-                title: "Сreamy pumpkin soup",
+            en: 
+                title: "Сreamy Pumpkin Soup",
                 meta:  {
                     time: "55 minutes",
                     servings: "Serves 6"
