@@ -956,7 +956,7 @@ const translations = {
                 ],
                 note: "К крем-супу отлично подойдут <a href='snaks_garlic_croutons.html' class='elegant-link keep-link'>чесночные сухарики</a>."
              },
-            en: 
+            en: {
                 title: "Сreamy Pumpkin Soup",
                 meta:  {
                     time: "55 minutes",
