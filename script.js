@@ -258,6 +258,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'snaks_garlic_croutons';
         } else if (path.includes('dessert_moscow_style_sugar_bun')) {
             recipeKey = 'dessert_moscow_style_sugar_bun';
+        } else if (path.includes('main_dish_lasagna')) {
+            recipeKey = 'main_dish_lasagna';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

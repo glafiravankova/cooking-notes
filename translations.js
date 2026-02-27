@@ -109,6 +109,10 @@ const translations = {
             ru: "Пельмени",
             en: "Pelmeni"
         },
+        "Фаршированный перец": {  
+            ru: "Фаршированный перец",
+            en: "Stuffed Pepper"
+        },
         // Гарниры
         "Название гарнира": {
             ru: "Название гарнира",
@@ -1078,6 +1082,64 @@ const translations = {
                 note: "If broth is unavailable, you may substitute a stock cube; however, replace the tomato paste with 500 g of crushed tomatoes."
              }
         },
+        "main_dish_pasta_carbonara":  {
+            ru: {
+                title: "Паста карбонара",
+                meta:  {
+                    time: "15 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "200 мл сливок (15-20%)", 
+                "180 г спагетти", 
+                "150 г копченого бекона", 
+                "2 зубчика чеснока", 
+                "1 яичный желток", 
+                "Соль, перец", 
+                "Пармиджано для подачи", 
+
+                ],
+                instructions: [
+                "Сварите спагетти в слегка подсоленной воде согласно инструкции на упаковке.", 
+                "Тем временем обжарьте бекон на сильном огне и добавьте чеснок.", 
+                "В небольшой миске смешайте сливки с яичным желтком, солью и перцем.", 
+                "Когда паста сварится, слейте почти всю воду, оставив немного воды, в которой варились спагетти.", 
+                "Верните спагетти в кастрюлю и убавьте огонь до очень слабого.", 
+                "Влейте сливочно-яичную смесь в бекон, постоянно помешивая, около 30 секунд. Затем добавьте все к спагетти и готовьте на слабом огне около 5 минут, аккуратно перемешивая.", 
+                "Подавайте, слегка посыпав сыром пармезан.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Pasta Carbonara",
+                meta:  {
+                    time: "15 min",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "200 ml cream (15–20%)", 
+                "180 g spaghetti", 
+                "150 g smoked bacon", 
+                "2 cloves of garlic", 
+                "1 egg yolk", 
+                "Salt, pepper", 
+                "Parmigiano for sprinkling", 
+
+                ],
+                instructions: [
+                "Cook the spaghetti in lightly salted water according to the package instructions.", 
+                "Meanwhile, fry the bacon over high heat and add the garlic.", 
+                "In a small bowl, mix the cream with the egg yolk, salt, and pepper.", 
+                "When the pasta is cooked, drain almost all the water, leaving a little of the spaghetti cooking water.", 
+                "Return the spaghetti to the pot and reduce the heat to very low.", 
+                "Pour the cream and egg mixture into the bacon, stirring constantly for about 30 seconds. Then add everything to the spaghetti and cook over low heat for about 5 minutes, stirring gently.", 
+                "Serve lightly sprinkled with Parmesan cheese.", 
+
+                ],
+                note: ""
+             }
+        },
         "main_dish_pelmeni":  {
             ru: {
                 title: "Пельмени",
@@ -1148,59 +1210,58 @@ const translations = {
                 note: "It is better not to roll out all the dough at once, but to divide it into several parts and do several rollouts. The remaining dough can be used for the final batch of dumplings."
              }
         },
-        "main_dish_pasta_carbonara":  {
+        "main_dish_stuffed_pepper":  {
             ru: {
-                title: "Паста карбонара",
+                title: "Фаршированный перец",
                 meta:  {
-                    time: "15 мин",
-                    servings: "2 порции"
+                    time: "80 мин",
+                    servings: "5-7 порций"
                   },
                 ingredients: [
-                "200 мл сливок (15-20%)", 
-                "180 г спагетти", 
-                "150 г копченого бекона", 
-                "2 зубчика чеснока", 
-                "1 яичный желток", 
-                "Соль, перец", 
-                "Пармиджано для подачи", 
+                "5-7 перцев (в зависимости от их размера)", 
+                "400 г фарша (говядина+свинина)", 
+                "150 г риса2 средние моркови", 
+                "2 средние луковицы", 
+                "2 ст.л. сметаны", 
+                "2 ст.л. томатной пасты", 
+                "Соль, перец, паприка, чили перец - по вкусу", 
 
                 ],
                 instructions: [
-                "Сварите спагетти в слегка подсоленной воде согласно инструкции на упаковке.", 
-                "Тем временем обжарьте бекон на сильном огне и добавьте чеснок.", 
-                "В небольшой миске смешайте сливки с яичным желтком, солью и перцем.", 
-                "Когда паста сварится, слейте почти всю воду, оставив немного воды, в которой варились спагетти.", 
-                "Верните спагетти в кастрюлю и убавьте огонь до очень слабого.", 
-                "Влейте сливочно-яичную смесь в бекон, постоянно помешивая, около 30 секунд. Затем добавьте все к спагетти и готовьте на слабом огне около 5 минут, аккуратно перемешивая.", 
-                "Подавайте, слегка посыпав сыром пармезан.", 
+                "Возьмите рис, отмерьте такой же объем воды, и соедините в кастрюле и отправьте вариться на 10 минут. Он должен остаться полуготовым - слегка разварившимся снаружи, но твердым внутри.", 
+                "Натрите морковь на крупной терке, лук мелко нарежьте кубиками. Разогрейте сковороду на сильном огне, налейте немного масла и обжарьте овощи до мягкости.", 
+                "В большой миске смешайте недоваренный рис, обжаренные овощи, сырой фарш и специи. Хорошо перемешайте.", 
+                "У болгарских перцев срежьте основание с хвостиками и удалите семена. Поставьте перцы отверстиями вверх в кастрюлю так, чтобы они стояли устойчиво. Равномерно начините каждый перец подготовленной смесью. Удобнее всего делать это с помощью кондитерского мешка.", 
+                "Приготовьте заливку: в отдельной емкости смешайте сметану, томатную пасту, соль и перец. Добавьте немного воды и тщательно перемешайте. Залейте полученную жидкость в кастрюлю между перцами так, чтобы она их обтекала. Затем долейте воды так, чтобы она доходила до верхнего края перцев, но не попадала внутрь.", 
+                "Поставьте кастрюлю на максимальный огонь. Доведите до кипения, затем убавьте огонь до слабого кипения и накройте крышкой. Тушите 45 минут до готовности перцев.", 
 
                 ],
                 note: ""
              },
             en: {
-                title: "Pasta Carbonara",
+                title: "Stuffed Pepper",
                 meta:  {
-                    time: "15 min",
-                    servings: "Serves 2"
+                    time: "80 minutes",
+                    servings: "Serves 5-7"
                   },
                 ingredients: [
-                "200 ml cream (15–20%)", 
-                "180 g spaghetti", 
-                "150 g smoked bacon", 
-                "2 cloves of garlic", 
-                "1 egg yolk", 
-                "Salt, pepper", 
-                "Parmigiano for sprinkling", 
+                "5–7 bell peppers (depending on size)", 
+                "400 g ground meat (beef and pork)", 
+                "150 g rice", 
+                "2 medium carrots", 
+                "2 medium onions", 
+                "2 tbsp sour cream", 
+                "2 tbsp tomato paste", 
+                "Salt, black pepper, paprika, chili pepper — to taste", 
 
                 ],
                 instructions: [
-                "Cook the spaghetti in lightly salted water according to the package instructions.", 
-                "Meanwhile, fry the bacon over high heat and add the garlic.", 
-                "In a small bowl, mix the cream with the egg yolk, salt, and pepper.", 
-                "When the pasta is cooked, drain almost all the water, leaving a little of the spaghetti cooking water.", 
-                "Return the spaghetti to the pot and reduce the heat to very low.", 
-                "Pour the cream and egg mixture into the bacon, stirring constantly for about 30 seconds. Then add everything to the spaghetti and cook over low heat for about 5 minutes, stirring gently.", 
-                "Serve lightly sprinkled with Parmesan cheese.", 
+                "Measure the rice and add an equal volume of water. Bring to a boil and cook for 10 minutes. The rice should be partially cooked — soft on the outside but still firm inside.", 
+                "Grate the carrots coarsely and finely dice the onions. Heat a pan over high heat with a little oil and sauté the vegetables until softened.", 
+                "In a large bowl, combine the partially cooked rice, sautéed vegetables, raw ground meat, and spices. Mix thoroughly.", 
+                "Cut off the tops of the bell peppers and remove the seeds. Stand the peppers upright in a pot. Fill each pepper evenly with the prepared mixture. A piping bag makes this easier.", 
+                "Prepare the sauce: in a separate bowl, mix the sour cream, tomato paste, salt, and pepper. Add a little water and stir well. Pour the mixture into the pot around the peppers so it flows between them. Add additional water until it reaches the top edge of the peppers without getting inside.", 
+                "Place the pot over high heat and bring to a boil. Reduce to a gentle simmer, cover with a lid, and cook for 45 minutes until the peppers are tender.", 
 
                 ],
                 note: ""
