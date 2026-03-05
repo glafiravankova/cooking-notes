@@ -103,7 +103,7 @@ const translations = {
         },
         "Куриные крылышки в соево-томатном маринаде": {  
             ru: "Куриные крылышки в соево-томатном маринаде",
-            en: "Chicken wings in soy-tomato marinade"
+            en: "Chicken Wings in Soy-Tomato Marinade"
         },
         "Курица с брокколи в сливочном соусе": {  
             ru: "Курица с брокколи в сливочном соусе",
@@ -396,7 +396,8 @@ const translations = {
                 ingredients: [
                 "360-400 г 9% творога (2 упаковки)", 
                 "50 г сметаны", 
-                "2 яйца50 г муки", 
+                "2 яйца", 
+                "50 г муки", 
                 "3 ст.л. сахара", 
                 "1-2 г ванилина", 
                 "Щепотка соли", 
@@ -1140,7 +1141,7 @@ const translations = {
                 note: ""
              },
             en: {
-                title: "Chicken wings in soy-tomato marinade",
+                title: "Chicken Wings in Soy-Tomato Marinade",
                 meta:  {
                     time: "180 minutes",
                     servings: "Serves 4"
@@ -1602,7 +1603,8 @@ const translations = {
                 ingredients: [
                 "2 средних банана", 
                 "2 средних яйца (или 1 большое)", 
-                "200 г муки100 г сахара", 
+                "200 г муки",
+                "100 г сахара", 
                 "75 г сливочного масла", 
                 "1/2 ч.л. соды", 
                 "1 пакетик ванилина (1-2 гр)", 
@@ -1614,12 +1616,12 @@ const translations = {
                 "Растопите сливочное масло.", 
                 "Разомните бананы вилкой.", 
                 "Добавьте масло к бананам и перемешайте.", 
-                "Добавьте соду, соль, сахар, ванилин и яйцо, затем перемешайте.", 
-                "Просейте муку и добавьте в тесто, перемешайте до почти однородной консистенции.", 
+                "Добавьте соду, соль, сахар, ванилин и яйцо, перемешайте.", 
+                "Просейте муку и добавьте в тесто, перемешайте до однородной консистенции.", 
                 "Застелите форму для выпечки пергаментом, вылейте тесто и слегка постучите формой по столу, чтобы выпустить пузырьки воздуха.", 
                 "Поставьте форму в разогретую духовку на 10 минут.", 
-                "Сделайте на поверхности кекса продольный разрез, отступив 2-3 см от края — это поможет кексу красиво раскрыться при выпекании.", 
-                "Выпекайте еще 35 минут, готовность проверьте деревянной зубочисткой.", 
+                "Сделайте на поверхности кекса продольный разрез, отступив 2-3 см от края - это поможет кексу красиво раскрыться при выпекании.", 
+                "Выпекайте еще 35 минут, готовность проверьте деревянной зубочисткой - она должна быть сухой.", 
 
                 ],
                 note: ""
@@ -1642,16 +1644,16 @@ const translations = {
 
                 ],
                 instructions: [
-                "Preheat the oven to 175°C using conventional top-and-bottom heat", 
-                "Melt the butter", 
-                "Mash the bananas with a fork", 
-                "Add the butter to the bananas and mix well", 
-                "Add the baking soda, salt, sugar, vanilla, and egg, then stir to combine", 
-                "Sift the flour and fold it into the batter, mixing until nearly smooth", 
-                "Line a baking tin with parchment paper, pour in the batter, and gently tap the tin on the counter to release air bubbles", 
-                "Place the tin in the preheated oven and bake for 10 minutes", 
-                "Make a lengthwise slit on the surface of the cake, 2-3 cm from the edge — this helps the cake open neatly while baking", 
-                "Continue baking for a further 35 minutes, check for doneness with a wooden toothpick", 
+                "Preheat the oven to 175°C using conventional top-and-bottom heat.", 
+                "Melt the butter.", 
+                "Mash the bananas with a fork.", 
+                "Add the butter to the bananas and mix well.", 
+                "Add the baking soda, salt, sugar, vanilla, and egg, then stir to combine.", 
+                "Sift the flour and fold it into the batter, mixing until nearly smooth.", 
+                "Line a baking tin with parchment paper, pour in the batter, and gently tap the tin on the counter to release air bubbles.", 
+                "Place the tin in the preheated oven and bake for 10 minutes.", 
+                "Make a lengthwise slit on the surface of the cake, 2-3 cm from the edge — this helps the cake open neatly while baking.", 
+                "Continue baking for a further 35 minutes, check for doneness with a wooden toothpick - it should be dry.", 
 
                 ],
                 note: ""
@@ -1665,7 +1667,7 @@ const translations = {
                     servings: "10 порций"
                   },
                 ingredients: [
-                "2 яйца (понадобится только белок)", 
+                "2 яйца (понадобится только белок ~60 г)", 
                 "120 г сахара", 
                 "Щепотка соли", 
 
@@ -1691,7 +1693,7 @@ const translations = {
                     servings: "Serves 10"
                   },
                 ingredients: [
-                "2 eggs (whites only)", 
+                "2 eggs (whites only ~60 г)", 
                 "120 g sugar", 
                 "A pinch of salt", 
 
@@ -2223,14 +2225,14 @@ const translations = {
 
                 ],
                 instructions: [
-                "Замочите желатин в холодной воде.Замочите желатин в холодной воде.", 
+                "Замочите желатин в холодной воде.", 
                 "В кастрюле смешайте сливки, молоко, сахар и ванильный сахар и доведите до 70°С. Снимите кастрюлю с плиты.", 
                 "Добавьте размягченный желатин в горячую смесь и перемешайте до полного растворения.", 
                 "Разлейте кремовую смесь по порционным формочкам. Удобно сначала взвесить смесь и разделить ее на количество порций, исходя из размера используемой посуды.", 
-                "Дайте ей немного остыть при комнатной температуре, затем поставьте в холодильник на 2 часа.", 
-                "Добавьте размягченное сливочное масло в горячий заварной крем и перемешивайте, пока оно полностью не растает.", 
-                "Затем измельчите клубнику, процедите ее через сито в кастрюлю и добавьте сахарную пудру.", 
-                "Взвесьте клубничную массу, разделите ее на равные порции и вылейте поверх слоя крема.", 
+                "Дайте ей немного остыть при комнатной температуре, затем поставьте в холодильник на 2 часа.",
+                "Затем измельчите клубнику, процедите ее через сито в кастрюлю и добавьте сахарную пудру.",
+                "Подогрейте смесь, пока она слегка не загустеет, затем остудите до комнатной температуры.", 
+                "Взвесьте клубничную массу, разделите ее на равные порции и вылейте поверх застывшего слоя крема.", 
                 "Поставьте в холодильник еще на 2 часа до полного застывания. ", 
 
                 ],
