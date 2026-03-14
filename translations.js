@@ -71,6 +71,10 @@ const translations = {
             ru: "Маринованные огурцы",
             en: "Marinated Cucumbers"
         },
+        "Пирожки с мясом": {  
+            ru: "Пирожки с мясом",
+            en: "Pirogi with Meat"
+        },
         "Салатные листья с бальзамиком": {  
             ru: "Салатные листья с бальзамиком",
             en: "Salad Leaves with Balsamic Dressing"
@@ -128,6 +132,10 @@ const translations = {
         "Пельмени": {  
             ru: "Пельмени",
             en: "Pelmeni"
+        },
+        "Тушеная говядина": {  
+            ru: "Тушеная говядина",
+            en: "Pot Roast Beef"
         },
         "Фаршированный перец": {  
             ru: "Фаршированный перец",
@@ -768,6 +776,86 @@ const translations = {
 
                 ],
                 note: "You may add additional spices to taste, such as cloves."
+             }
+        },   
+        "snaсks_pirogi_with_meat":  {
+            ru: {
+                title: "Пирожки с мясом",
+                meta:  {
+                    time: "300 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "Для теста:", 
+                "500-600 г муки", 
+                "80 г сливочного масла (растопленного)", 
+                "2 средних яйца (одно пойдет в тесто, второе — для смазывания пирожков)", 
+                "30 г сахара", 
+                "8 г сухих дрожжей (или 25 г свежих)", 
+                "8-10 г соли", 
+                "1 ст.л. 15%-20% сливок", 
+                "Для начинки:", 
+                "400 г фарша (говядина+свинина)", 
+                "1 средняя луковица", 
+                "50 мл бульона или воды", 
+
+                ],
+                instructions: [
+                "В теплом молоке растворите дрожжи, 10 г сахара и 30 г муки. Оставьте на 15 минут до образования шапочки.", 
+                "В опару добавьте оставшийся сахар, одно яйцо и растопленное масло (не горячее). Перемешайте. Добавьте соль.", 
+                "Постепенно введите муку. В зависимости от размера жидких продуктов и тексуры муки, может понадобиться и чуть меньше, чем 500 г муки. Замесите мягкое, эластичное тесто. Оно должно быть немного мягче, чем на пельмени, и не липнуть к рукам.", 
+                "Переложите тесто в миску, слегка смазанную маслом, и смажьте его растительным маслом. Накройте миску пленкой или полотенцем. Убедитесь, что все окна закрыты и нет сквозняка, либо поставьте миску в духовку, нагретую до 30°C, на 1-1,5 часа. Затем обомните и оставьте еще на 40-60 мин. ", 
+                "Затем выньте мясо и в эту же кастрюлю положите лук, обжарьте его 1-2 минуты, затем положите морковь, еще 3-4 минуты, затем положите чеснок, перемешайте.", 
+                "В это время обжарьте фарш, добавьте лук, обжирвайте фарщ не до готовности, а только до изменения цвета. Затем добавьте бульон или воду и оставьте остывать.", 
+                "Готовое тесто разделите на шарики (грамм по 50-60). Если позволяет время, выложите шарики на противень, застеленный бумагой для выпечки. Накройте пленкой и полотенцем и оставьте еще на 30-60 минут.", 
+                "Разделите вес фарша на количество получившихся шариков.", 
+                "Руками раскатайте тесто, не тонко, выложите начинку и тщательно защипните края. Уложите пирожки на противень, застеленный пергаментом, швом вниз. Оставляйте между ними расстояние 3-4 см, так как они сильно увеличатся.", 
+                "Накройте противень с пирожками пленкой и полотенцев и оставьте в тепле на 30-40 минут. Пирожки должны заметно округлиться и стать пышными. Если поставить их в духовку сразу, они не поднимутся, а покроются коркой и треснут.", 
+                "Взбейте второе яйцо с 1 ст. ложкой сливок. Осторожно смажьте пирожки этой смесью (старайтесь не примять тесто). Это даст красивую глянцевую корочку.", 
+                "Разогрейте духовку до 180°C. Выпекайте 25-30 минут до золотистого цвета.", 
+                "Готовые горячие пирожки сразу же смажьте кусочком сливочного масла. Накройте пленкой и полотенцем и дайте постоять 10 минут.", 
+
+                ],
+                note: "При работе с дрожжами все продукты должны быть не ниже комнатной температуры и не выше 40°C."
+             },
+            en: {
+                title: "Pirogi with Meat",
+                meta:  {
+                    time: "300 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "For the dough:", 
+                "500–600 g flour", 
+                "80 g butter (melted)", 
+                "2 medium eggs (one for the dough, the second for brushing the pies)", 
+                "30 g sugar", 
+                "8 g dry yeast (or 25 g fresh yeast)", 
+                "8–10 g salt", 
+                "1 tbsp 15–20% cream", 
+                "For the filling:", 
+                "400 g minced meat (beef and pork)", 
+                "1 medium onion", 
+                "50 ml broth or water", 
+
+                ],
+                instructions: [
+                "Dissolve the yeast, 10 g of sugar, and 30 g of flour in warm milk. Leave for 15 minutes until a foamy cap forms.", 
+                "Add the remaining sugar, one egg, and the melted butter (not hot) to the starter. Mix well and add the salt.", 
+                "Gradually add the flour. Depending on the size of the eggs and the texture of the flour, you may need slightly less than 500 g. Knead a soft, elastic dough. It should be slightly softer than dumpling dough and should not stick to your hands.", 
+                "Transfer the dough to a bowl lightly greased with oil and brush the dough with a little vegetable oil. Cover the bowl with plastic wrap or a towel. Make sure there are no drafts, or place the bowl in an oven warmed to 30°C for 1–1.5 hours. Then punch the dough down and let it rise again for another 40–60 minutes.", 
+                "Meanwhile prepare the filling. Finely chop the onion.", 
+                "Sauté the minced meat in a pan, add the onion, and cook only until the meat changes color (do not fully cook it). Add the broth or water and leave the filling to cool.", 
+                "Divide the finished dough into balls of about 50–60 g each. If time allows, place them on a baking sheet lined with parchment paper, cover with plastic wrap and a towel, and leave for another 30–60 minutes.", 
+                "Divide the filling evenly according to the number of dough balls.", 
+                "Flatten each dough ball with your hands (do not roll too thin), place the filling inside, and carefully seal the edges. Place the pies seam-side down on a baking sheet lined with parchment paper, leaving 3–4 cm between them, as they will expand significantly.", 
+                "Cover the tray with plastic wrap and a towel and leave in a warm place for 30–40 minutes. The pies should become noticeably puffed and rounded. If you bake them immediately, they will form a crust and crack instead of rising properly.", 
+                "Beat the second egg with 1 tablespoon of cream. Gently brush the pies with this mixture (try not to press the dough). This will create a beautiful glossy crust.", 
+                "Preheat the oven to 180°C. Bake for 25–30 minutes until golden brown.", 
+                "As soon as the pies come out of the oven, brush them with a small piece of butter. Cover with plastic wrap and a towel and let them rest for 10 minutes.", 
+
+                ],
+                note: "When working with yeast, all ingredients should be at least room temperature but not hotter than 40°C."
              }
         },
         "snaks_salad_carrot_cabbabege":  {
@@ -1534,6 +1622,82 @@ const translations = {
 
                 ],
                 note: "It is better not to roll out all the dough at once, but to divide it into several parts and do several rollouts. The remaining dough can be used for the final batch of dumplings."
+             }
+        },
+        "main_dish_pot_roast_beef":  {
+            ru: {
+                title: "Тушеная говядина",
+                meta:  {
+                    time: "300 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "1-1,2 кг говядины (лопатка/грудинка/голяшка)", 
+                "2 средние луковицы", 
+                "2 средние моркови", 
+                "1 большой или 2 средних лука шалот", 
+                "3-4 зубчика чеснока", 
+                "500 мл сухого красного вина (Мерло, Пино Нуар)", 
+                "500-600 мл говяжьего бульона или воды", 
+                "50 г сливочного масла", 
+                "1 лавровый лист", 
+                "3 веточки тмина", 
+                "1 маленькая веточка розмарина", 
+                "Соль, по вкусу", 
+
+                ],
+                instructions: [
+                "Мясо нарежьте кубиком 5-6 см. Посолите и оставьте минимум на 40 минут, накрыв пленкой.", 
+                "В это время подготовьте овощи. Нарежьте лук на 4 части, а морковь большими шайбами, раздавите чеснок. Перевежите веточки тмина и розмарина.", 
+                "Разогрейте кастрюлю с толстыми стенками, которую можно ставить в духовку. Обжарьте куски мяса так, чтобы каждый кусок был на дне кастрюли, до образования корочки со всех сторон. Важно обжарить мясо, а не начать его тушить.", 
+                "Разогрейте духовку до 140°C в режиме верхнего и нижнего нагрева.", 
+                "Затем выньте мясо и в эту же кастрюлю положите лук, обжарьте его 1-2 минуты, затем положите морковь, еще 3-4 минуты, затем положите чеснок, перемешайте.", 
+                "Добавьте вино, соскребите со дна кастрюли весь нагар - он даст глубину вкуса. Доведите до кипения и подержите еще 2-3 минуты.", 
+                "Затем верните мясо и залейте бульоном так, чтобы вода на 2/3 покрывала мясо. Доведите до легкого кипения.", 
+                "Накройте кастрюлю крышкой и уберите в духовку на 3-4 часа.", 
+                "Через 3 часа проверьте мясо, если оно не распадается на волокна при нажатии вилкой, увеличьте нагрев до 160°C и оставьте еще на час.", 
+                "Когда мясо будет распадаться на волокна при нажатии вилкой, добавьте сливочное масло в соус и перемешайте. Оставьте еще на 10 минут.", 
+                "Если соус не достаточно густой, откройте крышу и оставьте в духовке еще минут на 10.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Pot Roast Beef",
+                meta:  {
+                    time: "300 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "1–1.2 kg beef (chuck, brisket, or shank)", 
+                "2 medium onions", 
+                "2 medium carrots", 
+                "1 large or 2 medium shallots", 
+                "3–4 garlic cloves", 
+                "500 ml dry red wine (Merlot or Pinot Noir)", 
+                "500–600 ml beef broth or water", 
+                "50 g butter", 
+                "1 bay leaf", 
+                "3 sprigs thyme", 
+                "1 small sprig rosemary", 
+                "Salt, to taste", 
+
+                ],
+                instructions: [
+                "Cut the beef into large cubes about 5–6 cm in size. Season with salt and leave for at least 40 minutes, covered with plastic wrap.", 
+                "Meanwhile, prepare the vegetables. Cut the onions into quarters, slice the carrots into thick rounds, and lightly crush the garlic cloves. Tie the thyme and rosemary together with kitchen string.", 
+                "Heat a heavy-bottomed pot or Dutch oven that can go into the oven. Sear the beef pieces so each piece touches the bottom of the pot, cooking until a deep brown crust forms on all sides. The goal is to sear the meat, not to start stewing it.", 
+                "Preheat the oven to 140°C using the conventional top and bottom heat setting.", 
+                "Remove the beef from the pot. In the same pot, add the onions and sauté for 1–2 minutes, then add the carrots and cook for another 3–4 minutes. Add the garlic and stir.", 
+                "Pour in the wine and scrape up all the browned bits from the bottom of the pot — they will add depth of flavor. Bring to a boil and simmer for 2–3 minutes.", 
+                "Return the beef to the pot and pour in enough broth so the liquid covers about two-thirds of the meat. Bring to a gentle simmer.", 
+                "Cover the pot with a lid and transfer it to the oven for 3–4 hours.", 
+                "After 3 hours, check the meat. If it does not fall apart easily when pressed with a fork, increase the oven temperature to 160°C and cook for another hour.", 
+                "Once the meat easily separates into fibers when pressed with a fork, add the butter to the sauce and stir. Leave it for another 10 minutes.", 
+                "If the sauce is not thick enough, remove the lid and return the pot to the oven for about 10 more minutes.", 
+
+                ],
+                note: ""
              }
         },
         "main_dish_stuffed_pepper":  {

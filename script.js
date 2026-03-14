@@ -272,6 +272,10 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_chicken_wings_soy_tomato_marinate';
         } else if (path.includes('soup_creamy_pumpkin_soup')) {
             recipeKey = 'soup_creamy_pumpkin_soup';
+        } else if (path.includes('main_dish_pot_roast_beef')) {
+            recipeKey = 'main_dish_pot_roast_beef';
+        } else if (path.includes('snaсks_pirogi_with_meat')) {
+            recipeKey = 'snaсks_pirogi_with_meat';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
