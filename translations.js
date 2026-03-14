@@ -192,9 +192,17 @@ const translations = {
             en: "Napoleon Cake"
         },
         // Кремы/соусы
-        "Название кремы": {
-            ru: "Название кремы",
-            en: "Sauce name"
+        "Соус Болонезе": {  
+            ru: "Соус Болонезе",
+            en: "Sauce Bolognese"
+        },
+        "Заварной крем": {  
+            ru: "Заварной крем",
+            en: "Сustard Sauce"
+        },
+        "Малиновый курд": {  
+            ru: "Малиновый курд",
+            en: "Raspberry Curd"
         },
     },
     
@@ -1409,7 +1417,7 @@ const translations = {
                 "Запекайте 45 минут. Затем снимите фольгу, включите режим верхнего гриля и запекайте до образования золотистой сырной корочки.", 
 
                 ],
-                note: ""
+                note: "Если располагаете временем, сделайте классический <a href='sauce_bolognese.html' class='elegant-link keep-link'>соус Болонезе</a>."
              },
             en: {
                 title: "Lasagna",
@@ -1437,7 +1445,7 @@ const translations = {
                 "Bake for 45 minutes. Remove the foil, switch to the top grill/broil setting, and bake until a golden cheese crust forms.", 
 
                 ],
-                note: ""
+                note: "If you have time, try the classic <a href='sauce_bolognese.html' class='elegant-link keep-link'>sauce Bolognese</a>."
              }
         },
         "main_dish_orzo":  {
@@ -2590,6 +2598,179 @@ const translations = {
 
                 ],
                 note: "If you find it frustrating that puff pastry scatters crumbs all over the kitchen when sliced, try the <a href='dessert_napoleon_individual.html' class='elegant-link keep-link'>Napoleon in a cup</a> variation."
+             }
+        },
+        "sauce_bolognese":  {
+            ru: {
+                title: "Соус Болонезе",
+                meta:  {
+                    time: "110 мин",
+                    servings: "1,1 - 1,3 кг"
+                  },
+                ingredients: [
+                "800 г фарша", 
+                "500 г пассата или томаты в собственном соку", 
+                "200 мл красного сухого вина", 
+                "1 средняя луковица", 
+                "1 средняя морковь", 
+                "1 ч.л. сушеного базилика", 
+                "1 лавровый лист", 
+                "Соль, перец, сахар", 
+
+                ],
+                instructions: [
+                "Мелко нарежьте лук. Морковь натрите на мелкой терке или тоже очень мелко нарежьте ножом. Чем мельче кусочки, тем больше они растворятся в соусе, сделав его гуще и однороднее.", 
+                "В глубокой сковороде, сотейнике или кастрюле с толстым дном разогрейте немного растительного масла (или оливкового). Выложите лук и морковь. Жарьте на среднем огне 5–7 минут, пока лук не станет прозрачным и мягким.", 
+                "Добавьте фарш к овощам. Разбивайте его лопаткой, чтобы не было больших комков. Жарьте, помешивая, пока фарш не перестанет быть красным и не начнет слегка румяниться.", 
+                "Увеличьте огонь до максимума и влейте красное вино. Перемешайте. Дайте алкоголю выпариться в течение 2-3 минут.", 
+                "Добавьте пассату или томаты в собственном соку, щепотку сахара, сушеный базилик и лавровый лист. Доведите соус до кипения, убавьте огонь до самого минимума (чтобы едва булькало) и оставьте тушиться на 1-1,5 ч.", 
+                "Периодически помешивайте, чтобы соус не пригорел. Если жидкость выкипит слишком сильно, а соус еще не готов, можно подлить немного кипятка.", 
+                "За 10 минут до готовности посолите и поперчите по вкусу и выньте лавровый лист.", 
+
+                ],
+                note: "Отличная основа для <a href='main_dish_lasagna.html' class='elegant-link keep-link'>лазаньи</a>, пастицио или пасты."
+             },
+            en: {
+                title: "Sauce Bolognese",
+                meta:  {
+                    time: "110 minutes",
+                    servings: "1.1 - 1.3 kg"
+                  },
+                ingredients: [
+                "800 g ground meat", 
+                "500 g passata or canned tomatoes in their own juice", 
+                "200 ml dry red wine", 
+                "1 medium onion", 
+                "1 medium carrot", 
+                "1 tsp dried basil", 
+                "1 bay leaf", 
+                "Salt, black pepper, sugar", 
+
+                ],
+                instructions: [
+                "Finely chop the onion. Grate the carrot on a fine grater or chop it very finely with a knife. The smaller the pieces, the more they will dissolve into the sauce, making it thicker and smoother.", 
+                "In a deep frying pan, sauté pan, or heavy-bottomed pot, heat a little vegetable or olive oil. Add the onion and carrot and cook over medium heat for 5–7 minutes until the onion becomes soft and translucent.", 
+                "Add the ground meat to the vegetables. Break it up with a spatula so there are no large lumps. Cook, stirring, until the meat is no longer red and begins to brown slightly.", 
+                "Increase the heat to high and pour in the red wine. Stir and allow the alcohol to evaporate for 2–3 minutes.", 
+                "Add the passata or tomatoes in their own juice, pinch of sugar, the dried basil, and the bay leaf. Bring the sauce to a boil, then reduce the heat to the lowest setting (so it barely simmers) and let it cook for 1–1.5 hours.", 
+                "Stir occasionally to prevent the sauce from sticking. If too much liquid evaporates before the sauce is ready, add a little boiling water.", 
+                "About 10 minutes before the sauce is done, season with salt and black pepper to taste and remove the bay leaf.", 
+
+                ],
+                note: "An excellent base for <a href='main_dish_lasagna.html' class='elegant-link keep-link'>lasagna</a>, pastitsio, or pasta."
+             }
+        },
+        "sauce_custard":  {
+            ru: {
+                title: "Заварной крем",
+                meta:  {
+                    time: "80 мин",
+                    servings: "850 - 900 г"
+                  },
+                ingredients: [
+                "500 мл молока", 
+                "150 г сахара", 
+                "2 яйца", 
+                "40 г муки", 
+                "10 г ванильного сахара", 
+                "100 сливочного масла", 
+
+                ],
+                instructions: [
+                "Достаньте из холодильника сливочное масло, чтобы оно размягчилось.", 
+                "В небольшой кастрюле венчиком взбейте муку, сахар, ванильный сахар и яйца до получения однородной массы.", 
+                "Постепенно влейте небольшое количество молока, тщательно взбивая, чтобы не было комочков.", 
+                "Продолжая взбивать, добавьте оставшееся молоко и перемешайте до полной однородности.", 
+                "Поставьте кастрюлю на медленный огонь. Варите, постоянно помешивая (особенно тщательно по дну), чтобы не образовались комочки.", 
+                "Когда заварной крем загустеет и вот-вот начнет закипать, снимите его с огня.", 
+                "Добавьте в горячий крем размягченное сливочное масло и перемешивайте, пока оно полностью не растает и не вмешается.", 
+                "Перелейте крем в широкую миску для более быстрого остывания. Накройте пищевой пленкой так, чтобы она касалась поверхности крема (это предотвратит образование корочки). Оставьте остывать на 2-3 часа.", 
+
+                ],
+                note: "Отличный крем для <a href='dessert_napoleon_cake.html' class='elegant-link keep-link'>наполеона</a> или <a href='dessert_profiterol.html' class='elegant-link keep-link'>профитролей</a>."
+             },
+            en: {
+                title: "Сustard Sauce",
+                meta:  {
+                    time: "80 minutes",
+                    servings: "850 - 900 g"
+                  },
+                ingredients: [
+                "500 ml milk", 
+                "150 g sugar", 
+                "2 eggs", 
+                "40 g flour", 
+                "10 g vanilla sugar", 
+                "100 g butter", 
+
+                ],
+                instructions: [
+                "Take the butter out of the refrigerator so it can soften.", 
+                "In a small saucepan, whisk together the flour, sugar, vanilla sugar, and eggs until smooth.", 
+                "Gradually pour in a small amount of milk, whisking thoroughly to prevent lumps.", 
+                "While continuing to whisk, add the remaining milk and mix until completely smooth.", 
+                "Place the saucepan over low heat. Cook while stirring constantly (especially along the bottom) to prevent lumps from forming.", 
+                "When the custard thickens and is just about to boil, remove it from the heat.", 
+                "Add the softened butter to the hot custard and stir until it has completely melted and incorporated.", 
+                "Transfer the cream to a wide bowl so it cools faster. Cover with plastic wrap touching the surface of the cream (this prevents a skin from forming) and let it cool for 2–3 hours.", 
+
+                ],
+                note: "An excellent cream for <a href='dessert_napoleon_cake.html' class='elegant-link keep-link'>Napoleon cake</a> or <a href='dessert_profiterol.html' class='elegant-link keep-link'>profiteroles</a>."
+             }
+        },
+
+        "sauce_raspberry_curd":  {
+            ru: {
+                title: "Малиновый курд",
+                meta:  {
+                    time: "30 мин",
+                    servings: "200 - 220 г"
+                  },
+                ingredients: [
+                "150 г малины (свежей или замороженной)", 
+                "2 яйца", 
+                "50 г сахара", 
+                "30 сливочного масла", 
+                "2 ст.л. лимонного сока", 
+
+                ],
+                instructions: [
+                "Пробейте блендером малину и протрите через сито, чтобы удалить косточки.", 
+                "Взбейте яйца с половиной сахара.", 
+                "В кастрюлю выложите малиновое пюре, лимонный сок и вторую половину сахара. Нагрейте почти до кипения.", 
+                "Осторожно, постоянно помешивая яйца, влейте 1/3 горячего малинового пюре в яичную смесь. Эта процедура нужна, чтобы яйца не свернулись.", 
+                "Тонкой струйкой, постоянно помешивая, влейте темперированную яичную смесь обратно в оставшееся пюре и, не переставая мешать, варите на очень медленном огне до появления характерных пыхов (как у заварного крема), то есть до загустения.", 
+                "Слегка остудите крем, добавьте кусочки мягкого сливочного масла и очень хорошо взбейте венчиком.", 
+                "Накройте пищевой пленкой так, чтобы она касалась поверхности крема, оставьте до полного остывания.", 
+
+                ],
+                note: "Отличная начинка для для <a href='dessert_cupcake_creamchease_straberry_jam.html' class='elegant-link keep-link'>капкейков</a> или как добавка к <a href='breakfast_oat_porridge.html' class='elegant-link keep-link'>овсяной каше</a>."
+             },
+            en: {
+                title: "Raspberry Curd",
+                meta:  {
+                    time: "30 minutes",
+                    servings: "200 - 220 g"
+                  },
+                ingredients: [
+                "150 g raspberries (fresh or frozen)", 
+                "2 eggs", 
+                "50 g sugar", 
+                "30 g butter", 
+                "2 tbsp lemon juice", 
+
+                ],
+                instructions: [
+                "Blend the raspberries and strain the puree through a sieve to remove the seeds.", 
+                "Whisk the eggs with half of the sugar.", 
+                "In a saucepan, combine the raspberry puree, lemon juice, and the remaining sugar. Heat until just below boiling.", 
+                "Carefully temper the eggs: while constantly whisking the egg mixture, slowly pour in about one-third of the hot raspberry puree. This prevents the eggs from curdling.", 
+                "In a thin stream, pour the tempered egg mixture back into the remaining puree, stirring constantly. Cook over very low heat until it thickens and begins to release gentle bubbles, similar to custard.", 
+                "Let the cream cool slightly, then add the softened butter in pieces and whisk thoroughly until smooth.", 
+                "Cover with plastic wrap touching the surface of the cream and leave to cool completely.", 
+
+                ],
+                note: "A wonderful filling for <a href='dessert_cupcake_creamchease_straberry_jam.html' class='elegant-link keep-link'>cupcakes</a> or as an addition to <a href='breakfast_oat_porridge.html' class='elegant-link keep-link'>oatmeal</a>."
              }
         },
 

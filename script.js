@@ -276,6 +276,12 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_pot_roast_beef';
         } else if (path.includes('snaсks_pirogi_with_meat')) {
             recipeKey = 'snaсks_pirogi_with_meat';
+        } else if (path.includes('sauce_bolognese')) {
+            recipeKey = 'sauce_bolognese';
+        } else if (path.includes('sauce_custard')) {
+            recipeKey = 'sauce_custard';
+        } else if (path.includes('sauce_raspberry_curd')) {
+            recipeKey = 'sauce_raspberry_curd';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
