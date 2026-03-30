@@ -129,6 +129,10 @@ const translations = {
             ru: "Паста карбонара",
             en: "Pasta Carbonara"
         },
+        "Паста с курицей и шпинатом": {  
+            ru: "Паста с курицей и шпинатом",
+            en: "Chicken and Spinach Pasta"
+        },
         "Пельмени": {  
             ru: "Пельмени",
             en: "Pelmeni"
@@ -1562,6 +1566,71 @@ const translations = {
                 note: ""
              }
         },
+        "main_dish_сhicken_spinach_pasta":  {
+            ru: {
+                title: "Паста с курицей и шпинатом",
+                meta:  {
+                    time: "45 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "700 г куриного филе", 
+                "400 г пасты", 
+                "200 мл 15% сливок", 
+                "150 г шпината (свежего или замороженного)", 
+                "50 г пармезана (+ для подачи)", 
+                "2 зубчика чеснока", 
+                "2 ст.л. молока", 
+                "2 ч.л. кукурзного крахмалаСоль, перец, паприка - по вкусу", 
+
+                ],
+                instructions: [
+                "Нарежьте куриное филе на небльшие кусочки и переложите в миску. Добавьте щепотку соли, молоко и кукурзный крахмал. Перемешайте и оставьте на 15-20 минут.", 
+                "Отварите пасту так, как указано на упаковке.", 
+                "В большой сковороде с высокими бортами разогрейте оливковое масло. Выложите курицу.", 
+                "Обжаривайте на среднем огне по 3-4 минуты с каждой стороны, до золотистой корочки. Курица не обязательно должна дойти до полной готовности внутри (она «дойдет» в соусе).", 
+                "Добавьте сливки, измельченный чеснок и шпинат. Если шпинат свежий, вводите шпинат порциями.", 
+                "Добавьте половник воды из под пасты и доведите до слабого кипения, но не кипятите бурно (сливки могут свернуться).", 
+                "Добавьте сыр и перемешайте, пока он не растает. Добавьте специи.", 
+                "Накройте сковороду крышкой и томите на самом маленьком огне 5-7 минут, пока курица не дойдет до полной готовности.", 
+                "Объедините курицу с соусом с пастой , подавая, посыпьте еще пармезаном.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Chicken and Spinach Pasta",
+                meta:  {
+                    time: "45 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "700 g chicken breast", 
+                "400 g pasta ", 
+                "200 ml 15% cream", 
+                "150 g fresh or frozen spinach", 
+                "50 g Parmesan cheese (add more for serving)", 
+                "2 garlic cloves, minced", 
+                "2 tbsp milk", 
+                "2 tsp cornstarch", 
+                "Salt, black pepper, and paprika to taste", 
+
+                ],
+                instructions: [
+                "Cut the chicken into bite-sized pieces and place them in a bowl. Add a pinch of salt, the milk, and cornstarch. Stir to combine and let it sit for 15–20 minutes.", 
+                "Cook the pasta according to the package directions. Reserve about a cup of pasta water before draining.", 
+                "Heat a splash of olive oil in a large, deep skillet pan over medium-high heat. Add the chicken in a single layer.", 
+                "Sear the chicken for 3–4 minutes per side, until golden brown. It doesn't need to be cooked through at this point—it will finish cooking in the sauce.", 
+                "Reduce the heat to medium. Add the heavy cream, minced garlic, and spinach. If using fresh spinach, add it in handfuls, stirring until it wilts before adding more.", 
+                "Pour in a ladleful of the reserved pasta water and bring the sauce to a gentle simmer. Don't let it boil hard, or the cream might separate.", 
+                "Stir in the Parmesan cheese until melted and smooth. Season with salt, pepper, and paprika to taste.", 
+                "Cover the skillet, reduce the heat to low, and let it simmer for 5–7 minutes, until the chicken is cooked through and tender.", 
+                "Toss the cooked pasta with the chicken and sauce. Serve with extra Parmesan on top.", 
+
+                ],
+                note: ""
+             }
+        },
         "main_dish_pelmeni":  {
             ru: {
                 title: "Пельмени",
@@ -2718,7 +2787,6 @@ const translations = {
                 note: "An excellent cream for <a href='dessert_napoleon_cake.html' class='elegant-link keep-link'>Napoleon cake</a> or <a href='dessert_profiterol.html' class='elegant-link keep-link'>profiteroles</a>."
              }
         },
-
         "sauce_raspberry_curd":  {
             ru: {
                 title: "Малиновый курд",
