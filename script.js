@@ -284,6 +284,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'sauce_raspberry_curd';
         } else if (path.includes('main_dish_сhicken_spinach_pasta')) {
             recipeKey = 'main_dish_сhicken_spinach_pasta';
+        } else if (path.includes('main_dish_asian_chicken')) {
+            recipeKey = 'main_dish_asian_chicken';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

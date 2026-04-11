@@ -109,6 +109,10 @@ const translations = {
             ru: "Куриные крылышки в соево-томатном маринаде",
             en: "Chicken Wings in Soy-Tomato Marinade"
         },
+        "Курица по-азиатски": {  
+            ru: "Курица по-азиатски",
+            en: "Asian Chicken"
+        },
         "Курица с брокколи в сливочном соусе": {  
             ru: "Курица с брокколи в сливочном соусе",
             en: "Chicken with Broccoli in Cream Sauce"
@@ -1268,6 +1272,72 @@ const translations = {
 
                 ],
                 note: ""
+             }
+        },
+        "main_dish_asian_chicken":  {
+            ru: {
+                title: "Курица по-азиатски",
+                meta:  {
+                    time: "45 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "700 г куриного филе", 
+                "300 г шампиньоны", 
+                "1 болгарский перец", 
+                "1 средняя луковица", 
+                "4 зубчика чеснока", 
+                "6 ст.л. соевого соуса", 
+                "1 ч.л. меда", 
+                "2 ч.л. кунжутного масла", 
+                "50 мл воды", 
+                "2 ч.л. кукурзного крахмала", 
+                "Соль, перец, имбирь, паприка, чили - по вкусу", 
+
+                ],
+                instructions: [
+                "Филе нарежьте тонкими полосками (соломкой) поперек волокон. Сложите в миску, добавьте 2 ст.л. соевого соуса, добавьте крахмал и хорошо перемешайте руками. Оставьте мариноваться на 15-20 минут. Крахмал создаст защитную корочку и сделает мясо очень нежным.", 
+                "Шампиньоны нарежьте пластинками или четвертинками (если мелкие). Болгарский перец - соломкой. Лук - полукольцами. Чеснок мелко порубите ножом.", 
+                "В отдельной пиале смешайте 4 ст.л. соевого соуса, мед, кунжутное масло, измельченный зубчик чеснока и воду. Перемешайте до растворения меда.", 
+                "Сильно разогрейте глубокую сковороду с растительным маслом. Выложите курицу и жарьте 3-4 минуты, постоянно помешивая, до побеления и легкой румяности. Переложите курицу обратно в миску.", 
+                "В ту же сковороду, если нужно, добавьте еще масла и высыпьте шампиньоны. Жарьте на сильном огне, пока они не пустят сок и он не выпарится, а грибы не подрумянятся (около 4-5 минут).", 
+                "К грибам добавьте лук и оставшийся чеснок. Жарьте 1 минуту до аромата. Добавьте имбирь, чили и паприку", 
+                "Еще раз быстро перемешайте соус в пиале и влейте его в сковороду. Готовьте, постоянно помешивая, буквально 1-2 минуты, пока соус слегка не загустеет и не обволочет все ингредиенты. Выключайте огонь.", 
+
+                ],
+                note: "Для красивой подачи посыпьте рубленым зеленым луком и кунжутом."
+             },
+            en: {
+                title: "Asian Chicken",
+                meta:  {
+                    time: "45 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "700 g chicken fillet", 
+                "300 g champignons (button mushrooms)", 
+                "1 bell pepper", 
+                "1 medium onion", 
+                "4 cloves garlic", 
+                "6 tbsp soy sauce", 
+                "1 tsp honey", 
+                "2 tsp sesame oil", 
+                "50 ml water", 
+                "2 tsp cornstarch", 
+                "Salt, pepper, ginger, paprika, chili – to taste", 
+
+                ],
+                instructions: [
+                "Cut the fillet into thin strips (julienne), slicing across the grain. Place in a bowl, add 2 tbsp of soy sauce and the cornstarch, and mix well by hand. Let marinate for 15–20 minutes. The cornstarch will create a light coating and keep the meat very tender.", 
+                "Slice the mushrooms or cut into quarters (if small). Cut the bell pepper into strips. Slice the onion into half-rings. Finely chop the garlic with a knife.", 
+                "In a separate bowl, mix 4 tbsp of soy sauce, honey, sesame oil, 1 minced garlic clove, and water. Stir until the honey is dissolved.", 
+                "Heat a deep frying pan or wok over high heat with vegetable oil. Add the chicken and cook for 3–4 minutes, stirring constantly, until it turns white and lightly browned. Transfer the chicken back to the bowl.", 
+                "In the same pan, add more oil if needed and add the mushrooms. Cook over high heat until they release their liquid, it evaporates, and the mushrooms become golden (about 4–5 minutes).", 
+                "Add the onion and remaining garlic to the mushrooms. Cook for 1 minute until fragrant. Add ginger, chili, and paprika.", 
+                "Stir the sauce again and pour it into the pan. Cook, stirring constantly, for 1–2 minutes until the sauce slightly thickens and coats all the ingredients. Remove from heat.", 
+
+                ],
+                note: "For a nice serving sprinkle with chopped green onions and sesame seeds."
              }
         },
         "main_dish_chicken_broccoli_creamy_sauce":  {
