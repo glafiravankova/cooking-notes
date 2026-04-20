@@ -286,6 +286,14 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_сhicken_spinach_pasta';
         } else if (path.includes('main_dish_asian_chicken')) {
             recipeKey = 'main_dish_asian_chicken';
+        } else if (path.includes('main_dish_pork_stew_with_potatoes')) {
+            recipeKey = 'main_dish_pork_stew_with_potatoes';
+        } else if (path.includes('salad_olivie')) {
+            recipeKey = 'salad_olivie';
+        } else if (path.includes('dessert_paskha')) {
+            recipeKey = 'dessert_paskha';
+        }  else if (path.includes('dessert_brioche')) {
+            recipeKey = 'dessert_brioche';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {

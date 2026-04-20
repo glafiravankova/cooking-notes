@@ -71,6 +71,10 @@ const translations = {
             ru: "Маринованные огурцы",
             en: "Marinated Cucumbers"
         },
+        "Оливье": {  
+            ru: "Оливье",
+            en: "Russian Salad"
+        },
         "Пирожки с мясом": {  
             ru: "Пирожки с мясом",
             en: "Pirogi with Meat"
@@ -101,6 +105,10 @@ const translations = {
             en: "Creamy Mushroom Soup"
         },
         // Основные блюда
+        "Жаркое из свинины": {  
+            ru: "Жаркое из свинины",
+            en: "Pork Stew with Potatoes"
+        },
         "Курица карри": {  
             ru: "Курица карри",
             en: "Chicken Curry"
@@ -167,6 +175,10 @@ const translations = {
             ru: "Блинный торт",
             en: "Pancake Cake"
         },
+        "Бриош": {  
+            ru: "Булочка бриош",
+            en: "Brioche"
+        },
         "Грейпфрутовое желе": {  
             ru: "Грейпфрутовое желе",
             en: "Grapefruit Jelly"
@@ -190,6 +202,10 @@ const translations = {
         "Панна-котта c клубничным джемом": {  
                 ru: "Панна-котта c клубничным джемом",
                 en: "Panna Cotta with Strawberry Jam"
+        },
+        "Пасха": {  
+            ru: "Пасха",
+            en: "Russian Easter Paskha"
         },
         "Профитроли с заварным кремом": {  
             ru: "Профитроли с заварным кремом",
@@ -874,6 +890,68 @@ const translations = {
                 note: "When working with yeast, all ingredients should be at least room temperature but not hotter than 40°C."
              }
         },
+        "salad_olivie":  {
+            ru: {
+                title: "Оливье",
+                meta:  {
+                    time: "120 мин",
+                    servings: "8 порций"
+                  },
+                ingredients: [
+                "400 г отварного мяса", 
+"350 г картофеля", 
+"150 гр моркови", 
+"2 яйца вкрутую", 
+"150 г соленых огурцов", 
+"150 г свежих огурцов", 
+"150 г горошка", 
+"200 г майонеза", 
+"Пушок укропаСоль и черный перец по вкусу", 
+
+                ],
+                instructions: [
+                "Отварите кусок мяса около 50-60 минут в зависимости от размера куска.Отварите картофель и морковь в мундире до готовности, примерно 20-30 минут.", 
+"Отдельно сварите яйца вкрутую, примерно 10 минут после закипания.", 
+"Полностью остудите все отваренные ингредиенты. Яйца очистите от скорлупы.", 
+"Очистите картофель и морковь от кожуры. Нарежьте их, а также яйца, мясо и огурцы небольшими кубиками размером около 0,5-1 сантиметра.", 
+"Переложите все нарезанные ингредиенты в большую миску. Добавьте зеленый горошек, предварительно слив с него жидкость.", 
+"Посолите и поперчите салат по вкусу. Заправьте майонезом и тщательно перемешайте.", 
+
+                ],
+                note: "Добавляйте соль, перец и маойонез непосредственно перед подачей на стол."
+             },
+            en: {
+                title: "Russian Salad",
+                meta:  {
+                    time: "120 minutes",
+                    servings: "Serves 8"
+                  },
+                ingredients: [
+                "400 g cooked meat", 
+"350 g potatoes", 
+"150 g carrots", 
+"2 hard-boiled eggs", 
+"150 g pickles", 
+"150 g fresh cucumbers", 
+"150 g peas", 
+"200 g mayonnaise", 
+"A bunch of dill", 
+"Salt and black pepper to taste", 
+
+                ],
+                instructions: [
+                "Boil the meat for about 50–60 minutes, depending on the size of the piece.", 
+"Boil the potatoes and carrots in their skins until tender, about 20–30 minutes.", 
+"Separately, boil the eggs until hard — about 10 minutes after the water starts boiling.", 
+"Let all the cooked ingredients cool completely. Peel the eggs.", 
+"Peel the potatoes and carrots. Dice them, along with the eggs, meat, and cucumbers, into small cubes about 0.5–1 cm in size.", 
+"Transfer all the chopped ingredients to a large bowl. Add the peas, after draining the liquid from the can.", 
+"Season the salad with salt and pepper to taste. Dress with mayonnaise and mix well.", 
+
+                ],
+                note: "Add salt, pepper, and mayonnaise right before serving."
+             }
+        },
         "snaks_salad_carrot_cabbabege":  {
             ru: {
                 title: "Салат из капусты с морковью",
@@ -1156,6 +1234,64 @@ const translations = {
 
                 ],
                 note: "<a href='snaks_garlic_croutons.html' class='elegant-link keep-link'>Garlic croutons</a> fit here perfectly."
+             }
+        },
+        "main_dish_pork_stew_with_potatoes":  {
+            ru: {
+                title: "Жаркое из свинины",
+                meta:  {
+                    time: "100 мин",
+                    servings: "6 порций"
+                  },
+                ingredients: [
+                "800 г свинины из лопатки", 
+"800 г картофеля", 
+"500 мл бульона", 
+"1 средняя луковица", 
+"1 средняя морковь", 
+"2 ст.л. томатной пасты", 
+"1 лавровый лист", 
+"Соль, перец, паприка, чили - по вкусу", 
+
+                ],
+                instructions: [
+                "Свинину и картофель нарежьте небольшими кубиками со стороной 3-4 сантиметра. Лук и морковь нарежьте полукольцами.", 
+"Разогрейте кастрюлю с толстым дном и влейте немного масла. Выложите мясо в один слой и ждите, пока не образуется корочка.", 
+"Переверните мясо так, чтобы корочка появилась со всех сторон кусочков. Затем выложите мясо из кастрюли в отдельную миску, а в кастрюлю добавьте лук с морковью.", 
+"Обжаривайте овощи, пока лук не пожелтеет. Затем добавьте томатную пасту и жарьте еще 1-2 минуты. После этого верните мясо в кастрюлю.", 
+"Влейте в кастрюлю столько бульона, чтобы он покрывал мясо на две трети. Добавьте приправы, перемешайте, накройте крышкой и тушите на слабом огне 40-50 минут.", 
+"Затем добавьте картофель. При необходимости долейте немного воды и тушите еще 25-30 минут до полной готовности картофеля.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Pork Stew with Potatoes",
+                meta:  {
+                    time: "100 minutes",
+                    servings: "Serves 6"
+                  },
+                ingredients: [
+                "800 g pork shoulder", 
+"800 g potatoes", 
+"500 ml broth", 
+"1 medium onion", 
+"1 medium carrot", 
+"2 tbsp tomato paste", 
+"1 bay leaf", 
+"Salt, pepper, paprika, chili — to taste", 
+
+                ],
+                instructions: [
+                "Cut the pork and potatoes into small cubes, about 1.5 inches (3–4 cm) in size. Slice the onion and carrot into half-rings.", 
+"Heat a heavy-bottomed pot and add a little oil. Put the meat in a single layer and wait until it develops a crust.", 
+"Flip the meat so it gets a crust on all sides. Then take the meat out of the pot and set it aside in a bowl. Add the onion and carrot to the pot.", 
+"Sauté the vegetables until the onion turns yellow. Then add the tomato paste and cook for another 1–2 minutes. After that, return the meat to the pot.", 
+"Pour in enough broth to cover the meat about two-thirds of the way. Add the seasonings, stir, cover, and simmer over low heat for 40–50 minutes.", 
+"Add the potatoes. If needed, pour in a little more water and simmer for another 25–30 minutes, until the potatoes are fully cooked.", 
+
+                ],
+                note: ""
              }
         },
         "main_dish_chicken_curry":  {
@@ -2118,6 +2254,73 @@ const translations = {
                 note: "Use two frying pans and a helpful friend, this way the preparation time shrinks from four hours to about one and a half."
              }
         },
+        "dessert_brioche":  {
+            ru: {
+                title: "Бриош",
+                meta:  {
+                    time: "80+780 мин",
+                    servings: "8-10 порций"
+                  },
+                ingredients: [
+                "500 г сильной муки (не менее 12 г белка на 100 г)", 
+"245 мл молока", 
+"7 г сухих дрожжей (или 21 г свежих)", 
+"100 г сахара", 
+"2 яйца", 
+"1 желток для смазывания", 
+"1 ст.л. 15-20% сливок", 
+"1/2 ч.л. соли", 
+"1-2 г ванилина", 
+"80 г сливочного масла (мягкого, комнатной температуры)", 
+
+                ],
+                instructions: [
+                "Приготовьте заварку. В кастрюльке смешайте 125 мл молока и 25 г муки. На медленном огне доведите до загущения, постоянно помешивая. Полностью остудите.", 
+"Приготовьте опару. Соедините 120 мл теплого молока, дрожжи и 80 г муки. Добавьте всю остывшую заварку. Перемешайте и оставьте до вспучивания. Опара должна получиться очень густой, как тесто на оладьи.", 
+"В отдельной миске размешайте яйца с сахаром и ванилью. Добавьте подошедшую опару и перемешайте.", 
+"Просейте 300 г муки вместе с солью. Постепенно введите эту смесь в жидкую основу, замешивая тесто. Если тесто слишком жидкое, добавьте еще муки.", 
+"Когда тесто начнет собираться в ком, начинайте добавлять мягкое сливочное масло (не растопленное, а именно мягкое). Продолжайте вымешивать тесто 12-15 минут до гладкости и эластичности.", 
+"Накройте тесто и дайте ему отдохнуть 20-30 минут в тепле без сквозняков. Затем переложите тесто в холодильник на 8 часов.", 
+"Достаньте тесто из холодильника и оставьте его на 1,5-2 часа согреваться.Затем обомните тесто и разделите его на 8-10 частей. Скатайте шарики, поместите их в форму для запекания и накройте пленкой. Дайте отдохнуть еще 1,5-2 часа.", 
+"Смажьте верх булочек желтком, смешанным со сливками. Выпекайте при температуре 180 градусов до золотистого цвета и сухой деревянной шпажки. Время выпекания зависит от размера форм, обычно 20-25 минут.", 
+
+                ],
+                note: "Если верхушки уже достигли желаемого цвета, но внутри они еще не готовы - накройте булочки фольгой."
+             },
+            en: {
+                title: "Brioche",
+                meta:  {
+                    time: "80+780 minutes",
+                    servings: "Serves 8-10"
+                  },
+                ingredients: [
+                "500 g strong flour (at least 12g protein per 100g)", 
+"245 ml milk", 
+"7 g instant dry yeast (or 21 g fresh yeast)", 
+"100 g sugar", 
+"2 eggs", 
+"1 egg yolk for brushing", 
+"1 tbsp 15–20% cream", 
+"1/2 tsp salt", 
+"1–2 g vanillin (or 1 tsp vanilla extract)", 
+"80 g unsalted butter (softened, room temperature)", 
+
+                ],
+                instructions: [
+                "Make the tangzhong (flour roux). In a small saucepan, mix 125 ml of milk with 25 g of flour. Cook over low heat, stirring constantly, until thickened. Let it cool completely.", 
+"Make the preferment. Combine 120 ml of warm milk, the yeast, and 80 g of flour. Add the cooled tangzhong. Mix and let it sit until bubbly and puffed. The preferment should be very thick — like a pancake batter consistency.", 
+"In a separate bowl, whisk the eggs with the sugar and vanillin. Add the risen preferment and mix.", 
+"Sift 300 g of flour together with the salt. Gradually add this mixture to the wet ingredients while mixing the dough. If the dough is too wet, add a little more flour.", 
+"Once the dough starts coming together, begin adding the softened butter (not melted — just soft). Keep kneading the dough for 12–15 minutes until smooth and elastic.", 
+"Cover the dough and let it rest for 20–30 minutes in a warm place away from drafts. Then transfer the dough to the fridge for 8 hours.", 
+"Take the dough out of the fridge and let it sit for 1.5–2 hours to warm up.", 
+"Punch down the dough and divide it into 8–10 pieces. Roll them into balls, place them into a baking dish, and cover with plastic wrap. Let them rest for another 1.5–2 hours.", 
+"Brush the tops of the buns with the egg yolk mixed with cream. Bake at 180°C (350°F) until golden brown and a wooden skewer comes out clean. Baking time depends on the size of the pan — usually 20–25 minutes.", 
+
+                ],
+                note: "If the tops have reached the desired color but the insides aren't fully baked yet — cover the buns with foil."
+             }
+        },
         "dessert_grapefruit_jelly":  {
             ru: {
                 title: "Грейпфрутовое желе",
@@ -2581,6 +2784,64 @@ const translations = {
 
                 ],
                 note: ""
+             }
+        },
+        "dessert_paskha":  {
+            ru: {
+                title: "Пасха",
+                meta:  {
+                    time: "45+720 мин",
+                    servings: "12 порций"
+                  },
+                ingredients: [
+                "450 г творога сухого 9%", 
+"130 г сливочного масла 82% (мягкого, комнатной температуры)", 
+"80 г греческого йогурта без добавок", 
+"70 г сахара (или чуть меньше, если не любите сладко)", 
+"10 г ванильного сахара", 
+"1 ч.л. без горки цедры апельсина", 
+
+                ],
+                instructions: [
+                "Протрите творог через сито дважды. Это критично для нерассыпчатой текстуры.", 
+"Взбейте сливочное масло с сахаром и ванильным сахаром до кремообразного состояния.", 
+"Добавьте греческий йогурт и перемешайте.", 
+"Добавьте апельсиновую цедру. Берите только желтый слой, без белой горькой части.", 
+"Соедините масляную смесь с творогом и вымешивайте 3-4 минуты до полной однородности и блеска. Масса должна стать похожей на густой крем.", 
+"Выложите массу в марлю, помещенную в пасочницу. Сверху поставьте груз весом 0.7-1 кг.", 
+"Уберите в холодильник на 12 часов. Не держите дольше, иначе пасха станет суше.", 
+"Переверните пасху на тарелку и снимите марлю.", 
+
+                ],
+                note: "Для более насыщенного вкуса можно добавить изюм или цукаты после замачивания. Пасху лучше готовить в классической деревянной пасочнице, но подойдет пластиковая пасочница или обычный дуршлаг."
+             },
+            en: {
+                title: "Russian Easter Paskha",
+                meta:  {
+                    time: "45+720 minutes",
+                    servings: "Serves 12"
+                  },
+                ingredients: [
+                "450 g dry curd cottage cheese (9% fat)", 
+"130 g unsalted butter (82% fat, softened, room temperature)", 
+"80 g plain Greek yogurt", 
+"70 g sugar (or a little less if you don’t like it too sweet)", 
+"10 g vanilla sugar", 
+"1 tsp orange zest (lightly packed, no heaping)", 
+
+                ],
+                instructions: [
+                "Press the cottage cheese through a sieve twice. This is key to getting a non-crumbly texture.", 
+"Beat the butter with the sugar and vanilla sugar until creamy and smooth.", 
+"Add the Greek yogurt and mix it in.", 
+"Add the orange zest. Use only the orange part, not the white bitter pith underneath.", 
+"Combine the butter mixture with the cottage cheese and mix for 3–4 minutes until completely smooth and glossy. The mixture should look like a thick cream.", 
+"Line a traditional Easter cheese mold (passochnitsa) with cheesecloth and spoon the mixture in. Place a weight of about 0.7–1 kg on top.", 
+"Refrigerate for 12 hours. Don’t leave it longer than that, or the Easter cheese will become dry.", 
+"Flip the Easter cheese onto a plate and remove the cheesecloth.", 
+
+                ],
+                note: "For a richer flavor, you can add soaked raisins or candied fruit. This dish is best made in a classic wooden Easter cheese mold, but a plastic one or a regular colander will also work."
              }
         },
         "dessert_profiterol":  {
