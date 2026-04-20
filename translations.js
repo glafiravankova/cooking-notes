@@ -175,8 +175,8 @@ const translations = {
             ru: "Блинный торт",
             en: "Pancake Cake"
         },
-        "Бриош": {  
-            ru: "Булочка бриош",
+        "Бриошь": {  
+            ru: "Булочка бриошь",
             en: "Brioche"
         },
         "Грейпфрутовое желе": {  
@@ -2256,7 +2256,7 @@ const translations = {
         },
         "dessert_brioche":  {
             ru: {
-                title: "Бриош",
+                title: "Бриошь",
                 meta:  {
                     time: "80+780 мин",
                     servings: "8-10 порций"
