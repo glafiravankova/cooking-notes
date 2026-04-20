@@ -176,7 +176,7 @@ const translations = {
             en: "Pancake Cake"
         },
         "Бриошь": {  
-            ru: "Булочка бриошь",
+            ru: "Бриошь",
             en: "Brioche"
         },
         "Грейпфрутовое желе": {  
