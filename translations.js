@@ -51,6 +51,10 @@ const translations = {
             en: "Eggs with sausage and tomatoes"
         },
         // Закуска
+        "Весенний салат": {  
+            ru: "Весенний салат",
+            en: "Spring Salad"
+        },
         "Греческий салат": {  
             ru: "Греческий салат",
             en: "Greek Salad"
@@ -523,6 +527,50 @@ const translations = {
                 ],
                 note: "Feel free to add anything you have on hand — grated cheese, fresh herbs, or leftover vegetables work especially well."
             }
+        },
+        "snacks_spring_salad":  {
+            ru: {
+                title: "Весенний салат",
+                meta:  {
+                    time: "10 мин",
+                    servings: "3-4 порции"
+                  },
+                ingredients: [
+                "150 г огурцов", 
+"125 г редиса", 
+"50 г греческого йогурта", 
+"1 пучок укропа", 
+"Соль - по вкусу", 
+
+                ],
+                instructions: [
+                "Нарежьте огурцы и редис колечками, нашинкуйте укроп.", 
+"Соедините все ингредиенты в миске и перемешайте.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Spring Salad",
+                meta:  {
+                    time: "10 minutes",
+                    servings: "Serves 3-4"
+                  },
+                ingredients: [
+                "150 g cucumbers", 
+"125 g radishes", 
+"50 g Greek yogurt", 
+"1 bunch of dill", 
+"Salt to taste", 
+
+                ],
+                instructions: [
+                "Slice the cucumbers and radishes into rounds. Finely chop the dill.", 
+"Combine all the ingredients in a bowl and mix well.", 
+
+                ],
+                note: ""
+             }
         },
         "snacks_green_salad_with_balsamic":  {
             ru: {

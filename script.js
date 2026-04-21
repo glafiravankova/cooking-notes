@@ -294,6 +294,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_paskha';
         }  else if (path.includes('dessert_brioche')) {
             recipeKey = 'dessert_brioche';
+        }  else if (path.includes('snacks_spring_salad')) {
+            recipeKey = 'snacks_spring_salad';
         }
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
