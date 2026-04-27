@@ -44,11 +44,11 @@ const translations = {
         },
         "Творожная запеканка": {  
             ru: "Творожная запеканка",
-            en: "Сottage cheese casserole"
+            en: "Сottage Cheese Casserole"
         },
         "Яйца с сосиской и томатами": {
             ru: "Яйца с сосиской и томатами",
-            en: "Eggs with sausage and tomatoes"
+            en: "Eggs with Sausage and Tomatoes"
         },
         // Закуска
         "Весенний салат": {  
@@ -93,7 +93,7 @@ const translations = {
         },
         "Чесночные сухарики": {  
             ru: "Чесночные сухарики",
-            en: "Garlic croutons"
+            en: "Garlic Croutons"
         },
         // Супы
         "Бульон куриный": {  
@@ -459,7 +459,7 @@ const translations = {
                 note: "Запеканку можно приготовить с вечера, а перед подачей только немного разогреть."
              },
             en: {
-                title: "Сottage cheese casserole",
+                title: "Сottage Cheese Casserole",
                 meta:  {
                     time: "55 minutes",
                     servings: "Serves 2-4"
@@ -1069,7 +1069,7 @@ const translations = {
                 note: "В масло можете добавить все, с чем любите сухарики, например, сушеный орегано, базилик и даже тертый пармезан."
              },
             en: {
-                title: "Garlic croutons",
+                title: "Garlic Croutons",
                 meta:  {
                     time: "15 minutes",
                     servings: "Serves 2"
