@@ -296,7 +296,10 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_brioche';
         }  else if (path.includes('snacks_spring_salad')) {
             recipeKey = 'snacks_spring_salad';
+        } else if (path.includes('main_dish_сhicken_meatballs')) {
+            recipeKey = 'main_dish_сhicken_meatballs';
         }
+            
         
         if (recipeKey && translations.recipeDetails && translations.recipeDetails[recipeKey]) {
             const recipe = translations.recipeDetails[recipeKey][lang];

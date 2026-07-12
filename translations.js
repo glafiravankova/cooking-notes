@@ -113,13 +113,17 @@ const translations = {
             ru: "Жаркое из свинины",
             en: "Pork Stew with Potatoes"
         },
-        "Курица карри": {  
-            ru: "Курица карри",
-            en: "Chicken Curry"
-        },
+        "Куриные котлеты": {  
+            ru: "Куриные котлеты",
+            en: "Chicken Meatballs"
+            },
         "Куриные крылышки в соево-томатном маринаде": {  
             ru: "Куриные крылышки в соево-томатном маринаде",
             en: "Chicken Wings in Soy-Tomato Marinade"
+        },
+        "Курица карри": {  
+            ru: "Курица карри",
+            en: "Chicken Curry"
         },
         "Курица по-азиатски": {  
             ru: "Курица по-азиатски",
@@ -1342,60 +1346,72 @@ const translations = {
                 note: ""
              }
         },
-        "main_dish_chicken_curry":  {
+        "main_dish_сhicken_meatballs":  {
             ru: {
-                title: "Курица карри",
+                title: "Куриные котлеты",
                 meta:  {
-                    time: "40 мин",
-                    servings: "4 порции"
+                    time: "45 мин",
+                    servings: "6-8 порций"
                   },
                 ingredients: [
-                "700 г куриной грудки", 
-                "500 г нарезанных помидоров", 
-                "200 г 20% сливок", 
-                "1 луковица", 
-                "10 г кукурузного крахмала (по желанию, для более приятной текстуры)", 
-                "Соль, перец, приправа карри, хлопья чили (по желанию, для любителей острого)", 
+                "700-800 г куриного фарша", 
+"2 средние луковицы (~200-250 г)", 
+"2-3 зубчика чеснока (по желанию)", 
+"1 куриное яйцо", 
+"4-5 кусочков белого хлеба (только мякоть)", 
+"150 мл молока (для замачивания хлеба)", 
+"2 ст.л. сметаны (или греческого йогурта)", 
+"1 ч.л. соли", 
+"1 ч.л. копченой паприки (по желанию)", 
+"1/2 ч.л. перца", 
+"Растительное или сливочное масло для жарки", 
 
                 ],
                 instructions: [
-                "Нарежьте куриное филе кусочками и обжарьте на сильном огне. Готовьте 3-5 минут на максимальном нагреве. Приправьте солью и перцем.", 
-                "После того, как перевернете курицу, добавьте на сковороду лук, нарезанный четвертинками колец.", 
-                "Когда курица будет почти готова, убавьте огонь до среднего и добавьте нарезанные помидоры, потомите.", 
-                "Добавьте сливки, перемешайте и снова оставьте томиться на 3-5 минут.", 
-                "Добавляйте приправу карри постепенно, регулируя количество по вкусу. Если хотите получить более острый карри, можно также добавить хлопья чили.", 
-                "Смешайте все вместе, убавьте огонь до минимума и всыпьте кукурузный крахмал.", 
-                "Перемешайте и дайте курице потушиться в течение 10-15 минут, чтобы она полностью пропиталась соусом.", 
+                "Замочите мякоть батона в молоке на 5-7 минут, затем хорошо отожмите (почти досуха).", 
+"Мелко нарежьте лук и чеснок. Обжарьте их на растительном масле до мягкости и прозрачности. Полностью остудите.", 
+"В большой миске соедините куриный фарш, отжатый хлеб, остывший лук с чесноком, яйцо, сметану, соль, перец и паприку.", 
+"Тщательно вымешайте фарш руками. Затем поднимите его и с силой бросьте обратно в миску - повторите 10-15 раз. Это сделает котлеты нежными и плотными.", 
+"По желанию: уберите фарш в холодильник на 20–30 минут — так он лучше лепится.", 
+"Смочите руки холодной водой и слепите 12-15 котлет (чуть больше куриного яйца).", 
+"Разогрейте масло на среднем огне. Жарьте котлеты по 3-4 минуты с каждой стороны до золотистой корочки.", 
+"Затем поставьте их в духовку, разогретую до 180 °C, на 10 минут (или до того момента, пока фарш внутри полностью не побелеет).", 
 
                 ],
-                note: "Острая курица карри отлично идет с рисом и салатными листьями."
+                note: "К фаршу можно добавить один кабачок, натертой на средней терке"
              },
             en: {
-                title: "Chicken Curry",
+                title: "Chicken Meatballs",
                 meta:  {
-                    time: "40 min",
-                    servings: "Serves 4"
+                    time: "45 minutes",
+                    servings: "Serves 6-8"
                   },
                 ingredients: [
-                "700 g chicken breast", 
-                "500 g chopped tomatoes", 
-                "200 g 20% cream", 
-                "1 onion", 
-                "10 g cornstarch (optional, for a smoother texture)", 
-                "Salt, pepper, curry seasoning, chili flakes (optional, for spice lovers)", 
+                "700–800 g ground chicken", 
+"2 medium onions (~200–250 g)", 
+"2–3 cloves garlic (optional)", 
+"1 egg", 
+"4–5 slices of white bread (crumb only)", 
+"150 ml milk (for soaking the bread)", 
+"2 tbsp sour cream (or Greek yogurt)", 
+"1 tsp salt", 
+"1 tsp smoked paprika (optional)", 
+"1/2 tsp black pepper", 
+"Vegetable oil or butter, for frying", 
 
                 ],
                 instructions: [
-                "Cut the chicken fillet into pieces and fry over high heat. Cook for 3-5 minutes at maximum heat level. Season with salt and pepper.", 
-                "After flipping the chicken, add the onion sliced into quarter rings to the pan.", 
-                "When the chicken is almost cooked through, reduce the heat to medium and add the chopped tomatoes. Let it simmer.", 
-                "Add the cream, stir, and let it simmer again for 3-5 minutes.", 
-                "Add the curry seasoning gradually, adjusting the amount to taste. If you prefer a spicier curry, you can also add chili flakes.", 
-                "Mix everything together, reduce the heat to minimum, and add the cornstarch.", 
-                "Stir and let the chicken simmer for 10-15 minutes so it fully absorbs the sauce.", 
+                "Soak the bread crumb in the milk for 5–7 minutes, then squeeze out as much liquid as possible.", 
+"Finely chop the onion and garlic. Sauté them in vegetable oil until soft and translucent. Let cool completely.", 
+"In a large bowl, combine the ground chicken, squeezed bread, cooled onion and garlic, egg, sour cream, salt, black pepper, and smoked paprika.", 
+"Knead the mixture thoroughly by hand. Then lift it up and firmly throw it back into the bowl 10–15 times. This helps make the patties tender while keeping them firm.", 
+"If desired, refrigerate the mixture for 20–30 minutes to make it easier to shape.", 
+"Lightly wet your hands with cold water and shape the mixture into 12–15 patties, each slightly larger than an egg.", 
+"Heat the oil over medium heat. Fry the patties for 3–4 minutes per side until golden brown.", 
+"Transfer the patties to a preheated 180°C (350°F) oven and bake for 10 minutes, or until the centers are fully cooked.", 
 
                 ],
-                note: "Spicy chicken curry goes great with rice and salad greens."
+                note: "For extra juiciness, you can add one medium zucchini, grated on the coarse side of a box grater, to the meat mixture."
              }
         },
         "main_dish_chicken_wings_soy_tomato_marinate":  {
@@ -1456,6 +1472,62 @@ const translations = {
 
                 ],
                 note: ""
+             }
+        },
+        "main_dish_chicken_curry":  {
+            ru: {
+                title: "Курица карри",
+                meta:  {
+                    time: "40 мин",
+                    servings: "4 порции"
+                  },
+                ingredients: [
+                "700 г куриной грудки", 
+                "500 г нарезанных помидоров", 
+                "200 г 20% сливок", 
+                "1 луковица", 
+                "10 г кукурузного крахмала (по желанию, для более приятной текстуры)", 
+                "Соль, перец, приправа карри, хлопья чили (по желанию, для любителей острого)", 
+
+                ],
+                instructions: [
+                "Нарежьте куриное филе кусочками и обжарьте на сильном огне. Готовьте 3-5 минут на максимальном нагреве. Приправьте солью и перцем.", 
+                "После того, как перевернете курицу, добавьте на сковороду лук, нарезанный четвертинками колец.", 
+                "Когда курица будет почти готова, убавьте огонь до среднего и добавьте нарезанные помидоры, потомите.", 
+                "Добавьте сливки, перемешайте и снова оставьте томиться на 3-5 минут.", 
+                "Добавляйте приправу карри постепенно, регулируя количество по вкусу. Если хотите получить более острый карри, можно также добавить хлопья чили.", 
+                "Смешайте все вместе, убавьте огонь до минимума и всыпьте кукурузный крахмал.", 
+                "Перемешайте и дайте курице потушиться в течение 10-15 минут, чтобы она полностью пропиталась соусом.", 
+
+                ],
+                note: "Острая курица карри отлично идет с рисом и салатными листьями."
+             },
+            en: {
+                title: "Chicken Curry",
+                meta:  {
+                    time: "40 min",
+                    servings: "Serves 4"
+                  },
+                ingredients: [
+                "700 g chicken breast", 
+                "500 g chopped tomatoes", 
+                "200 g 20% cream", 
+                "1 onion", 
+                "10 g cornstarch (optional, for a smoother texture)", 
+                "Salt, pepper, curry seasoning, chili flakes (optional, for spice lovers)", 
+
+                ],
+                instructions: [
+                "Cut the chicken fillet into pieces and fry over high heat. Cook for 3-5 minutes at maximum heat level. Season with salt and pepper.", 
+                "After flipping the chicken, add the onion sliced into quarter rings to the pan.", 
+                "When the chicken is almost cooked through, reduce the heat to medium and add the chopped tomatoes. Let it simmer.", 
+                "Add the cream, stir, and let it simmer again for 3-5 minutes.", 
+                "Add the curry seasoning gradually, adjusting the amount to taste. If you prefer a spicier curry, you can also add chili flakes.", 
+                "Mix everything together, reduce the heat to minimum, and add the cornstarch.", 
+                "Stir and let the chicken simmer for 10-15 minutes so it fully absorbs the sauce.", 
+
+                ],
+                note: "Spicy chicken curry goes great with rice and salad greens."
              }
         },
         "main_dish_asian_chicken":  {
