@@ -1396,7 +1396,7 @@ const translations = {
                 note: ""
              }
         },
-        "main_dish_сhicken_meatballs":  {
+        "main_dish_chicken_meatballs":  {
             ru: {
                 title: "Куриные котлеты",
                 meta:  {
@@ -1942,7 +1942,7 @@ const translations = {
                 note: ""
              }
         },
-        "main_dish_сhicken_spinach_pasta":  {
+        "main_dish_chicken_spinach_pasta":  {
             ru: {
                 title: "Паста с курицей и шпинатом",
                 meta:  {

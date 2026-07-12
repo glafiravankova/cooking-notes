@@ -282,8 +282,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'sauce_custard';
         } else if (path.includes('sauce_raspberry_curd')) {
             recipeKey = 'sauce_raspberry_curd';
-        } else if (path.includes('main_dish_сhicken_spinach_pasta')) {
-            recipeKey = 'main_dish_сhicken_spinach_pasta';
+        } else if (path.includes('main_dish_chicken_spinach_pasta')) {
+            recipeKey = 'main_dish_chicken_spinach_pasta';
         } else if (path.includes('main_dish_asian_chicken')) {
             recipeKey = 'main_dish_asian_chicken';
         } else if (path.includes('main_dish_pork_stew_with_potatoes')) {
@@ -296,10 +296,11 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_brioche';
         }  else if (path.includes('snacks_spring_salad')) {
             recipeKey = 'snacks_spring_salad';
-        } else if (path.includes('main_dish_сhicken_meatballs')) {
-            recipeKey = 'main_dish_сhicken_meatballs';
+        } else if (path.includes('main_dish_chicken_meatballs')) {
+            recipeKey = 'main_dish_chicken_meatballs';
         } else if (path.includes('snaks_psita_pepperia_with_feta')) {
             recipeKey = 'snaks_psita_pepperia_with_feta';
+        
         }
             
         
