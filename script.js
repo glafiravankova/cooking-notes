@@ -298,6 +298,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'snacks_spring_salad';
         } else if (path.includes('main_dish_сhicken_meatballs')) {
             recipeKey = 'main_dish_сhicken_meatballs';
+        } else if (path.includes('snaks_psita_pepperia_with_feta')) {
+            recipeKey = 'snaks_psita_pepperia_with_feta';
         }
             
         

@@ -79,6 +79,10 @@ const translations = {
             ru: "Оливье",
             en: "Russian Salad"
         },
+        "Печеные перцы с фетой": {  
+            ru: "Печеные перцы с фетой",
+            en: "Backed Peppers with Feta"
+        },
         "Пирожки с мясом": {  
             ru: "Пирожки с мясом",
             en: "Pirogi with Meat"
@@ -862,6 +866,52 @@ const translations = {
                 note: "You may add additional spices to taste, such as cloves."
              }
         },   
+        "snaks_psita_pepperia_with_feta":  {
+            ru: {
+                title: "Печеные перцы с фетой",
+                meta:  {
+                    time: "40 мин",
+                    servings: "2 порции"
+                  },
+                ingredients: [
+                "2 крупных перца Рамиро", 
+"50 г феты", 
+"1/2 ч.л. оливкового масла", 
+"1/2 ч.л. бальзамического уксуса", 
+
+                ],
+                instructions: [
+                "Разрежьте перцы пополам, выложите на противень и запеките при температуре 200 °С около 15-20 минут до размягчения.", 
+"Как только перцы станут мягкими, достаньте их из духовки, переложите в миску и плотно накройте тарелкой или пленкой на 10 минут (так кожица отойдет легче).", 
+"Когда перцы остынут, снимите кожицу, при желании нарежьте или сразу выложите на тарелку.", 
+"Полейте оливковым маслом и бальзамиком, сверху покрошите фету.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Backed Peppers with Feta",
+                meta:  {
+                    time: "40 minutes",
+                    servings: "Serves 2"
+                  },
+                ingredients: [
+                "2 large Florini peppers", 
+"50 g feta cheese", 
+"1/2 tsp olive oil", 
+"1/2 tsp balsamic vinegar", 
+
+                ],
+                instructions: [
+                "Cut the peppers in half, place them on a baking tray, and roast at 200°C for 15–20 minutes, until softened.", 
+"Once the peppers are soft, remove them from the oven, transfer them to a bowl, and cover tightly with a plate or plastic wrap for 10 minutes. This will make the skins easier to peel.", 
+"When the peppers have cooled, peel off the skins. Slice them if desired, or arrange the halves directly on a serving plate.", 
+"Drizzle with the olive oil and balsamic vinegar, then crumble the feta over the top.", 
+
+                ],
+                note: ""
+             }
+        },
         "snaсks_pirogi_with_meat":  {
             ru: {
                 title: "Пирожки с мясом",
