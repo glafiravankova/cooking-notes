@@ -117,10 +117,14 @@ const translations = {
             ru: "Жаркое из свинины",
             en: "Pork Stew with Potatoes"
         },
+        "Курица в сливочно-горчичном соусе": {  
+            ru: "Курица в сливочно-горчичном соусе",
+            en: "Chicken in Creamy Mustard Sauce"
+        },
         "Куриные котлеты": {  
             ru: "Куриные котлеты",
             en: "Chicken Meatballs"
-            },
+        },
         "Куриные крылышки в соево-томатном маринаде": {  
             ru: "Куриные крылышки в соево-томатном маринаде",
             en: "Chicken Wings in Soy-Tomato Marinade"
@@ -218,6 +222,10 @@ const translations = {
         "Пасха": {  
             ru: "Пасха",
             en: "Russian Easter Paskha"
+        },
+        "Пирог со сливой": {  
+            ru: "Пирог со сливой",
+            en: "Plum Cake"
         },
         "Профитроли с заварным кремом": {  
             ru: "Профитроли с заварным кремом",
@@ -1391,6 +1399,62 @@ const translations = {
 "Sauté the vegetables until the onion turns yellow. Then add the tomato paste and cook for another 1–2 minutes. After that, return the meat to the pot.", 
 "Pour in enough broth to cover the meat about two-thirds of the way. Add the seasonings, stir, cover, and simmer over low heat for 40–50 minutes.", 
 "Add the potatoes. If needed, pour in a little more water and simmer for another 25–30 minutes, until the potatoes are fully cooked.", 
+
+                ],
+                note: ""
+             }
+        },
+        "main_dish_cream_mustard_chicken":  {
+            ru: {
+                title: "Курица в сливочно-горчичном соусе",
+                meta:  {
+                    time: "120 мин",
+                    servings: "5 порций"
+                  },
+                ingredients: [
+                "700 г куриных бедрышек без кости", 
+"200 г сливок (10%-15%)", 
+"200 мл куриного бульона", 
+"1 средняя луковица", 
+"4 зубчика чеснока", 
+"1 ч.л. дижонской горчицы", 
+"Соль, перец, орегано", 
+"Масло для жарки", 
+
+                ],
+                instructions: [
+                "Мелко нарежьте лук и обжарьте его на среднем огне 5-7 минут до мягкости.", 
+"Добавьте чеснок, нарезанный мелким кубиком, и прогрейте еще минуту до появления аромата.", 
+"Куриные бедра можно оставить цельными или разрезать на 2-3 крупных куска. Обжарьте их по 3-4 минуты с каждой стороны до румяной корочки.", 
+"Влейте бульон и сливки, добавьте горчицу и специи, перемешайте.", 
+"Накройте крышкой и томите на медленном огне 60-90 минут, пока мясо не станет легко разделяться на волокна от нажатия лопаткой.", 
+
+                ],
+                note: ""
+             },
+            en: {
+                title: "Chicken in Creamy Mustard Sauce",
+                meta:  {
+                    time: "120 minutes",
+                    servings: "Serves 5"
+                  },
+                ingredients: [
+                "700 g boneless chicken thighs", 
+"200 ml cream (10%–15%)", 
+"200 ml chicken broth", 
+"1 medium onion", 
+"4 garlic cloves", 
+"1 tsp Dijon mustard", 
+"Salt, pepper, oregano to taste", 
+"Oil for frying", 
+
+                ],
+                instructions: [
+                "Finely chop the onion and sauté over medium heat for 5–7 minutes until soft and translucent.", 
+"Add the garlic, finely diced, and cook for another minute until fragrant.", 
+"Chicken thighs can be left whole or cut into 2–3 large pieces. Brown them for 3–4 minutes per side until golden.", 
+"Pour in the broth and cream, add the mustard and seasonings, and stir to combine.", 
+"Cover and simmer over low heat for 60–90 minutes, until the meat is tender enough to easily fall apart when pressed with a spatula.", 
 
                 ],
                 note: ""
@@ -3012,6 +3076,70 @@ const translations = {
 
                 ],
                 note: "For a richer flavor, you can add soaked raisins or candied fruit. This dish is best made in a classic wooden Easter cheese mold, but a plastic one or a regular colander will also work."
+             }
+        },
+        "dessert_plum_pie":  {
+            ru: {
+                title: "Пирог со сливой",
+                meta:  {
+                    time: "60 мин",
+                    servings: "8 порции"
+                  },
+                ingredients: [
+                "3 срдених яйца", 
+"200 г сметаны (20-25%, можно заменить на греческий йогурт)", 
+"120 г сахара", 
+"200 г муки", 
+"10 г разрыхлителя", 
+"1 лимон (или 3 ст.л. лимонного сока)", 
+"400 г слив (без косточек, можно замороженных)", 
+"Щепотка соли", 
+
+                ],
+                instructions: [
+                "В миске смешайте сметану (или йогурт) с сахаром до однородности.", 
+"Добавьте яйца и взбейте венчиком до гладкости.", 
+"Натрите цедру с одного лимона и выжмите сок. Добавьте их в тесто. (Или просто влейте 3 ст.л. лимонного сока.)", 
+"В отдельной миске соедините муку с разрыхлителем.", 
+"Всыпьте мучную смесь в жидкую основу и перемешайте до однородного теста.", 
+"Добавьте щепотку соли и еще раз перемешайте.", 
+"Вылейте тесто в форму, смазанную растительным маслом или застеленную бумагой для выпечки.", 
+"Сверху выложите сливы (замороженные размораживать не нужно), слегка вдавив их в тесто.", 
+"Выпекайте при 180 °С около 45 минут, до сухой зубочистки.", 
+
+                ],
+                note: "Если сливы свежие, часть из них можно нарезать средними кусочками и вмешать в тесто, а оставшиеся красиво выложить сверху."
+             },
+            en: {
+                title: "Plum Cake",
+                meta:  {
+                    time: "60 minutes",
+                    servings: "Serves 8"
+                  },
+                ingredients: [
+                "3 eggs", 
+"200 g sour cream (20–25% or greek yogurt)", 
+"120 g sugar", 
+"200 g all-purpose flour", 
+"10 g baking powder", 
+"1 lemon (or 3 tbsp lemon juice)", 
+"400 g plums, pitted (frozen is fine)", 
+"A pinch of salt", 
+
+                ],
+                instructions: [
+                "In a bowl, mix the sour cream and sugar until well combined.", 
+"Add the eggs and whisk until smooth.", 
+"Zest the lemon and squeeze the juice. Add both to the batter. (Alternatively, just add 3 tbsp of lemon juice.)", 
+"In a separate bowl, combine the flour and baking powder.", 
+"Add the flour mixture to the wet ingredients and stir until a smooth batter forms.", 
+"Add a pinch of salt and mix again.", 
+"Pour the batter into a pan greased with vegetable oil or cover a pan with a baking paper.", 
+"Arrange the plums on top, gently pressing them into the batter (frozen plums do not need to be thawed).", 
+"Bake at 180°C for about 45 minutes, until a wooden toothpick inserted in the center comes out clean.", 
+
+                ],
+                note: "If using fresh plums, chop some of them into medium-sized pieces and fold them into the batter. Arrange the remaining plums neatly on top."
              }
         },
         "dessert_profiterol":  {

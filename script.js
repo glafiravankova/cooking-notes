@@ -300,7 +300,10 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_chicken_meatballs';
         } else if (path.includes('snaks_psita_pepperia_with_feta')) {
             recipeKey = 'snaks_psita_pepperia_with_feta';
-        
+        } else if (path.includes('dessert_plum_pie')) {
+            recipeKey = 'dessert_plum_pie';
+        } else if (path.includes('main_dish_cream_mustard_chicken')) {
+            recipeKey = 'main_dish_cream_mustard_chicken';
         }
             
         
