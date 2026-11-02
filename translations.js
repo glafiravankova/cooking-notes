@@ -408,7 +408,7 @@ const translations = {
                   },
                 ingredients: [
                 "1 яйцо", 
-"3 г сахара", 
+"30 г сахара", 
 "50 г сливочного масла (растопленного)", 
 "100 мл молока", 
 "110 г муки", 
@@ -435,7 +435,7 @@ const translations = {
                   },
                 ingredients: [
                 "1 egg", 
-"3 g sugar", 
+"30 g sugar", 
 "50 g butter, melted", 
 "100 ml milk", 
 "110 g all-purpose flour", 
@@ -452,7 +452,7 @@ const translations = {
 "Cook for about 4 minutes, until the waffles are golden brown and cooked through. Cooking time may vary depending on your waffle maker.", 
 
                 ],
-                note: ""
+                note: "To keep the waffles soft, stack them and cover with a lid."
              }
         },
         "breakfast_oat_porridge": {
