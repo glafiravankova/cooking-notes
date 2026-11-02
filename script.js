@@ -304,6 +304,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'dessert_plum_pie';
         } else if (path.includes('main_dish_cream_mustard_chicken')) {
             recipeKey = 'main_dish_cream_mustard_chicken';
+        } else if (path.includes('breakfast_soft_waffles')) {
+            recipeKey = 'breakfast_soft_waffles';
         }
             
         

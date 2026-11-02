@@ -38,6 +38,10 @@ const translations = {
             ru: "Блины",
             en: "Russian Crepes"
         },
+        "Мягкие вафли": {  
+            ru: "Мягкие вафли",
+            en: "Soft Waffles"
+        },
         "Овсянка": {
             ru: "Овсянка",
             en: "Oat Porridge"
@@ -393,6 +397,62 @@ const translations = {
 
                 ],
                 note: "Cooking time can be significantly reduced by using two or three pans simultaneously."
+             }
+        },
+        "breakfast_soft_waffles":  {
+            ru: {
+                title: "Мягкие вафли",
+                meta:  {
+                    time: "40 мин",
+                    servings: "4 вафли"
+                  },
+                ingredients: [
+                "1 яйцо", 
+"3 г сахара", 
+"50 г сливочного масла (растопленного)", 
+"100 мл молока", 
+"110 г муки", 
+"2 г разрыхлителя", 
+"Соль - щепотка", 
+"Ванилин - по вкусу", 
+
+                ],
+                instructions: [
+                "Смешайте яйцо с сахаром, солью и ванилином.", 
+"Добавьте молоко и остывшее растопленное сливочное масло, перемешайте.", 
+"Всыпьте муку с разрыхлителем и перемешайте до однородности. Оставьте тесто на 10 минут.", 
+"Разогрейте вафельницу. Выложите тесто, не заполняя форму до краев.", 
+"Выпекайте ~4 минуты, до золотистого цвета и готовности (время зависит от вашей вафельницы).", 
+
+                ],
+                note: "Чтобы вафли оставались мягкими, складывайте их стопкой под крышкой."
+             },
+            en: {
+                title: "Soft Waffles",
+                meta:  {
+                    time: "40 minutes",
+                    servings: "4 waffles"
+                  },
+                ingredients: [
+                "1 egg", 
+"3 g sugar", 
+"50 g butter, melted", 
+"100 ml milk", 
+"110 g all-purpose flour", 
+"2 g baking powder", 
+"A pinch of salt", 
+"Vanilla, to taste", 
+
+                ],
+                instructions: [
+                "Whisk the egg with the sugar, salt, and vanilla.", 
+"Add the milk and cooled melted butter, then mix well.", 
+"Add the flour and baking powder and mix until smooth. Let the batter rest for 10 minutes.", 
+"Preheat the waffle maker. Pour in the batter, leaving a little room around the edges.", 
+"Cook for about 4 minutes, until the waffles are golden brown and cooked through. Cooking time may vary depending on your waffle maker.", 
+
+                ],
+                note: ""
              }
         },
         "breakfast_oat_porridge": {
