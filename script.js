@@ -306,6 +306,8 @@ document.addEventListener('DOMContentLoaded', function() {
             recipeKey = 'main_dish_cream_mustard_chicken';
         } else if (path.includes('breakfast_soft_waffles')) {
             recipeKey = 'breakfast_soft_waffles';
+        } else if (path.includes('breakfast_waffles_ham_cheese')) {
+            recipeKey = 'breakfast_waffles_ham_cheese';
         }
             
         

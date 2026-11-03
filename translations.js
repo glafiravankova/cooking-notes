@@ -38,6 +38,10 @@ const translations = {
             ru: "Блины",
             en: "Russian Crepes"
         },
+        "Вафли с ветчиной и сыром": {  
+            ru: "Вафли с ветчиной и сыром",
+            en: "Ham&Cheese Waffles"
+            },
         "Мягкие вафли": {  
             ru: "Мягкие вафли",
             en: "Soft Waffles"
@@ -397,6 +401,66 @@ const translations = {
 
                 ],
                 note: "Cooking time can be significantly reduced by using two or three pans simultaneously."
+             }
+        },
+        "breakfast_waffles_ham_cheese":  {
+            ru: {
+                title: "Вафли с ветчиной и сыром",
+                meta:  {
+                    time: "40 мин",
+                    servings: "6 вафель"
+                  },
+                ingredients: [
+                "1 яйцо", 
+"150 мл молока", 
+"30 г сливочного масла (растопленного)", 
+"120 г муки", 
+"2 г разрыхлителя", 
+"Щепотка соли", 
+"Щепотка сахара", 
+"100 г ветчины", 
+"100 г сыра (твердого или полутвердого)", 
+
+                ],
+                instructions: [
+                "Ветчину нарежьте мелким кубиком, сыр натрите на крупной терке.", 
+"Смешайте яйцо с молоком, солью и сахаром, добавьте остывшее растопленное сливочное масло и перемешайте.", 
+"Всыпьте муку с разрыхлителем и перемешайте до однородности.", 
+"Добавьте в тесто ветчину и сыр, аккуратно перемешайте.", 
+"Разогрейте вафельницу. Выложите тесто, не заполняя форму до краев.", 
+"Выпекайте ~4-5 минут, до золотистого цвета и готовности (время зависит от вашей вафельницы).", 
+
+                ],
+                note: "Готовые вафли подавайте горячими, при желании складывайте стопкой под крышкой, чтобы они оставались мягкими."
+             },
+            en: {
+                title: "Ham&Cheese Waffles",
+                meta:  {
+                    time: "40 minutes",
+                    servings: "7 Waffles"
+                  },
+                ingredients: [
+                "1 egg", 
+"150 ml milk", 
+"30 g butter, melted", 
+"120 g all-purpose flour", 
+"2 g baking powder", 
+"A pinch of salt", 
+"A pinch of sugar", 
+"100 g ham", 
+"100 g cheese (hard or semi-hard)", 
+
+                ],
+                instructions: [
+                "Dice the ham and grate the cheese using a coarse grater.", 
+"Whisk the egg with the milk, salt, and sugar. Add the cooled melted butter and mix well.", 
+"Add the flour and baking powder and mix until smooth.", 
+"Fold the ham and grated cheese into the batter.", 
+"Preheat the waffle maker. Spoon the batter into the waffle maker, leaving a little room around the edges.", 
+"Cook for about 4–5 minutes, until the waffles are golden brown and cooked through. Cooking time may vary depending on your waffle maker.", 
+
+                ],
+                note: "Serve the waffles hot. To keep them soft, stack them and cover with a lid if desired."
              }
         },
         "breakfast_soft_waffles":  {
